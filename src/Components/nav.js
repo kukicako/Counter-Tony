@@ -19,7 +19,6 @@ const NavLeft = styled.div`
 ;
 
 const NavTitle = styled.h3`
-    padding-left: 1em;
     font-weight: bold;
     font-size: 2rem;`
 ;
@@ -37,7 +36,7 @@ const Logo = styled.img`
 ;
 
 const StyledP = styled.p`
-    padding-right: 12px;`
+    padding-right: 1px;`
 ;
 
 const Nav = () => {
