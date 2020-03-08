@@ -21,6 +21,8 @@ time, mark, audio, video {
 }
 html{
   height: 100%;
+  display: flex;
+  background-color: #f5f5dc;
   
 }
 /* HTML5 display-role reset for older browsers */
@@ -55,9 +57,14 @@ table {
 .carousel-home{
   height: 100%;
 }
-.cards{
+.Guide-cards{
 	display: flex;
-	background-color: #f5f5dc
+	background-color: #f5f5dc;
+	height:80vh;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-around;
+	padding-top: 5%;
 }
 .nav-links{
 	text-decoration: none;
@@ -70,8 +77,40 @@ table {
 	align-items: flex-end;
 	  
 }
-.card-block, special-card{
-	background-color: rgba(245, 245, 245, 0.4)
+.card-transparent{
+	width:20%;
+	height: 40%;	
+	justify-content: center;
+	align-items: center;
+	position: relative;
+    display: inline-block;
 }
 
-  
+.guide-button{
+	height: 10%;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+	overflow: hidden;
+	color: white;
+	-webkit-text-stroke: .5px black;
+	position: absolute;
+	z-index: 999;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: 40%; /* Adjust this value to move the positioned div up and down */
+	text-align: center;
+	width: 60%; 
+}
+
+.leading-pic{
+	height:100%;
+	width:100%;
+	border-radius: 5%;
+	opacity: 0.5;
+}
+.leading-pic:hover{
+	opacity: 1;
+}

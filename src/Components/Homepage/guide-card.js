@@ -1,19 +1,32 @@
 import React from "react";
 // import csgo from '../images/css.jpg'
 import {Link} from 'react-router-dom';
-import brain from '../images/brain.svg'
-import leader from '../images/leader.png'
-import lurk from '../images/lurk.png'
-import awp from '../images/awp.png'
-import cash from '../images/cash.png'
+import sniper from '../images/sniper.jpg'
+import lurk from '../images/lurk.jpg'
+import entry from '../images/entry.jpg'
+import csgo from '../images/lead.jfif'
 
 
 const Guide = props => {
     return(
-      <div class="card-transparent">
-        <div class="card-header">This is my header</div>
-        <div class="card-block special-card">This is my block</div>
-        <div class="card-footer">This is my footer</div>
+      <div className = "Guide-cards">
+        <div class="card-transparent">
+          <img className="leading-pic" src={csgo} />
+          <button className="guide-button">  <strong>LEADING</strong></button>
+        </div>
+        <div class="card-transparent">
+        <img className="leading-pic" src={lurk} />
+          <button className="guide-button"> <strong>LURK</strong></button>
+        </div>
+        <div class="card-transparent">
+          <img className="leading-pic" src={entry} />
+          <button className="guide-button" ><strong>ENTRY</strong></button>
+        </div>
+        <div class="card-transparent">
+          <img className="leading-pic" src={sniper} />
+          <button className="guide-button" ><strong>AWP</strong></button>
+        </div>
+
       </div>
     )
 }
