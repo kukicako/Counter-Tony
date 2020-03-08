@@ -16,7 +16,6 @@ function App() {
       <Slider /> 
       <div className="cards">
       <Guide/>
-      {/* <Appointment/> */}
       </div>
       <Footer />
     </div>

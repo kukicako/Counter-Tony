@@ -86,14 +86,14 @@ table {
     display: inline-block;
 }
 
-.guide-button{
-	height: 10%;
+.guide-Link{
+	height: 100%;
 	background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
     cursor:pointer;
 	overflow: hidden;
-	color: white;
+	color: black;
 	-webkit-text-stroke: .5px black;
 	position: absolute;
 	z-index: 999;
@@ -102,7 +102,11 @@ table {
 	right: 0;
 	top: 40%; /* Adjust this value to move the positioned div up and down */
 	text-align: center;
-	width: 60%; 
+	width: 100%; 
+	
+}
+.guide-Link:hover{
+	color:orange;
 }
 
 .leading-pic{
@@ -110,7 +114,4 @@ table {
 	width:100%;
 	border-radius: 5%;
 	opacity: 0.5;
-}
-.leading-pic:hover{
-	opacity: 1;
 }

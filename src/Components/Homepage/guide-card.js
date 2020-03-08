@@ -12,20 +12,21 @@ const Guide = props => {
       <div className = "Guide-cards">
         <div class="card-transparent">
           <img className="leading-pic" src={csgo} />
-          <button className="guide-button">  <strong>LEADING</strong></button>
+        <Link className="guide-Link">  <strong>LEADING</strong></Link>
         </div>
         <div class="card-transparent">
         <img className="leading-pic" src={lurk} />
-          <button className="guide-button"> <strong>LURK</strong></button>
+        <Link className="guide-Link"> <strong>LURK</strong></Link>
         </div>
         <div class="card-transparent">
           <img className="leading-pic" src={entry} />
-          <button className="guide-button" ><strong>ENTRY</strong></button>
+        <Link className="guide-Link" ><strong>ENTRY</strong></Link>
         </div>
         <div class="card-transparent">
           <img className="leading-pic" src={sniper} />
-          <button className="guide-button" ><strong>AWP</strong></button>
+        <Link className="guide-Link" ><strong>AWP</strong></Link>
         </div>
+        
 
       </div>
     )
