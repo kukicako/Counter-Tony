@@ -6,6 +6,7 @@ import Nav from './components/nav.js'
 import Footer from './components/footer.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Slider from './components/slider';
+import Appointment from './components/appointment'
 
 function App() {
   return (
@@ -13,7 +14,10 @@ function App() {
     <div className="App">
       <Nav />
       <Slider /> 
+      <div className="cards">
       <Youtube/>
+      <Appointment/>
+      </div>
       <Footer />
     </div>
     </Router>

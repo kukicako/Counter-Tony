@@ -7,10 +7,11 @@ const Youtube = props => {
       <div class="youtube-flip-card-inner">
         <div class="youtube-flip-card-front">
           <img className="youtube-pic" src={youtubePic}></img>
+          <p>Keep up to date with the latest videos</p>
         </div>
         <div class="youtube-flip-card-back">
         <iframe 
-        width="700" 
+        width="550" 
         height="400" 
         src="https://www.youtube.com/embed/HZu29rVkmzU" 
         frameborder="0"
