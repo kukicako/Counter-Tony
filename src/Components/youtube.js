@@ -1,17 +1,22 @@
 import React from "react";
-
+import youtubePic from "../images/youtubePic.png"
 
 const Youtube = props => {
     return(
-        <div class="maincontainer">
-
-      <div class="thecard">
-
-        <div class="thefront"><h1>Front of Card</h1><p>This is the front of the card. It contains important information. Please see overleaf for more details.</p></div>
-
-        <div class="theback"><h1>Back of Card</h1><p>Your use of this site is subject to the terms and conditions governing this and all transactions.</p>
+      <div class="youtube-flip-card">
+      <div class="youtube-flip-card-inner">
+        <div class="youtube-flip-card-front">
+          <img className="youtube-pic" src={youtubePic}></img>
         </div>
-
+        <div class="youtube-flip-card-back">
+        <iframe 
+        width="700" 
+        height="400" 
+        src="https://www.youtube.com/embed/HZu29rVkmzU" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        </div>
       </div>
     </div>
     )
