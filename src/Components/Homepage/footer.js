@@ -1,57 +1,74 @@
 import React from 'react';
 import styled from 'styled-components';
+import logo from '../images/logo.png'
 import {Link} from 'react-router-dom';
 
-const FooterBar = styled.div`
-    display: flex;
-    justify-content: space-between;
+const NavBar = styled.nav`
+    display:flex;
+    width:100%;
+    height:4.5em;
     background: #35373B;
     color: white;
-    align-content: flex-end;
+    `
+;
+
+
+const NavTitle = styled.h3`
+padding-top:1%;
+`
+;
+const NavLeft = styled.div`
+width:33%
+    `
+;
+
+const NavMiddle = styled.p`
+width:33%
+    `
+;
+
+const NavRight = styled.div`
+display:flex;
+flex-wrap:wrap;
+width:33%;
+justify-content: flex-end;
 
     `
 ;
 
-const FooterLeft = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content:center;
+const Logo = styled.img`
+height:2%;
+width:12%;
     `
-;
-
-const FooterTitle = styled.h3`
-    padding-left: 1em;
     
+;
+
+const StyledP = styled.p`
+padding:2%;
+width:20%
+
     `
 ;
 
-const FooterRight = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content:space-between;`
-;
-
-// const p = styled.p`
-//     padding-right: 12px;`
-// ;
-
-const Footer = () => {
+const Nav = () => {
     return (
-        <FooterBar>
-           <FooterLeft>
-               <FooterTitle>Copyright DA GAT MAN</FooterTitle>
-           </FooterLeft>
-           <FooterRight>
-            <Link to="" className="nav-links">Guides</Link> 
-            <Link to="" className="nav-links">Stream</Link> 
-            <Link to="" className="nav-links">Twitch</Link> 
-            <Link to="" className="nav-links">Twitter</Link> 
-            <Link to="" className="nav-links">Gram</Link> 
-            <Link to="" className="nav-links">Contact Us</Link> 
-           </FooterRight>
-       </FooterBar>
+        <NavBar>
+           <NavLeft>
+           </NavLeft>
+           <NavMiddle>
+               <NavTitle>CopyRight</NavTitle>
+           </NavMiddle>
+           <NavRight>
+               <StyledP><Link to="" className="nav-links">Guides</Link> </StyledP>
+               <StyledP><Link to="" className="nav-links">Twitter</Link></StyledP>
+               <StyledP><Link to="" className="nav-links">Stream</Link></StyledP>
+               <StyledP><Link to="" className="nav-links">Gram</Link></StyledP>
+               <StyledP><Link to="" className="nav-links">Find Us!</Link></StyledP>
+
+           </NavRight>
+       </NavBar>
     );
 }
 
 
-export default Footer;
+export default Nav;
