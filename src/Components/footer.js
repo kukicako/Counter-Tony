@@ -7,10 +7,9 @@ const FooterBar = styled.div`
     justify-content: space-between;
     background: #35373B;
     color: white;
-    position: sticky;
-    top: 0;
-    padding: 0.25em 1em 0.25em 1em;
-    height:3em;`
+    align-content: flex-end;
+
+    `
 ;
 
 const FooterLeft = styled.div`
@@ -28,27 +27,27 @@ const FooterTitle = styled.h3`
 
 const FooterRight = styled.div`
     display: flex;
-    align-items: center;`
+    align-items: center;
+    justify-content:space-between;`
 ;
 
-const StyledP = styled.p`
-    padding-right: 12px;`
-;
+// const p = styled.p`
+//     padding-right: 12px;`
+// ;
 
 const Footer = () => {
     return (
         <FooterBar>
            <FooterLeft>
-               <FooterTitle>Copyright US mofo</FooterTitle>
+               <FooterTitle>Copyright DA GAT MAN</FooterTitle>
            </FooterLeft>
            <FooterRight>
-               <StyledP>Guides</StyledP>
-               <StyledP>Stream</StyledP>
-               <StyledP>Twitch</StyledP>
-               <StyledP>Twitter</StyledP>
-               <StyledP>Gram</StyledP>
-               <StyledP>About Us</StyledP>
-
+            <Link to="" className="nav-links">Guides</Link> 
+            <Link to="" className="nav-links">Stream</Link> 
+            <Link to="" className="nav-links">Twitch</Link> 
+            <Link to="" className="nav-links">Twitter</Link> 
+            <Link to="" className="nav-links">Gram</Link> 
+            <Link to="" className="nav-links">Contact Us</Link> 
            </FooterRight>
        </FooterBar>
     );

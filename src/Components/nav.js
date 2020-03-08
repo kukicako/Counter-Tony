@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-// import logo from '../WHEREVERTHEFUCK/logo.png'
+import logo from '../images/logo.png'
 import {Link} from 'react-router-dom';
 
 const NavBar = styled.nav`
@@ -8,7 +8,6 @@ const NavBar = styled.nav`
     justify-content: space-between;
     background: #35373B;
     color: white;
-    position: sticky;
     top: 0;
     padding: 0.25em 1em 0.25em 1em;
     height:3em;`
@@ -20,7 +19,6 @@ const NavLeft = styled.div`
 ;
 
 const NavTitle = styled.h3`
-    padding-left: 1em;
     font-weight: bold;
     font-size: 2rem;`
 ;
@@ -30,15 +28,15 @@ const NavRight = styled.div`
     align-items: center;`
 ;
 
-// const Logo = styled.img`
-//     width: 10%;
-//     height: 10%;
-//     padding-right:150%;`
+const Logo = styled.img`
+    width: 8%;
+    height: 8%;
+    padding-left:1%`
     
-// ;
+;
 
 const StyledP = styled.p`
-    padding-right: 12px;`
+    padding-right: 1px;`
 ;
 
 const Nav = () => {
@@ -46,14 +44,14 @@ const Nav = () => {
         <NavBar>
            <NavLeft>
                <div>
-                   {/* <Logo src={logo} /> */}
+                   <Logo src={logo} />
                </div>
                <NavTitle>Tony Guides</NavTitle>
            </NavLeft>
            <NavRight>
-               <StyledP>Guides</StyledP>
-               <StyledP>Stream</StyledP>
-               <StyledP>Meet Tony!</StyledP>
+               <StyledP><Link to="" className="nav-links">Guides</Link> </StyledP>
+               <StyledP><Link to="" className="nav-links">Stream</Link></StyledP>
+               <StyledP><Link to="" className="nav-links">Meet Tony!</Link></StyledP>
 
            </NavRight>
        </NavBar>
