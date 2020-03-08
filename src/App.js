@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {Route, BrowserRouter as Router} from "react-router-dom";
-import Youtube from "./Components/Homepage/guide-card.js"
+import Guide from "./Components/Homepage/guide-card.js"
 import Nav from './Components/Homepage/nav.js'
 import Footer from './Components/Homepage/footer.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,7 +15,7 @@ function App() {
       <Nav />
       <Slider /> 
       <div className="cards">
-      <Youtube/>
+      <Guide/>
       {/* <Appointment/> */}
       </div>
       <Footer />

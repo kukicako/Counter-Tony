@@ -4,39 +4,50 @@ import logo from '../images/logo.png'
 import {Link} from 'react-router-dom';
 
 const NavBar = styled.nav`
-    display: flex;
-    justify-content: space-between;
+    display:flex;
+    width:100%;
+    height:3em;
     background: #35373B;
     color: white;
-    top: 0;
-    padding: 0.25em 1em 0.25em 1em;
-    height:3em;`
+    `
 ;
 
-const NavLeft = styled.div`
-    display: flex;
-    align-items: center;`
-;
 
 const NavTitle = styled.h3`
-    font-weight: bold;
-    font-size: 2rem;`
+padding-top:1%;
+`
+;
+const NavLeft = styled.div`
+width:33%
+    `
+;
+
+const NavMiddle = styled.p`
+width:33%
+    `
 ;
 
 const NavRight = styled.div`
-    display: flex;
-    align-items: center;`
+display:flex;
+flex-wrap:wrap;
+width:33%;
+justify-content: flex-end;
+
+    `
 ;
 
 const Logo = styled.img`
-    width: 8%;
-    height: 8%;
-    padding-left:1%`
+height:2%;
+width:12%;
+    `
     
 ;
 
 const StyledP = styled.p`
-    padding-right: 1px;`
+padding:2%;
+width:30%
+
+    `
 ;
 
 const Nav = () => {
@@ -46,8 +57,11 @@ const Nav = () => {
                <div>
                    <Logo src={logo} />
                </div>
-               <NavTitle>Tony Guides</NavTitle>
+               
            </NavLeft>
+           <NavMiddle>
+               <NavTitle>Tony Guides</NavTitle>
+           </NavMiddle>
            <NavRight>
                <StyledP><Link to="" className="nav-links">Guides</Link> </StyledP>
                <StyledP><Link to="" className="nav-links">Stream</Link></StyledP>
