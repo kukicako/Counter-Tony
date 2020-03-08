@@ -6,13 +6,17 @@ import Footer from './components/footer.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Route, BrowserRouter as Router} from "react-router-dom";
 import Youtube from "./components/youtube"
+import Nav from './Components/nav.js'
+import Footer from './Components/footer.js'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Slider from './Components/slider';
+
 function App() {
   return (
     <Router>
     <div className="App">
       <Nav />
-      <HomeCarousel />
-      <Youtube/>
+      <Slider /> 
       <Footer />
     </div>
     </Router>
