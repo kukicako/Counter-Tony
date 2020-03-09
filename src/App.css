@@ -22,7 +22,7 @@ time, mark, audio, video {
 html{
   height: 100%;
   display: flex;
-  background-color: #f5f5dc;
+  background-color: #ccba7c;
   
 }
 /* HTML5 display-role reset for older browsers */
@@ -59,7 +59,7 @@ table {
 }
 .Guide-cards{
 	display: flex;
-	background-color: #f5f5dc;
+	background-color: #ccba7c;
 	height:80vh;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -87,7 +87,7 @@ table {
 }
 
 .guide-Link{
-	height: 100%;
+	height: 60%;
 	background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
@@ -102,11 +102,11 @@ table {
 	right: 0;
 	top: 40%; /* Adjust this value to move the positioned div up and down */
 	text-align: center;
-	width: 100%; 
+	width: 70%; 
 	
 }
 .guide-Link:hover{
-	color:orange;
+	color:white;
 }
 
 .leading-pic{
@@ -114,4 +114,34 @@ table {
 	width:100%;
 	border-radius: 5%;
 	opacity: 0.5;
+	box-shadow: 5px 10px blue;
+}
+
+.leading-pic2{
+	height:100%;
+	width:100%;
+	border-radius: 5%;
+	opacity: 0.5;
+	box-shadow: 5px 10px ;
+
+}
+.appointment-card{
+	border:1px solid red;
+	width: 20%;
+	height: 40%;
+	background-color: lightcoral;
+	display: flex;
+;
+
+}
+.twitch-card{
+	border:1px solid red;
+	width: 35%;
+	height: 40%;
+}
+.youtube-card{
+	border:1px solid red;
+	width: 25%;
+	height: 40%;
+
 }
