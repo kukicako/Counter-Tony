@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 const NavBar = styled.nav`
     display:flex;
     width:100%;
-    height:3em;
+    height:4em;
     background: #00203FFF;
     color: #ADEFD1FF;
     `
@@ -14,31 +14,34 @@ const NavBar = styled.nav`
 
 
 const NavTitle = styled.h3`
+
 padding-top:1%;
 `
 ;
 const NavLeft = styled.div`
-width:33%
+display:flex;
+flex-wrap:wrap;
+width:50%
     `
 ;
 
-const NavMiddle = styled.p`
-width:33%
-    `
-;
+
 
 const NavRight = styled.div`
 display:flex;
 flex-wrap:wrap;
-width:33%;
+width:50%;
 justify-content: flex-end;
 
     `
 ;
 
 const Logo = styled.img`
-height:2%;
-width:12%;
+    padding-left:2%;
+    padding-right:2%;
+    padding-top:2%;
+    height:70%;
+    width:10%;
     `
     
 ;
@@ -54,14 +57,10 @@ const Nav = () => {
     return (
         <NavBar>
            <NavLeft>
-               <div>
-                   <Logo src={logo} />
-               </div>
-               
+                <Logo src={logo} />
+                <NavTitle>Tony Guides</NavTitle>    
            </NavLeft>
-           <NavMiddle>
-               <NavTitle>Tony Guides</NavTitle>
-           </NavMiddle>
+
            <NavRight>
                <StyledP><Link to="" className="nav-links">Guides</Link> </StyledP>
                <StyledP><Link to="" className="nav-links">Stream</Link></StyledP>
