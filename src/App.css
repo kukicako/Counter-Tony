@@ -59,8 +59,8 @@ table {
 }
 .Guide-cards{
 	display: flex;
-	background-color: #ccba7c;
-	height:80vh;
+	background-color: #CBCE91FF;
+	height:94vh;
 	flex-wrap: wrap;
 	justify-content: center;
 	justify-content: space-around;
@@ -71,7 +71,7 @@ table {
 	border:none;
 	padding:22%;
 	padding-left: 4%;
-    color:white;
+    color:#ADEFD1FF;
     text-decoration:none;
 	transition:0.22s ease;
 	align-items: flex-end;
@@ -79,7 +79,7 @@ table {
 }
 .card-transparent{
 	width:20%;
-	height: 40%;	
+	height: 30%;	
 	justify-content: center;
 	align-items: center;
 	position: relative;
@@ -93,7 +93,7 @@ table {
     border: none;
     cursor:pointer;
 	overflow: hidden;
-	color: black;
+	color: #ADEFD1FF;
 	-webkit-text-stroke: .5px black;
 	position: absolute;
 	z-index: 999;
@@ -102,46 +102,64 @@ table {
 	right: 0;
 	top: 40%; /* Adjust this value to move the positioned div up and down */
 	text-align: center;
-	width: 70%; 
+	width: 70%;
+	font-size: x-large;
 	
 }
+
 .guide-Link:hover{
-	color:white;
+	color:#00203FFF;
 }
 
 .leading-pic{
 	height:100%;
 	width:100%;
 	border-radius: 5%;
-	opacity: 0.5;
-	box-shadow: 5px 10px blue;
+	opacity: .8;
 }
 
-.leading-pic2{
-	height:100%;
-	width:100%;
-	border-radius: 5%;
-	opacity: 0.5;
-	box-shadow: 5px 10px ;
-
-}
-.appointment-card{
-	border:1px solid red;
-	width: 20%;
-	height: 40%;
-	background-color: lightcoral;
-	display: flex;
-;
-
-}
 .twitch-card{
 	border:1px solid red;
 	width: 35%;
-	height: 40%;
+	height: 50%;
 }
 .youtube-card{
 	border:1px solid red;
-	width: 25%;
-	height: 40%;
+	width: 35%;
+	height: 50%;
+	
+}
+.appointment-card{
+	
+	width: 10%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
+}
+
+.training-button {
+	box-shadow:inset 0px 1px 0px 0px #caefab;
+	background:linear-gradient(to bottom,#ADEFD1FF 5%, #ADEFD1FF 100%);
+	background-color:#00203FFF;
+	border-radius:6px;
+	border:1px solid #ADEFD1FF;
+	display:inline-block;
+	cursor:pointer;
+	color:#00203FFF;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ADEFD1FF;
+	height:18%
+}
+.training-button:hover {
+	background:linear-gradient(to bottom, #ADEFD1FF 5%, #ADEFD1FF 100%);
+	background-color:#ADEFD1FF;
+}
+.training-button:active {
+	position:relative;
+	top:1px;
 }
