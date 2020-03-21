@@ -15,23 +15,23 @@ const NavBar = styled.nav`
 
 const NavTitle = styled.h3`
 
-padding-top:1%;
+    padding-top:1%;
 `
 ;
 const NavLeft = styled.div`
-display:flex;
-flex-wrap:wrap;
-width:50%
+    display:flex;
+    flex-wrap:wrap;
+    width:50%
     `
 ;
 
 
 
 const NavRight = styled.div`
-display:flex;
-flex-wrap:wrap;
-width:50%;
-justify-content: flex-end;
+    display:flex;
+    flex-wrap:wrap;
+    width:50%;
+    justify-content: flex-end;
 
     `
 ;
