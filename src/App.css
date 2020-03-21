@@ -16,7 +16,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font: arial;
 	vertical-align: baseline;
 }
 html{
@@ -59,7 +59,7 @@ table {
 }
 .Guide-cards{
 	display: flex;
-	background-color: #CBCE91FF;
+	background-color: #ADEFD1FF;
 	height:94vh;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -94,7 +94,7 @@ table {
     cursor:pointer;
 	overflow: hidden;
 	color: #ADEFD1FF;
-	-webkit-text-stroke: .5px black;
+	/* -webkit-text-stroke: .5px black; */
 	position: absolute;
 	z-index: 999;
 	margin: 0 auto;
@@ -144,7 +144,7 @@ table {
 	background:linear-gradient(to bottom,#ADEFD1FF 5%, #ADEFD1FF 100%);
 	background-color:#00203FFF;
 	border-radius:6px;
-	border:1px solid #ADEFD1FF;
+	border:2px solid #00203FFF;
 	display:inline-block;
 	cursor:pointer;
 	color:#00203FFF;
