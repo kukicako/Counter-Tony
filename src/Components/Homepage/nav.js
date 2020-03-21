@@ -30,8 +30,9 @@ const NavLeft = styled.div`
 const NavRight = styled.div`
     display:flex;
     flex-wrap:wrap;
-    width:50%;
+    width:60%;
     justify-content: flex-end;
+    align-items: center;
 
     `
 ;
@@ -46,9 +47,10 @@ const Logo = styled.img`
     
 ;
 
-const StyledP = styled.p`
-padding:2%;
-width:30%
+const StyledP = styled.a`
+    padding:2%;
+    color: #ADEFD1FF;
+    width:15%
 
     `
 ;
@@ -63,8 +65,8 @@ const Nav = () => {
 
            <NavRight>
                <StyledP><Link to="" className="nav-links">Guides</Link> </StyledP>
-               <StyledP><Link to="" className="nav-links">Stream</Link></StyledP>
-               <StyledP><Link to="" className="nav-links">Meet Tony!</Link></StyledP>
+               <StyledP href="https://www.w3schools.com">Stream</StyledP>
+               <StyledP href="https://www.w3schools.com">Meet Tony</StyledP>
 
            </NavRight>
        </NavBar>

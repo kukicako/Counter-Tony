@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 const NavBar = styled.nav`
     display:flex;
     width:100%;
-    height:4.5em;
+    height:1em;
     background: #00203FFF;
     color: #ADEFD1FF;
     `
@@ -14,6 +14,7 @@ const NavBar = styled.nav`
 
 
 const NavTitle = styled.h3`
+font-size: xx-large;
 padding-top:1%;
 `
 ;
@@ -32,6 +33,7 @@ display:flex;
 flex-wrap:wrap;
 width:33%;
 justify-content: flex-end;
+align-items: center;
 
     `
 ;
@@ -43,9 +45,11 @@ width:12%;
     
 ;
 
-const StyledP = styled.p`
-padding:2%;
-width:20%
+const StyledP = styled.a`
+width:20%;
+color: #ADEFD1FF;
+padding-top:1em;
+
 
     `
 ;
@@ -56,14 +60,13 @@ const Nav = () => {
            <NavLeft>
            </NavLeft>
            <NavMiddle>
-               <NavTitle>CopyRight</NavTitle>
            </NavMiddle>
            <NavRight>
-               <StyledP><Link to="" className="nav-links">Guides</Link> </StyledP>
-               <StyledP><Link to="" className="nav-links">Twitter</Link></StyledP>
-               <StyledP><Link to="" className="nav-links">Stream</Link></StyledP>
-               <StyledP><Link to="" className="nav-links">Gram</Link></StyledP>
-               <StyledP><Link to="" className="nav-links">Find Us!</Link></StyledP>
+                <StyledP><Link to="" className="nav-links">Guides</Link> </StyledP>
+               <StyledP href="https://www.w3schools.com">Twitter</StyledP>
+               <StyledP href="https://www.w3schools.com">Twitch</StyledP>
+               <StyledP href="https://www.w3schools.com">Gram</StyledP>
+               <StyledP href="https://www.w3schools.com">Find Us</StyledP>
 
            </NavRight>
        </NavBar>
