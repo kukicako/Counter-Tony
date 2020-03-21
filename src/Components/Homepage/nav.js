@@ -14,7 +14,7 @@ const NavBar = styled.nav`
 
 
 const NavTitle = styled.h3`
-
+    font-size: xx-large;
     padding-top:1%;
 `
 ;
