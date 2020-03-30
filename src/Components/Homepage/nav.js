@@ -7,7 +7,7 @@ const NavBar = styled.nav`
     display:flex;
     width:100%;
     height:4em;
-    background: #00203FFF;
+    background: white;
     color: #ADEFD1FF;
     `
 ;

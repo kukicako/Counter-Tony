@@ -1,4 +1,3 @@
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -22,7 +21,6 @@ time, mark, audio, video {
 html{
   height: 100%;
   display: flex;
-  background-color: #ccba7c;
   
 }
 /* HTML5 display-role reset for older browsers */
@@ -48,10 +46,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.app{
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
+.App{
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .carousel-home{
@@ -59,13 +56,14 @@ table {
 }
 .Guide-cards{
 	display: flex;
-	background-color: #ADEFD1FF;
-	height:94vh;
+	background-color:white;
+	height:75vh;
 	flex-wrap: wrap;
 	justify-content: center;
 	justify-content: space-around;
 	padding-top: 5%;
 }
+
 .nav-links{
 	text-decoration: none;
 	border:none;
@@ -77,14 +75,7 @@ table {
 	align-items: flex-end;
 	  
 }
-.card-transparent{
-	width:20%;
-	height: 30%;	
-	justify-content: center;
-	align-items: center;
-	position: relative;
-    display: inline-block;
-}
+
 
 .guide-Link{
 	height: 60%;
@@ -112,26 +103,25 @@ table {
 }
 
 .leading-pic{
-	height:100%;
-	width:100%;
-	border-radius: 5%;
+	height:30vh;
+	width:20vw;
 	opacity: .8;
 }
 
 .twitch-card{
 	border:1px solid red;
-	width: 35%;
+	width: 33%;
 	height: 50%;
 }
 .youtube-card{
 	border:1px solid red;
-	width: 35%;
+	width: 33%;
 	height: 50%;
 	
 }
 .appointment-card{
 	
-	width: 10%;
+	width: 33%;
 	height: 50%;
 	display: flex;
 	justify-content: center;
