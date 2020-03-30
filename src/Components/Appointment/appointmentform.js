@@ -4,7 +4,7 @@ import csgo from '../images/css.jpg'
 const StyledP = styled.p`
 margin:2px;
 `
-const appointment = props => {
+const appointmentform = props => {
     return(
 <div class="csgo-flip-card">
   <div class="csgo-flip-card-inner">
@@ -41,4 +41,4 @@ const appointment = props => {
     )
 }
 
-export default appointment
+export default appointmentform
