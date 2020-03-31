@@ -149,20 +149,54 @@ table {
 	
 }
 .youtube-card{
-	border:1px solid red;
+	border:5px solid red;
 	height:30vh;
 	width:45.5vh;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.youtube-image{
+	height:30vh;
+	width:45.5vh;
+
+}
+.youtube-button{
+	padding: 0;
+	border: none;
+	background: none;
 	
 }
 .youtube-link{
+	text-decoration: none;
+	justify-content: center;
+	align-items: center;
+	color: red;
+  	text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+	 1px 1px 0 #000;
+	font-size: x-large;
+	text-indent: 1rem;
+	 
+	
 	
 }
 .header-appointment-card{
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	height:30vh;
 	width:20vw;
-	
-	
+}
+.appointment-image{
+	height:30vh;
+	width:20vw;
 
 }
+.appointment-button{
+	padding: 0;
+	border: none;
+	background: none;
 
+}
