@@ -7,10 +7,8 @@ import Slider from './slider.js'
 function Homepage(){
     return(
         <div>
-            <Nav />
             <Slider />
             <Guide />
-            <Footer />
         </div>
     )
 }
