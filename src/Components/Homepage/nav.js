@@ -8,13 +8,13 @@ const NavBar = styled.nav`
     width:100%;
     height:4em;
     background: white;
-    color: #ADEFD1FF;
+    color: blue;
     `
 ;
 
 
 const NavTitle = styled.h3`
-
+    font-size: xx-large;
     padding-top:1%;
 `
 ;
@@ -30,8 +30,9 @@ const NavLeft = styled.div`
 const NavRight = styled.div`
     display:flex;
     flex-wrap:wrap;
-    width:50%;
+    width:60%;
     justify-content: flex-end;
+    align-items: center;
 
     `
 ;
@@ -46,9 +47,12 @@ const Logo = styled.img`
     
 ;
 
-const StyledP = styled.p`
-padding:2%;
-width:30%
+const StyledP = styled.a`
+    width:18%;
+    padding:2%;
+    color: blue;
+    font-size: large;
+
 
     `
 ;
@@ -62,9 +66,9 @@ const Nav = () => {
            </NavLeft>
 
            <NavRight>
-               <StyledP><Link to="" className="nav-links">Guides</Link> </StyledP>
-               <StyledP><Link to="" className="nav-links">Stream</Link></StyledP>
-               <StyledP><Link to="" className="nav-links">Meet Tony!</Link></StyledP>
+               <StyledP><Link to="">Guides</Link> </StyledP>
+               <StyledP href="https://www.w3schools.com">Stream</StyledP>
+               <StyledP href="https://www.w3schools.com">Meet Tony</StyledP>
 
            </NavRight>
        </NavBar>

@@ -7,8 +7,8 @@ const NavBar = styled.nav`
     display:flex;
     width:100%;
     height:4.5em;
-    background: #00203FFF;
-    color: #ADEFD1FF;
+    background: white
+    color: blue;
     `
 ;
 
@@ -32,7 +32,6 @@ display:flex;
 flex-wrap:wrap;
 width:33%;
 justify-content: flex-end;
-
     `
 ;
 
@@ -44,9 +43,11 @@ width:12%;
 ;
 
 const StyledP = styled.p`
-padding:2%;
-width:20%
+width:20%;
+color: green;
+padding-top:5em;
 
+padding-left:3%
     `
 ;
 
@@ -56,19 +57,17 @@ const Nav = () => {
            <NavLeft>
            </NavLeft>
            <NavMiddle>
-               <NavTitle>CopyRight</NavTitle>
            </NavMiddle>
            <NavRight>
-               <StyledP><Link to="" className="nav-links">Guides</Link> </StyledP>
-               <StyledP><Link to="" className="nav-links">Twitter</Link></StyledP>
-               <StyledP><Link to="" className="nav-links">Stream</Link></StyledP>
-               <StyledP><Link to="" className="nav-links">Gram</Link></StyledP>
-               <StyledP><Link to="" className="nav-links">Find Us!</Link></StyledP>
+               <StyledP><Link to="">Guides</Link> </StyledP>
+               <StyledP><Link to="">Twitter</Link></StyledP>
+               <StyledP><Link to="">Stream</Link></StyledP>
+               <StyledP><Link to="">Gram</Link></StyledP>
+               <StyledP><Link to="">Find Us!</Link></StyledP>
 
            </NavRight>
        </NavBar>
     );
 }
-
 
 export default Nav;
