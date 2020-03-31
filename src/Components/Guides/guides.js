@@ -1,8 +1,9 @@
 import React from 'react'
+import Guidesidebar from './guidesidebar.js'
 
 function Guides() {
     return(
-        <div>Hello World</div>
+        <Guidesidebar />
     )
 }
 
