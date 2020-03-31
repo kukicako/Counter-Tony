@@ -8,7 +8,7 @@ const NavBar = styled.nav`
     width:100%;
     height:4em;
     background: white;
-    color: #ADEFD1FF;
+    color: blue;
     `
 ;
 
@@ -49,7 +49,7 @@ const Logo = styled.img`
 
 const StyledP = styled.a`
     padding:2%;
-    color: #ADEFD1FF;
+    color: blue;
     width:15%
 
     `
@@ -64,7 +64,7 @@ const Nav = () => {
            </NavLeft>
 
            <NavRight>
-               <StyledP><Link to="" className="nav-links">Guides</Link> </StyledP>
+               <StyledP><Link to="">Guides</Link> </StyledP>
                <StyledP href="https://www.w3schools.com">Stream</StyledP>
                <StyledP href="https://www.w3schools.com">Meet Tony</StyledP>
 

@@ -7,7 +7,6 @@ const NavBar = styled.nav`
     display:flex;
     width:100%;
     height:1em;
-    background: #00203FFF;
     color: #ADEFD1FF;
     `
 ;
@@ -47,8 +46,9 @@ width:12%;
 
 const StyledP = styled.a`
 width:20%;
-color: #ADEFD1FF;
-padding-top:1em;
+color: blue;
+padding-top:4em;
+padding-bottom:1em;
 
 
     `
@@ -62,7 +62,7 @@ const Nav = () => {
            <NavMiddle>
            </NavMiddle>
            <NavRight>
-                <StyledP><Link to="" className="nav-links">Guides</Link> </StyledP>
+                <StyledP><Link to="">Guides</Link> </StyledP>
                <StyledP href="https://www.w3schools.com">Twitter</StyledP>
                <StyledP href="https://www.w3schools.com">Twitch</StyledP>
                <StyledP href="https://www.w3schools.com">Gram</StyledP>
