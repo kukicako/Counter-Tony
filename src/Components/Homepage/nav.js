@@ -48,9 +48,11 @@ const Logo = styled.img`
 ;
 
 const StyledP = styled.a`
+    width:18%;
     padding:2%;
     color: blue;
-    width:15%
+    font-size: large;
+
 
     `
 ;

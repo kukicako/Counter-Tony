@@ -149,9 +149,12 @@ table {
 	
 }
 .youtube-card{
-	/* border:1px solid red; */
+	border:1px solid red;
 	height:30vh;
 	width:45.5vh;
+	
+}
+.youtube-link{
 	
 }
 .header-appointment-card{

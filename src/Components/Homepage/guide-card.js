@@ -31,8 +31,10 @@ const Guide = props => {
       </div>
       <div className="bottom-cards">
         <div class="youtube-card">
-          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/OelJsDwpQZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <a className="youtube-link" href="youtube.com">Watch over dozens of informative videos</a>
+          
         </div>
+
         {/*  THE APPOINTMENT BUTTON CARD */}
 
         <div class="header-appointment-card">

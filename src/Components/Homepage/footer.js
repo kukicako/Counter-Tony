@@ -6,14 +6,14 @@ import {Link} from 'react-router-dom';
 const NavBar = styled.nav`
     display:flex;
     width:100%;
-    height:1em;
-    color: #ADEFD1FF;
+    height:4.5em;
+    background: white
+    color: blue;
     `
 ;
 
 
 const NavTitle = styled.h3`
-font-size: xx-large;
 padding-top:1%;
 `
 ;
@@ -32,8 +32,6 @@ display:flex;
 flex-wrap:wrap;
 width:33%;
 justify-content: flex-end;
-align-items: center;
-
     `
 ;
 
@@ -44,13 +42,12 @@ width:12%;
     
 ;
 
-const StyledP = styled.a`
+const StyledP = styled.p`
 width:20%;
-color: blue;
-padding-top:4em;
-padding-bottom:1em;
+color: green;
+padding-top:5em;
 
-
+padding-left:3%
     `
 ;
 
@@ -62,16 +59,15 @@ const Nav = () => {
            <NavMiddle>
            </NavMiddle>
            <NavRight>
-                <StyledP><Link to="">Guides</Link> </StyledP>
-               <StyledP href="https://www.w3schools.com">Twitter</StyledP>
-               <StyledP href="https://www.w3schools.com">Twitch</StyledP>
-               <StyledP href="https://www.w3schools.com">Gram</StyledP>
-               <StyledP href="https://www.w3schools.com">Find Us</StyledP>
+               <StyledP><Link to="">Guides</Link> </StyledP>
+               <StyledP><Link to="">Twitter</Link></StyledP>
+               <StyledP><Link to="">Stream</Link></StyledP>
+               <StyledP><Link to="">Gram</Link></StyledP>
+               <StyledP><Link to="">Find Us!</Link></StyledP>
 
            </NavRight>
        </NavBar>
     );
 }
-
 
 export default Nav;
