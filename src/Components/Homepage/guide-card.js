@@ -34,20 +34,30 @@ const Guide = props => {
       <div className="bottom-cards">
         
           <div class="youtube-card">
-            <button className="youtube-button">
-          <img className="youtube-image"src={youtube} />
-          </button>
+            <a href="https://www.youtube.com/watch?v=zVLTpRjt0PU" className="youtube-button">
+              <img className="youtube-image"src={youtube} />
+            </a>
           </div>
 
         {/*  THE APPOINTMENT BUTTON CARD */}
 
         <div class="header-appointment-card">
-          <button className="appointment-button">
-          <img className="appointment-image" src={inferno}/>
-          </button>
+          <a href="https://www.youtube.com/watch?v=zVLTpRjt0PU" className="appointment-button">
+            <img className="appointment-image" src={inferno}/>
+          </a>
         </div>
-        <div class="twitch-card">
-          <iframe src="https://player.twitch.tv/?channel=shablagooooo" frameborder="0" allowfullscreen="true" scrolling="no" height="100%" width="100%"></iframe><a href="https://www.twitch.tv/shablagooooo?tt_content=text_link&tt_medium=live_embed" ></a>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <p>shit</p>
+            </div>
+            <div class="flip-card-back">
+            <h1>John Doe</h1>
+            <p>Architect  Engineer</p>
+            <p>We love that guy</p>
+            </div>
+          </div>
         </div>
       </div>
 
