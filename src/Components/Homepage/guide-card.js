@@ -6,7 +6,7 @@ import entry from '../images/entry.jpg'
 import csgo from '../images/lead.jfif'
 import youtube from '../images/dust2youtube.jpg'
 import inferno from '../images/inferno.jpg'
-
+import flip from '../images/flip.jpg'
 
 
 const Guide = props => {
@@ -50,7 +50,7 @@ const Guide = props => {
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <p>shit</p>
+            <img className="flip-image" src={flip}/>
             </div>
             <div class="flip-card-back">
             <h1>John Doe</h1>

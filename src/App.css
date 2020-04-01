@@ -254,3 +254,10 @@ table {
 	transform: rotateY(180deg);
   }
 
+  .flip-image{
+	height:30vh;
+	width:45.5vh;
+	border-radius: 5%;
+
+  }
+
