@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	height: 100%;
+	width: 100%;
 }
 ol, ul {
 	list-style: none;
@@ -138,26 +140,30 @@ table {
 .bottom-cards{
 	/* border: 2px solid purple; */
 	display:flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	/* padding-top: % */
 }
 
-.twitch-card{
-	/* border:1px solid red; */
+.flip-card{
+	border:1px solid red;
 	height:30vh;
 	width:45.5vh;
 	
 }
 .youtube-card{
-	border:5px solid red;
+	/* border:5px solid red; */
 	height:30vh;
 	width:45.5vh;
-	display:flex;
-	justify-content: center;
-	align-items: center;
 	
 }
+.header-appointment-card{
+	/* border: 1px solid red; */
+	height:30vh;
+	width:45.5vh;
+}
 .youtube-image{
+	/* border:1px solid black; */
+	border-radius: 5%;
 	height:30vh;
 	width:45.5vh;
 
@@ -184,14 +190,10 @@ table {
 	
 	
 }
-.header-appointment-card{
-	/* border: 1px solid red; */
-	height:30vh;
-	width:20vw;
-}
 .appointment-image{
 	height:30vh;
-	width:20vw;
+	width:45.5vh;
+	border-radius: 5%;
 
 }
 .appointment-button{
@@ -200,4 +202,62 @@ table {
 	background: none;
 
 }
+
+.flip-card {
+	border-radius: 5%;
+	background-color: transparent;
+	height:30vh;
+	width:45.5vh;
+	border: 1px solid #f1f1f1;
+	perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+	border-radius: 5%;
+	position: relative;
+	height:30vh;
+	width:45.5vh;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+	border-radius: 5%;
+	transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+	border-radius: 5%;
+	position: absolute;
+	height:30vh;
+	width:45.5vh;
+	-webkit-backface-visibility: hidden; /* Safari */
+	backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+	border-radius: 5%;
+	background-color: #bbb;
+	color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+	border-radius: 5%;
+	background-color: dodgerblue;
+	color: white;
+	transform: rotateY(180deg);
+  }
+
+  .flip-image{
+	height:30vh;
+	width:45.5vh;
+	border-radius: 5%;
+
+  }
 

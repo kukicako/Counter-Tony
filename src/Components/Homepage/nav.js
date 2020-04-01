@@ -62,11 +62,11 @@ const Nav = () => {
         <NavBar>
            <NavLeft>
                 <Logo src={logo} />
-                <NavTitle>Tony Guides</NavTitle>    
+                <NavTitle>CSGO-Teacher</NavTitle>    
            </NavLeft>
 
            <NavRight>
-               <StyledP><Link to="">Guides</Link> </StyledP>
+               <StyledP><Link to="/guides">Guides</Link> </StyledP>
                <StyledP href="https://www.w3schools.com">Stream</StyledP>
                <StyledP href="https://www.w3schools.com">Meet Tony</StyledP>
 
