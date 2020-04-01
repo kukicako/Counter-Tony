@@ -15,19 +15,19 @@ const Guide = props => {
       <div className = "Guide-cards">
         <div className="four-cards">
           <div class="card-transparent">
-            <img className="leading-pic" src={csgo} />
+            <img className="leading-pic" src={csgo} alt="leading pic" />
           <Link className="guide-Link">  <strong>LEADING</strong></Link>
           </div>
           <div class="card-transparent">
-          <img className="lurk-pic" src={lurk} />
+          <img className="lurk-pic" src={lurk} alt="lurk pic" />
           <Link className="guide-Link"> <strong>LURK</strong></Link>
           </div>
           <div class="card-transparent">
-            <img className="entry-pic" src={entry} />
+            <img className="entry-pic" src={entry} alt="entry pic" />
           <Link className="guide-Link" ><strong>ENTRY</strong></Link>
           </div>
           <div class="card-transparent">
-            <img className="sniper-pic" src={sniper} />
+            <img className="sniper-pic" src={sniper} alt="sniper pic" />
           <Link className="guide-Link" ><strong>AWP</strong></Link>
           </div>
       </div>
@@ -35,7 +35,7 @@ const Guide = props => {
         
           <div class="youtube-card">
             <a href="https://www.youtube.com/watch?v=zVLTpRjt0PU" className="youtube-button">
-              <img className="youtube-image"src={youtube} />
+              <img className="youtube-image"src={youtube} alt="youtube" />
             </a>
           </div>
 
@@ -43,14 +43,14 @@ const Guide = props => {
 
         <div class="header-appointment-card">
           <a href="https://www.youtube.com/watch?v=zVLTpRjt0PU" className="appointment-button">
-            <img className="appointment-image" src={inferno}/>
+            <img className="appointment-image" src={inferno} alt="appointment"/>
           </a>
         </div>
 
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-            <img className="flip-image" src={flip}/>
+            <img className="flip-image" src={flip} alt="flip"/>
             </div>
             <div class="flip-card-back">
             <h1>John Doe</h1>

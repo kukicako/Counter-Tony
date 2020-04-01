@@ -6,7 +6,7 @@ function HomeCarousel({ src }) {
         height: "auto"
     };
     
-    return <img src={src} alt="slide image" style={imgStyles} /> 
+    return <img src={src} alt="slide pic" style={imgStyles} /> 
 }
 
 export default HomeCarousel

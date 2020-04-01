@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import logo from '../images/logo.png'
+// import logo from '../images/logo.png'
 import {Link} from 'react-router-dom';
 
 const NavBar = styled.nav`
@@ -13,10 +13,6 @@ const NavBar = styled.nav`
 ;
 
 
-const NavTitle = styled.h3`
-padding-top:1%;
-`
-;
 const NavLeft = styled.div`
 width:33%
     `
@@ -35,12 +31,7 @@ justify-content: flex-end;
     `
 ;
 
-const Logo = styled.img`
-height:2%;
-width:12%;
-    `
-    
-;
+
 
 const StyledP = styled.p`
 width:20%;
