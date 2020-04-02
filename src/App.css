@@ -261,3 +261,31 @@ table {
 
   }
 
+/* Guide Page Styling */
+
+.GuidePage{
+	display: flex;
+}
+
+.GuidePageStyling {
+	width: 70%;
+	margin-left: 5%;
+}
+
+/* Guide Titles */
+
+.GuideTitle {
+	margin-bottom: 1%;
+	padding: 3%
+}
+
+/* Guide Text  */
+
+.GuideText {
+	background: #f2f2f2;
+	border-radius: 2%;
+	padding: 3%
+}
+
+
+
