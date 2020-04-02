@@ -53,9 +53,16 @@ const Guide = props => {
             <img className="flip-image" src={flip} alt="flip"/>
             </div>
             <div class="flip-card-back">
-            <h1>John Doe</h1>
-            <p>Architect  Engineer</p>
-            <p>We love that guy</p>
+              <div className="names">
+                <h6 className="the-names">David "Gatr" Downes</h6>
+                <h6 className="the-names">Muamer "Dia" Kukic</h6>
+                <h6 className="the-names">Anthony "Dawn" Hagopian</h6>
+                <h6 className="the-names">Josh "Spoice" blahhh</h6>
+
+              </div>
+              <div className="media">
+
+              </div>
             </div>
           </div>
         </div>

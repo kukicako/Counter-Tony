@@ -145,7 +145,7 @@ table {
 }
 
 .flip-card{
-	border:1px solid red;
+	/* border:1px solid red; */
 	height:30vh;
 	width:45.5vh;
 	
@@ -166,6 +166,7 @@ table {
 	border-radius: 5%;
 	height:30vh;
 	width:45.5vh;
+	box-shadow: lightgrey 5px 10px;
 
 }
 .youtube-button{
@@ -174,46 +175,26 @@ table {
 	background: none;
 	
 }
-.youtube-link{
-	text-decoration: none;
-	justify-content: center;
-	align-items: center;
-	color: red;
-  	text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-	 1px 1px 0 #000;
-	font-size: x-large;
-	text-indent: 1rem;
-	 
-	
-	
-}
 .appointment-image{
 	height:30vh;
 	width:45.5vh;
 	border-radius: 5%;
+	box-shadow: lightgray 5px 10px;
 
 }
-.appointment-button{
-	padding: 0;
-	border: none;
-	background: none;
 
-}
 
 .flip-card {
 	border-radius: 5%;
 	background-color: transparent;
 	height:30vh;
 	width:45.5vh;
-	border: 1px solid #f1f1f1;
+	/* border: 1px solid #f1f1f1; */
 	perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
   
   /* This container is needed to position the front and back side */
-  .flip-card-inner {
+.flip-card-inner {
 	border-radius: 5%;
 	position: relative;
 	height:30vh;
@@ -221,47 +202,59 @@ table {
 	text-align: center;
 	transition: transform 0.8s;
 	transform-style: preserve-3d;
-  }
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-card:hover .flip-card-inner {
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
 	border-radius: 5%;
 	transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-card-front, .flip-card-back {
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
 	border-radius: 5%;
 	position: absolute;
 	height:30vh;
 	width:45.5vh;
 	-webkit-backface-visibility: hidden; /* Safari */
 	backface-visibility: hidden;
-  }
-  
-  /* Style the front side (fallback if image is missing) */
-  .flip-card-front {
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
 	border-radius: 5%;
-	background-color: #bbb;
+	box-shadow: lightgrey 5px 10px;
 	color: black;
-  }
-  
-  /* Style the back side */
-  .flip-card-back {
+}
+
+/* Style the back side */
+.flip-card-back {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	box-shadow: lightgrey 5px 10px;
 	border-radius: 5%;
-	background-color: dodgerblue;
+	background: dodgerblue;
 	color: white;
 	transform: rotateY(180deg);
-  }
+}
 
-  .flip-image{
+.flip-image{
 	height:30vh;
 	width:45.5vh;
 	border-radius: 5%;
 
   }
+.names{
+	border: 2px solid green;
+	width:29vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 1.5%;
+}
 
-/* Guide Page Styling */
 
 .GuidePage{
 	display: flex;
@@ -288,4 +281,16 @@ table {
 }
 
 
-
+.the-names{
+	font-size: 1.3em;
+	border:2px solid green;
+	height: 10%;
+	width:100%;
+	justify-content: flex-start;
+	display: flex;
+	
+}
+.media{
+	border: 2px solid red;
+	width: 16.5vh
+}
