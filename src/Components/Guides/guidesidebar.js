@@ -17,13 +17,18 @@ const useStyles = makeStyles((theme) => ({
   buttonDiv: {
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
     textAlign: 'center'
   },
   guideButton: {
     width: '100%',
     border: 'none',
-    margin: '1%'
+    margin: '2%',
+    background: 'white',
+    justifyContent: 'center'
+  },
+  guidePanel: {
+    justifyContent: 'center'
   }
 
 }));
@@ -42,7 +47,45 @@ export default function Guidesidebar() {
         >
           <Typography className={classes.heading}>Individual Improvement</Typography>
         </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
+        <ExpansionPanelDetails className={classes.guidePanel}>
+          <Typography className={classes.buttonDiv}>
+           <button className={classes.guideButton}>Everything and anything Aiming</button>
+           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>?</button>
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+
+      <ExpansionPanel>
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography className={classes.heading}>Understanding your role</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails className={classes.guidePanel}>
+          <Typography className={classes.buttonDiv}>
+           <button className={classes.guideButton}>Entry Fragging</button>
+           <button className={classes.guideButton}>Supporting</button>
+           <button className={classes.guideButton}>Lurking</button>
+           <button className={classes.guideButton}>Awping</button>
+           <button className={classes.guideButton}>In Game Leading</button>
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+
+      <ExpansionPanel>
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography className={classes.heading}>In Game Leading</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails className={classes.guidePanel}>
           <Typography className={classes.buttonDiv}>
            <button className={classes.guideButton}>Introduction</button>
            <button className={classes.guideButton}>Demo reviews and Server work</button>
@@ -56,37 +99,18 @@ export default function Guidesidebar() {
       <ExpansionPanel>
         <ExpansionPanelSummary
           expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography className={classes.heading}>In Game Leading</Typography>
-        </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
-          <Typography>
-           <button>Part 1</button>
-           <button>Part 2</button>
-           <button>Part 3</button>
-           <button>Part 4</button>
-           <button>Part 5</button>
-          </Typography>
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
-
-      <ExpansionPanel>
-        <ExpansionPanelSummary
-          expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
           <Typography className={classes.heading}>Entry Fragging</Typography>
         </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
-          <Typography>
-           <button>Part 1</button>
-           <button>Part 2</button>
-           <button>Part 3</button>
-           <button>Part 4</button>
-           <button>Part 5</button>
+        <ExpansionPanelDetails className={classes.guidePanel}>
+          <Typography className={classes.buttonDiv}>
+           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>?</button>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -99,13 +123,13 @@ export default function Guidesidebar() {
         >
           <Typography className={classes.heading}>Support</Typography>
         </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
-          <Typography>
-           <button>Part 1</button>
-           <button>Part 2</button>
-           <button>Part 3</button>
-           <button>Part 4</button>
-           <button>Part 5</button>
+        <ExpansionPanelDetails className={classes.guidePanel}>
+          <Typography className={classes.buttonDiv}>
+           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>?</button>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -118,13 +142,13 @@ export default function Guidesidebar() {
         >
           <Typography className={classes.heading}>Lurking</Typography>
         </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
-          <Typography>
-           <button>Part 1</button>
-           <button>Part 2</button>
-           <button>Part 3</button>
-           <button>Part 4</button>
-           <button>Part 5</button>
+        <ExpansionPanelDetails className={classes.guidePanel}>
+          <Typography className={classes.buttonDiv}>
+           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>?</button>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -137,13 +161,13 @@ export default function Guidesidebar() {
         >
           <Typography className={classes.heading}>AWPing</Typography>
         </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
-          <Typography>
-           <button>Part 1</button>
-           <button>Part 2</button>
-           <button>Part 3</button>
-           <button>Part 4</button>
-           <button>Part 5</button>
+        <ExpansionPanelDetails className={classes.guidePanel}>
+          <Typography className={classes.buttonDiv}>
+           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>?</button>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -156,13 +180,13 @@ export default function Guidesidebar() {
         >
           <Typography className={classes.heading}>Other resources</Typography>
         </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
-          <Typography>
-           <button>Part 1</button>
-           <button>Part 2</button>
-           <button>Part 3</button>
-           <button>Part 4</button>
-           <button>Part 5</button>
+        <ExpansionPanelDetails className={classes.guidePanel}>
+          <Typography className={classes.buttonDiv}>
+           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>?</button>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>

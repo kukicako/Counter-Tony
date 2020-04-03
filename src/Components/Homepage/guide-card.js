@@ -77,7 +77,7 @@ const Guide = props => {
                 <h6 className="the-names">David "Gatr" Downes</h6>
                 <h6 className="the-names">Muamer "Dia" Kukic</h6>
                 <h6 className="the-names">Anthony "Dawn" Hagopian</h6>
-                <h6 className="the-names">Josh "Spoice" blahhh</h6>
+                <h6 className="the-names">Josh "Spoice" Betters</h6>
 
               </div>
               <div className="media">
