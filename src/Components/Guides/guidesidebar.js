@@ -45,6 +45,23 @@ export default function Guidesidebar() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
+          <Typography className={classes.heading}>Introduction</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails className={classes.guidePanel}>
+          <Typography className={classes.buttonDiv}>
+           <button className={classes.guideButton}>Welcome.</button>
+           <button className={classes.guideButton}>What you will learn.</button>
+           <button className={classes.guideButton}>Who are we?</button>
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+
+      <ExpansionPanel>
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
           <Typography className={classes.heading}>Individual Improvement</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className={classes.guidePanel}>
