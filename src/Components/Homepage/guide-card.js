@@ -30,6 +30,9 @@ const Guide = props => {
             hide={toggle}
             component={modalState}
         />
+      <div className="guide-text">
+        <h1>Check Out Our Guides:</h1>
+      </div>
         <div className="four-cards">
           <div class="card-transparent">
             <img className="leading-pic" src={csgo} alt="leading pic" />
@@ -43,6 +46,9 @@ const Guide = props => {
           <div class="card-transparent">
             <img className="sniper-pic" src={sniper} alt="sniper pic" />
           </div>
+      </div>
+      <div className="guide-text">
+        <h1>Additional Resources:</h1>
       </div>
       <div className="bottom-cards">
         
