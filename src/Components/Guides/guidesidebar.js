@@ -66,11 +66,11 @@ export default function Guidesidebar() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className={classes.guidePanel}>
           <Typography className={classes.buttonDiv}>
-           <button className={classes.guideButton}>Everything and anything Aiming</button>
-           <button className={classes.guideButton}>?</button>
-           <button className={classes.guideButton}>?</button>
-           <button className={classes.guideButton}>?</button>
-           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>Let's talking Aiming</button>
+           <button className={classes.guideButton}>Pugging</button>
+           <button className={classes.guideButton}>Matchmaking</button>
+           <button className={classes.guideButton}>Utility</button>
+           <button className={classes.guideButton}>Getting into League Play</button>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -105,10 +105,14 @@ export default function Guidesidebar() {
         <ExpansionPanelDetails className={classes.guidePanel}>
           <Typography className={classes.buttonDiv}>
            <button className={classes.guideButton}>Introduction</button>
-           <button className={classes.guideButton}>Demo reviews and Server work</button>
-           <button className={classes.guideButton}>Preparing strats</button>
-           <button className={classes.guideButton}>Game tells and Counter Strating</button>
-           <button className={classes.guideButton}>Final Thoughts</button>
+           <button className={classes.guideButton}>Round Awareness</button>
+           <button className={classes.guideButton}>Economical Awareness</button>
+           <button className={classes.guideButton}>In Game "LEADING"</button>
+           <button className={classes.guideButton}>Strategies</button>
+           <button className={classes.guideButton}>Demos</button>
+           <button className={classes.guideButton}>IGL doesn't mean not fragging</button>
+           <button className={classes.guideButton}>Understanding Team Strenghts/Weaknesses</button>
+           <button className={classes.guideButton}>Understanding Teammates Strenghts/Weaknesses</button>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -123,11 +127,11 @@ export default function Guidesidebar() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className={classes.guidePanel}>
           <Typography className={classes.buttonDiv}>
-           <button className={classes.guideButton}>?</button>
-           <button className={classes.guideButton}>?</button>
-           <button className={classes.guideButton}>?</button>
-           <button className={classes.guideButton}>?</button>
-           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>Timings</button>
+           <button className={classes.guideButton}>Angles</button>
+           <button className={classes.guideButton}>Spacing</button>
+           <button className={classes.guideButton}>Understanding Round Pace</button>
+           <button className={classes.guideButton}>Communication</button>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -142,11 +146,10 @@ export default function Guidesidebar() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className={classes.guidePanel}>
           <Typography className={classes.buttonDiv}>
-           <button className={classes.guideButton}>?</button>
-           <button className={classes.guideButton}>?</button>
-           <button className={classes.guideButton}>?</button>
-           <button className={classes.guideButton}>?</button>
-           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>Utility</button>
+           <button className={classes.guideButton}>Spacing</button>
+           <button className={classes.guideButton}>Round Pace</button>
+           <button className={classes.guideButton}>How to correctly bait</button>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -161,11 +164,11 @@ export default function Guidesidebar() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className={classes.guidePanel}>
           <Typography className={classes.buttonDiv}>
-           <button className={classes.guideButton}>?</button>
-           <button className={classes.guideButton}>?</button>
-           <button className={classes.guideButton}>?</button>
-           <button className={classes.guideButton}>?</button>
-           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>Timings</button>
+           <button className={classes.guideButton}>Communicating</button>
+           <button className={classes.guideButton}>Awareness</button>
+           <button className={classes.guideButton}>Lurking doesn't mean silence</button>
+           <button className={classes.guideButton}>Regrouping</button>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -180,11 +183,10 @@ export default function Guidesidebar() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className={classes.guidePanel}>
           <Typography className={classes.buttonDiv}>
-           <button className={classes.guideButton}>?</button>
-           <button className={classes.guideButton}>?</button>
-           <button className={classes.guideButton}>?</button>
-           <button className={classes.guideButton}>?</button>
-           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>Positioning</button>
+           <button className={classes.guideButton}>Angles</button>
+           <button className={classes.guideButton}>Timings</button>
+           <button className={classes.guideButton}>Awareness</button>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -199,11 +201,11 @@ export default function Guidesidebar() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className={classes.guidePanel}>
           <Typography className={classes.buttonDiv}>
-           <button className={classes.guideButton}>?</button>
-           <button className={classes.guideButton}>?</button>
-           <button className={classes.guideButton}>?</button>
-           <button className={classes.guideButton}>?</button>
-           <button className={classes.guideButton}>?</button>
+           <button className={classes.guideButton}>Surf, KZ and other fun activites</button>
+           <button className={classes.guideButton}>Personal Thoughts by Gatr</button>
+           <button className={classes.guideButton}>Personal Thoughts by ?</button>
+           <button className={classes.guideButton}>Personal Thoughts by ?</button>
+           <button className={classes.guideButton}>Personal Thoughts by ?</button>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
