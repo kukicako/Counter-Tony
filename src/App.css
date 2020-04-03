@@ -90,23 +90,6 @@ table {
 }
 
 
-.guide-Link{
-	position: absolute;
-	/* border: 1px solid red; */
-	display:flex;
-	position: relative;
-	bottom: 50%;
-	justify-content: center;
-	font-size: x-large;
-	
-
-
-	
-}
-
-.guide-Link:hover{
-	color:#00203FFF;
-}
 
 .leading-pic{
 	height:30vh;
@@ -141,7 +124,7 @@ table {
 	/* border: 2px solid purple; */
 	display:flex;
 	justify-content: space-around;
-	/* padding-top: % */
+	padding-top: 2%
 }
 
 .flip-card{
@@ -246,7 +229,7 @@ table {
 
   }
 .names{
-	border: 2px solid green;
+	/* border: 2px solid green; */
 	width:29vh;
 	display: flex;
 	flex-wrap: wrap;
@@ -292,5 +275,19 @@ table {
 }
 .media{
 	border: 2px solid red;
-	width: 16.5vh
+	width: 16.5vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+.the-links{
+	border:2px solid red;
+	height: 10%;
+	width:100%;
+	justify-content: flex-start;
+	display: flex;
+	margin-top: 10%;
+
+
 }
