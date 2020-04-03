@@ -13,6 +13,7 @@ import AppointmentModal from '../Appointment/appointmentform'
 import ReactGA from "react-ga";
 import drawing from '../images/Drawing.png'
 import igl1 from '../images/igl1.png'
+import tonycreation2 from '../images/tonycreation2.png'
 
 
 const Guide = props => {
@@ -72,7 +73,7 @@ const Guide = props => {
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-            <img className="flip-image" src={flip} alt="flip"/>
+            <img className="flip-image" src={tonycreation2} alt="flip"/>
             </div>
             <div class="flip-card-back">
               <div className="names">
