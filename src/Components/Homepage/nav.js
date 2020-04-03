@@ -61,14 +61,14 @@ const Nav = () => {
     return (
         <NavBar>
            <NavLeft>
-                <Logo src={logo} />
+                
                 <NavTitle>CSGO-Teacher</NavTitle>    
            </NavLeft>
 
            <NavRight>
                <StyledP><Link to="/guides">Guides</Link> </StyledP>
-               <StyledP href="https://www.w3schools.com">Stream</StyledP>
-               <StyledP href="https://www.w3schools.com">Meet Tony</StyledP>
+               <StyledP href="https://www.w3schools.com">Streams</StyledP>
+               <StyledP href="https://www.w3schools.com">Teachers</StyledP>
 
            </NavRight>
        </NavBar>

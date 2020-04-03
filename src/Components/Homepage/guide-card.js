@@ -11,6 +11,8 @@ import Modal from '../Appointment/modal'
 import useModal from '../Appointment/useModal'
 import AppointmentModal from '../Appointment/appointmentform'
 import ReactGA from "react-ga";
+import drawing from '../images/Drawing.png'
+import igl1 from '../images/igl1.png'
 
 
 const Guide = props => {
@@ -35,10 +37,10 @@ const Guide = props => {
       </div>
         <div className="four-cards">
           <div class="card-transparent">
-            <img className="leading-pic" src={csgo} alt="leading pic" />
+            <img className="leading-pic" src={drawing} alt="leading pic" />
           </div>
           <div class="card-transparent">
-          <img className="lurk-pic" src={lurk} alt="lurk pic" />
+          <img className="lurk-pic" src={igl1} alt="lurk pic" />
           </div>
           <div class="card-transparent">
             <img className="entry-pic" src={entry} alt="entry pic" />
@@ -76,15 +78,15 @@ const Guide = props => {
               <div className="names">
                 <h6 className="the-names">David "Gatr" Downes</h6>
                 <h6 className="the-names">Muamer "Dia" Kukic</h6>
-                <h6 className="the-names">Anthony "Dawn" Hagopian</h6>
+                <h6 className="the-names">Anthony "dawn" Hagopian</h6>
                 <h6 className="the-names">Josh "Spoice" Betters</h6>
 
               </div>
               <div className="media">
-                <div className="the-links"></div>
-                <div className="the-links"></div>
-                <div className="the-links"></div>
-                <div className="the-links"></div>
+                <div className="the-links"><i class="fab fa-twitter"></i><i class="fab fa-youtube"></i><i class="fab fa-twitch"></i></div>
+                <div className="the-links"><i class="fab fa-twitter"></i><i class="fab fa-youtube"></i><i class="fab fa-twitch"></i></div>
+                <div className="the-links"><i class="fab fa-twitter"></i><i class="fab fa-youtube"></i><i class="fab fa-twitch"></i></div>
+                <div className="the-links"><i class="fab fa-twitter"></i><i class="fab fa-youtube"></i><i class="fab fa-twitch"></i></div>
 
               </div>
             </div>
