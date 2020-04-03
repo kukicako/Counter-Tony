@@ -270,7 +270,6 @@ table {
 
 .the-names{
 	font-size: 1.3em;
-	border:2px solid green;
 	height: 10%;
 	width:100%;
 	justify-content: flex-start;
@@ -278,7 +277,6 @@ table {
 	
 }
 .media{
-	border: 2px solid red;
 	width: 16.5vh;
 	display: flex;
 	flex-wrap: wrap;
@@ -286,7 +284,6 @@ table {
 	align-items: center;
 }
 .the-links{
-	border:2px solid red;
 	height: 10%;
 	width:100%;
 	justify-content: flex-start;
@@ -294,4 +291,8 @@ table {
 	margin-top: 10%;
 
 
+}
+i{
+	font-size: 1.75vw;
+	margin-right: 13%;
 }
