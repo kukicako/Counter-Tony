@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import {Link} from 'react-router-dom';
 import sniper from '../images/sniper.jpg'
 import lurk from '../images/lurk.jpg'
@@ -7,34 +7,53 @@ import csgo from '../images/lead.jfif'
 import youtube from '../images/dust2youtube.jpg'
 import inferno from '../images/inferno.jpg'
 import flip from '../images/flip.jpg'
+import Modal from '../Appointment/modal'
+import useModal from '../Appointment/useModal'
+import AppointmentModal from '../Appointment/appointmentform'
+import ReactGA from "react-ga";
 
 
 const Guide = props => {
+  const {isShowing, toggle} = useModal();
+  const [modalState, setModalState] = useState();
+
+
+  const SmocClicked = link => {
+    ReactGA.event({ category: 'Data', 
+    action: `clicked ${link} link` });
+}
   
     return(
       <div className = "Guide-cards">
+        <Modal
+            isShowing={isShowing}
+            hide={toggle}
+            component={modalState}
+        />
+      <div className="guide-text-homepage">
+        <h1>Check Out Our Guides:</h1>
+      </div>
         <div className="four-cards">
           <div class="card-transparent">
             <img className="leading-pic" src={csgo} alt="leading pic" />
-          <Link className="guide-Link">  <strong>LEADING</strong></Link>
           </div>
           <div class="card-transparent">
           <img className="lurk-pic" src={lurk} alt="lurk pic" />
-          <Link className="guide-Link"> <strong>LURK</strong></Link>
           </div>
           <div class="card-transparent">
             <img className="entry-pic" src={entry} alt="entry pic" />
-          <Link className="guide-Link" ><strong>ENTRY</strong></Link>
           </div>
           <div class="card-transparent">
             <img className="sniper-pic" src={sniper} alt="sniper pic" />
-          <Link className="guide-Link" ><strong>AWP</strong></Link>
           </div>
+      </div>
+      <div className="guide-text-homepage">
+        <h1>Additional Resources:</h1>
       </div>
       <div className="bottom-cards">
         
           <div class="youtube-card">
-            <a href="https://www.youtube.com/watch?v=zVLTpRjt0PU" className="youtube-button">
+            <a href="https://www.youtube.com/channel/UCUdRyJpHQSjolXMi94PLa_Q/featured" className="youtube-button">
               <img className="youtube-image"src={youtube} alt="youtube" />
             </a>
           </div>
@@ -42,9 +61,10 @@ const Guide = props => {
         {/*  THE APPOINTMENT BUTTON CARD */}
 
         <div class="header-appointment-card">
-          <a href="https://www.youtube.com/watch?v=zVLTpRjt0PU" className="appointment-button">
-            <img className="appointment-image" src={inferno} alt="appointment"/>
-          </a>
+             
+                <Link onClick={() => SmocClicked (setModalState(<AppointmentModal/>), toggle())}  style={{cursor: "pointer"}}>
+                <img className="appointment-image" src={inferno} alt="appointment"/></Link>   
+          
         </div>
 
         <div class="flip-card">
@@ -61,6 +81,10 @@ const Guide = props => {
 
               </div>
               <div className="media">
+                <div className="the-links"></div>
+                <div className="the-links"></div>
+                <div className="the-links"></div>
+                <div className="the-links"></div>
 
               </div>
             </div>
