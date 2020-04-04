@@ -50,9 +50,9 @@ export default function Guidesidebar() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className={classes.guidePanel}>
           <Typography className={classes.buttonDiv}>
-           <button className={classes.guideButton}>Welcome.</button>
-           <button className={classes.guideButton}>What you will learn.</button>
-           <button className={classes.guideButton}>Who are we?</button>
+           <Link to="/Welcome" className={classes.guideButton}>Welcome.</Link>
+           <Link to="/Learn" className={classes.guideButton}>What you will learn.</Link>
+           <Link to="/WhoAreWe" className={classes.guideButton}>Who are we?</Link>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
