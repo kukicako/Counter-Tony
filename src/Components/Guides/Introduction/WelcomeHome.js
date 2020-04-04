@@ -1,10 +1,9 @@
 import React from 'react'
-import Guidesidebar from './guidesidebar.js'
-import GuideTitle from './guidetitle.js'
-import GuideText from './guidetext.js'
-import IGLHome from './InGameLeading/introiglhome.js'
+import GuideText from './Welcome.js'
+import GuideTitle from './WelcomeTitle.js'
+import Guidesidebar from '../guidesidebar.js'
 
-function Guides() {
+function WelcomeHome() {
     return(
         <div className='GuidePage'>
             <Guidesidebar />
@@ -13,7 +12,7 @@ function Guides() {
                 <GuideText />
             </div>
         </div>
-    );
+    )
 }
 
-export default Guides
+export default WelcomeHome;
