@@ -5,6 +5,7 @@ import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import {Link} from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -104,8 +105,8 @@ export default function Guidesidebar() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className={classes.guidePanel}>
           <Typography className={classes.buttonDiv}>
-           <button className={classes.guideButton}>Introduction</button>
-           <button className={classes.guideButton}>Round Awareness</button>
+           <Link className={classes.guideButton} to='/IGLIntroduction'>Introduction</Link>
+           <Link className={classes.guideButton} to='/RoundAwareness'>Round Awareness</Link>
            <button className={classes.guideButton}>Economical Awareness</button>
            <button className={classes.guideButton}>In Game "LEADING"</button>
            <button className={classes.guideButton}>Strategies</button>

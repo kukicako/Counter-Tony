@@ -66,7 +66,7 @@ const Nav = () => {
            </NavLeft>
 
            <NavRight>
-               <StyledP><Link to="/guides">Guides</Link> </StyledP>
+               <StyledP><Link to="/Guides">Guides</Link> </StyledP>
                <StyledP href="https://www.w3schools.com">Streams</StyledP>
                <StyledP href="https://www.w3schools.com">Teachers</StyledP>
 
