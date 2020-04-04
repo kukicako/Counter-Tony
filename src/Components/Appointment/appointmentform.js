@@ -25,7 +25,7 @@ const appointmentform = props => {
                     </label>
                     
                     <div className="submit-appointment">
-                        <button className='button' type='submit'>Send!</button>
+                        <button className='appointment-button' type='submit'>Submit!</button>
                     </div>
                     <div className="bottom-text">
                         <p>We will email you shortly to discuss the best time to schedule an appointment.</p></div>

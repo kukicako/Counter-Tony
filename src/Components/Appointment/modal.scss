@@ -26,7 +26,7 @@
   background: white;
   position: relative;
   margin: 10vh auto;
-  border-radius: 7%;
+  border-radius: 3%;
   max-width: 60vw !important;
   padding: 2rem !important;
   max-height: 40vw !important;
@@ -74,10 +74,13 @@
   border-bottom:1px solid #35373B;
   display:flex;
   justify-content: center;
+  color: blue
 }
 .appointment-text{
   // border:1px solid red;
   height: 15%;
+  padding-left: 2rem;
+  padding-top:2%
 }
 .form{
     // border:1px solid blue;
@@ -136,4 +139,29 @@
 .bottom-text{
     display:flex;
     justify-content:center;
+}
+
+.appointment-button{
+	background:linear-gradient(to bottom, blue 5%, blue 100%);
+	background-color:blue;
+	border-radius:5px;
+	border:1px solid #337bc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 44px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #528ecc;
+  margin-bottom:3%;
+}
+.appointment-button:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.appointment-button:active {
+	position:relative;
+	top:1px;
 }
