@@ -48,6 +48,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+a{
+	text-decoration: none !important;
+}
 .App{
 	padding-left: 5%;
 	padding-right: 5%;
@@ -97,7 +100,7 @@ table {
 
 .leading-pic{
 	height:30vh;
-	width:45.5vh;
+	width:45.8vh;
 	/* position: absolute; */
 	/* opacity: .8; */
 	
