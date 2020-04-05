@@ -67,11 +67,11 @@ export default function Guidesidebar() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className={classes.guidePanel}>
           <Typography className={classes.buttonDiv}>
-           <button className={classes.guideButton}>Let's talking Aiming</button>
-           <button className={classes.guideButton}>Pugging</button>
-           <button className={classes.guideButton}>Matchmaking</button>
-           <button className={classes.guideButton}>Utility</button>
-           <button className={classes.guideButton}>Getting into League Play</button>
+           <Link to="/Aiming" className={classes.guideButton}>Let's talking Aiming</Link>
+           <Link to="/Pugging" className={classes.guideButton}>Pugging</Link>
+           <Link to="/Matchmaking" className={classes.guideButton}>Matchmaking</Link>
+           <Link to="/ImprovingUtility" className={classes.guideButton}>Utility</Link>
+           <Link to="/ImprovingLeague" className={classes.guideButton}>Getting into League Play</Link>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
