@@ -16,6 +16,8 @@ import WhoAreWeHome from './Components/Guides/Introduction/WhoAreWeHome'
 import AimingHome from './Components/Guides/Improving/AimingHome'
 import PuggingHome from './Components/Guides/Improving/PuggingHome'
 import MatchmakingHome from './Components/Guides/Improving/MatchmakingHome'
+import UtilityImprovingHome from './Components/Guides/Improving/UtilityImprovingHome'
+import LeagueHome from './Components/Guides/Improving/LeagueHome'
 
 
 // IGL Guides
@@ -39,6 +41,8 @@ function App() {
         <Route exact path="/Aiming" component={AimingHome} />
         <Route exact path="/Pugging" component={PuggingHome} />
         <Route exact path="/Matchmaking" component={MatchmakingHome} />
+        <Route exact path="/ImprovingUtility" component={UtilityImprovingHome} />
+        <Route exact path="/League" component={LeagueHome} />
 
 
 

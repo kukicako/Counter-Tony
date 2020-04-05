@@ -71,7 +71,7 @@ export default function Guidesidebar() {
            <Link to="/Pugging" className={classes.guideButton}>Pugging</Link>
            <Link to="/Matchmaking" className={classes.guideButton}>Matchmaking</Link>
            <Link to="/ImprovingUtility" className={classes.guideButton}>Utility</Link>
-           <Link to="/ImprovingLeague" className={classes.guideButton}>Getting into League Play</Link>
+           <Link to="/League" className={classes.guideButton}>Getting into League Play</Link>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
