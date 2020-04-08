@@ -1,0 +1,35 @@
+.teachers{
+    // border:1px solid red;
+    height:80vh;
+}
+.teachers-title{
+    // border:1px solid green;
+    justify-content: center;
+    display: flex;
+    height: 6%;
+}
+.team{
+    // border: 1px solid blue;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.teacher-pics{
+    border:1px solid red;
+    height: 100%;
+    width:20%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.teacher-image{
+    // border:1px solid orangered;
+    height:20%;
+    width:45%;
+    border-radius: 100%;
+    margin-top:10%
+}
+.descriptions-teacher{
+    border:1px solid blue;
+    width: 40%;
+}

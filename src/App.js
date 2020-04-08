@@ -17,6 +17,9 @@ import WhoAreWeHome from './Components/Guides/Introduction/WhoAreWeHome'
 import IGLHome from './Components/Guides/InGameLeading/introiglhome'
 import RoundAwarenessHome from './Components/Guides/InGameLeading/roundawarenesshome'
 
+// Teachers
+import Teachers from './Components/teachers/teachers'
+
 function App() {
   return (
     <Router>
@@ -35,6 +38,9 @@ function App() {
         {/* IGL Guides */}
         <Route exact path="/IGLIntroduction" component={IGLHome} />
         <Route exact path="/RoundAwareness" component={RoundAwarenessHome} />
+
+        {/* Teachers */}
+        <Route exact path="/teachers" component={Teachers} />
 
         <Footer />
       </div>
