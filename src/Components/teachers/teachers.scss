@@ -9,13 +9,15 @@
     height: 6%;
 }
 .team{
-    // border: 1px solid blue;
+    margin-top:1%;
+    border-top: 1px solid black;
     height: 100%;
     display: flex;
-    justify-content: center;
+    
+    // justify-content: center;
 }
 .teacher-pics{
-    border:1px solid red;
+    // border:1px solid red;
     height: 100%;
     width:20%;
     display:flex;
@@ -30,6 +32,17 @@
     margin-top:10%
 }
 .descriptions-teacher{
-    border:1px solid blue;
-    width: 40%;
+    // border:1px solid blue;
+    width: 20%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.teacher-description{
+    height:25%;
+    width:100%;
+    margin-top:8%;
+    // border:1px solid red;
+
 }
