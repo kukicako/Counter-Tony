@@ -106,6 +106,7 @@ export default function Guidesidebar() {
         <ExpansionPanelDetails className={classes.guidePanel}>
           <Typography className={classes.buttonDiv}>
            <Link className={classes.guideButton} to='/IGLIntroduction'>Introduction</Link>
+           <Link className={classes.guideButton} to='/Leader'>In Game "LEADING"</Link>
            <Link className={classes.guideButton} to='/RoundAwareness'>Round Awareness</Link>
            <button className={classes.guideButton}>Economical Awareness</button>
            <button className={classes.guideButton}>In Game "LEADING"</button>
