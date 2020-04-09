@@ -2,7 +2,10 @@ import React from 'react';
 
 function RoundAwarenessTitle () {
     return(
-        <h1 className="GuideTitle">Let's talk about Round awareness when it comes to being an IGL</h1>
+        <div>
+            <h1 className="GuideTitle">Round Awareness</h1>
+            <h2 className="GuideTitleH2">Written By: David "Gatr" Macaulay</h2>
+        </div>
     )
 }
 
