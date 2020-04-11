@@ -1,6 +1,7 @@
 import React from 'react'; 
 import './teachers.scss'
 import Example from '../images/youtubePic.png'
+import Leader from '../images/leader.png'
 
  const Teachers = props => {
     return (
@@ -43,6 +44,10 @@ import Example from '../images/youtubePic.png'
                             <h5>Mon-Wed 9pm-5pm</h5>
                             <h5>200$ an hour</h5>
                         </div>
+
+                    </div>
+                    <div className="teacher-right-pic">
+                        <img className='leader' src={Leader} alt="Leader"></img>
 
                     </div>
 
