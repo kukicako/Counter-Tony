@@ -25,6 +25,9 @@ import IGLHome from './Components/Guides/InGameLeading/introiglhome'
 import RoundAwarenessHome from './Components/Guides/InGameLeading/roundawarenesshome'
 import InGameLeadingHome from './Components/Guides/InGameLeading/ingameleadinghome'
 
+// Teachers
+import Teachers from './Components/teachers/teachers'
+
 function App() {
   return (
     <Router>
@@ -51,6 +54,9 @@ function App() {
         <Route exact path="/IGLIntroduction" component={IGLHome} />
         <Route exact path="/RoundAwareness" component={RoundAwarenessHome} />
         <Route exact path="/Leader" component={InGameLeadingHome} />
+
+        {/* Teachers */}
+        <Route exact path="/teachers" component={Teachers} />
 
         <Footer />
       </div>

@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import logo from '../images/logo.png'
 import {Link} from 'react-router-dom';
 
 const NavBar = styled.nav`
@@ -15,7 +14,12 @@ const NavBar = styled.nav`
 
 const NavTitle = styled.h3`
     font-size: xx-large;
-    padding-top:1%;
+    padding-top:5%;
+    text-decoration: none;
+    &:hover {
+        color:blue !important
+    }
+    
 `
 ;
 const NavLeft = styled.div`
@@ -37,15 +41,7 @@ const NavRight = styled.div`
     `
 ;
 
-const Logo = styled.img`
-    padding-left:2%;
-    padding-right:2%;
-    padding-top:2%;
-    height:70%;
-    width:10%;
-    `
-    
-;
+
 
 const StyledP = styled.a`
     width:18%;
@@ -62,7 +58,7 @@ const Nav = () => {
         <NavBar>
            <NavLeft>
                 
-                <NavTitle>CSGO-Teacher</NavTitle>    
+                <Link to="/"><NavTitle>CSGO-Teacher</NavTitle></Link>    
            </NavLeft>
 
            <NavRight>

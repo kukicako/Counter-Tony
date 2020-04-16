@@ -1,106 +1,133 @@
 .modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    // z-index: 1040;
-    width: 100vw;
-    height: 100vh;
-    background-color: #000;
-    opacity: .5;
-  }
-  
-  .modal-wrapper {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1050;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
-    outline: 0;
-  }
-  
-  .modal {   
-    z-index: 100;
-    background: white;
-    position: relative;
-    margin: 10vh auto;
-    border-radius: 7%;
-    max-width: 40vw;
-    padding: 2rem;
-    max-height: 25vw;
-    margin-left: 30%;
-    display: block !important; 
-  }
-  
-  .modal-header {
-    display: flex;
-    justify-content: flex-end;
-    border-bottom: 1px solid white !important;
-    padding: 0 !important;
-  }
-  
-  .modal-close-button {
-    font-size: 1.4rem;
-    font-weight: 700;
-    line-height: 1;
-    color: #000;
-    cursor: pointer;
-    border: none;
-    background: white;
-    justify-content:flex-end;
-    margin-left: 95%
-  }
-  
-  // button {
-  //   font-size: .9rem;
-  //   font-weight: 700;
-  //   border: none;
-  //   border-radius: 3px;
-  //   padding: .3rem 1rem;
-  //   margin-left: .5rem;
-  // }
-  
-  .button-default {
-    background: #247BA0;
-    color: #fff;
-  }
-  .appointment{
-      border-bottom:1px solid #35373B;
-      height:90%;
-  }
-  .header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  // z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: .5;
+}
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+}
+
+.modal {   
+  z-index: 100;
+  background: white;
+  position: relative;
+  margin: 10vh auto;
+  border-radius: 3%;
+  max-width: 60vw !important;
+  padding: 2rem !important;
+  max-height: 40vw !important;
+  margin-left: 20%;
+  display: block !important; 
+}
+
+.modal-header {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid white !important;
+  padding: 0 !important;
+}
+
+.modal-close-button {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  cursor: pointer;
+  border: none;
+  background: white;
+  justify-content:flex-end;
+  margin-left: 95%
+}
+
+// button {
+//   font-size: .9rem;
+//   font-weight: 700;
+//   border: none;
+//   border-radius: 3px;
+//   padding: .3rem 1rem;
+//   margin-left: .5rem;
+// }
+
+.button-default {
+  background: #247BA0;
+  color: #fff;
+}
+.appointment{
     border-bottom:1px solid #35373B;
-    display:flex;
-    justify-content: center;
-  }
+    height:90%;
+}
+.header{
+  border-bottom:1px solid #35373B;
+  display:flex;
+  justify-content: center;
+  color: blue
+}
+.appointment-text{
+  // border:1px solid red;
+  height: 15%;
+  padding-left: 2rem;
+  padding-top:2%
+}
 .form{
     // border:1px solid blue;
     height:91.3%;
 }
 .label{
-    width:100%;
-    // border: 1px solid red;
-    height:15%;
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    color: black;
+    font-weight: bold;
     font-size: xx-large;
+    height:14%
     
+}
+.label-description{
+  text-align: left;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  font-size: xx-large;
+  height:30%;
+  margin-left:1%
+
 }
 
 .input{
-    font-size: large;
-    margin-left: 2%;
+    margin-left: 5px;
+    width: 70%;
+    padding: 2%;
     border: 1px solid #35373B;
     border-radius: 10px;
-    width:30%
+    height:10%
+  
 }
 .input-description{
-    font-size: large;
-    margin-left: 2%;
+    margin-left: 5%;
+    width: 70%;
+    padding: 2%;
     border: 1px solid #35373B;
     border-radius: 10px;
-    width:70%;
     height:100%;
+    font-size: large;
 
 }
 .submit-appointment{
@@ -112,4 +139,29 @@
 .bottom-text{
     display:flex;
     justify-content:center;
+}
+
+.appointment-button{
+	background:linear-gradient(to bottom, blue 5%, blue 100%);
+	background-color:blue;
+	border-radius:5px;
+	border:1px solid #337bc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 44px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #528ecc;
+  margin-bottom:3%;
+}
+.appointment-button:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.appointment-button:active {
+	position:relative;
+	top:1px;
 }
