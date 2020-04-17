@@ -1,12 +1,9 @@
 import React, {useState} from "react";
 import {Link} from 'react-router-dom';
 import sniper from '../images/sniper.jpg'
-import lurk from '../images/lurk.jpg'
 import entry from '../images/entry.jpg'
-import csgo from '../images/lead.jfif'
 import youtube from '../images/dust2youtube.jpg'
 import inferno from '../images/inferno.jpg'
-import flip from '../images/flip.jpg'
 import Modal from '../Appointment/modal'
 import useModal from '../Appointment/useModal'
 import AppointmentModal from '../Appointment/appointmentform'
