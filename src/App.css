@@ -89,6 +89,7 @@ a{
 	justify-content: center;
 	background-color:#FFE7C7;
 	padding-bottom:3%;
+
 	
 }
 .guide-text-homepage-bottom{
@@ -98,7 +99,9 @@ a{
 	padding-top: 1%;
 
 }
-
+.guide-text-homepage{
+	font-size: xx-large;
+}
 
 
 .image-left{

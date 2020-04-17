@@ -32,7 +32,7 @@ const Guide = props => {
         />
         <div className="four-cards">
           <div className="guide-text-homepage-top">
-            <h1>Check Out Our Guides:</h1>
+            <h1 className="guide-text-homepage">Check Out Our Guides:</h1>
           </div>
           <div class="image-left">
             <img className="leading-pic" src={drawing} alt="leading pic" />
@@ -53,7 +53,7 @@ const Guide = props => {
       </div>
       <div className="third-section">
         <div className="guide-text-homepage-bottom">
-          <h1>Additional Resources:</h1>
+          <h1 className="guide-text-homepage">Additional Resources:</h1>
         </div>
         <div className="bottom-cards">
           
