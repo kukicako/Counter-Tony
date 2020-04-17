@@ -13,11 +13,14 @@ const appointmentform = props => {
         </div>
             <form className='form'>
                     <label className='label'>Name: 
-                        <input className='input' type='text' name='name' placeholder='John Doe' required />
+                        <input className='input' type='text' name='name' placeholder='DiaBang' required />
+                    </label>
+                    <label className='label'>Rank:
+                        <input className='input' type='text' name='rank' placeholder='Email' required />
                     </label>
                 
                     <label className='label'>Email:
-                        <input className='input' type='text' name='primaryemail' placeholder='Email' required />
+                        <input className='input' type='text' name='email' placeholder='john@mail.com' required />
                     </label>
                         
                     <label className='label-description'>Description:

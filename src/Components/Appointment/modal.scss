@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  // z-index: 1040;
+  z-index: 1040;
   width: 100vw;
   height: 100vh;
   background-color: #000;
@@ -25,13 +25,15 @@
   z-index: 100;
   background: white;
   position: relative;
-  margin: 10vh auto;
+  margin: 3;
   border-radius: 3%;
+  margin: 10vh auto;
   max-width: 60vw !important;
-  padding: 2rem !important;
+  padding: 1rem !important;
   max-height: 40vw !important;
   margin-left: 20%;
   display: block !important; 
+
 }
 
 .modal-header {

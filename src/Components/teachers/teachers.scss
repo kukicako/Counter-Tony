@@ -1,6 +1,6 @@
 .teachers{
     // border:1px solid red;
-    height:80vh;
+    height:83vh;
 }
 .teachers-title{
     // border:1px solid green;
@@ -10,9 +10,10 @@
 }
 .team{
     margin-top:1%;
-    border-top: 1px solid black;
-    height: 100%;
+    border-top: 3px solid dodgerblue;
+    height: 90%;
     display: flex;
+    padding-top: 2%;
     
     // justify-content: center;
 }
@@ -23,13 +24,15 @@
     display:flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 }
 .teacher-image{
     // border:1px solid orangered;
     height:20%;
     width:45%;
     border-radius: 100%;
-    margin-top:10%
+    margin-top:2.5%
+
 }
 .descriptions-teacher{
     // border:1px solid blue;
@@ -40,18 +43,23 @@
     align-items: center;
 }
 .teacher-description{
-    height:25%;
+    height:100%;
     width:100%;
-    margin-top:8%;
-    // border:1px solid red;
+    margin-top:3%;
+    border-bottom:3px solid dodgerblue;
+    // border-top:3px solid dodgerblue;
 
 }
 .teacher-right-pic{
     // border:1px solid red;
     width:50%;
     margin-top:1%;
+    margin-left: 7%;
+    border-radius: 5%;
 }
 .leader{
     width:100%;
     height: 100%;
+    border-radius: 5%;
+    opacity: .9;
 }
