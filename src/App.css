@@ -62,76 +62,139 @@ a{
 .Guide-cards{
 	/* border: 2px solid blue; */
 	/* display: flex; */
-	background-color:white;
-	height:75vh;
+	height:260vh;
 	flex-wrap: wrap;
 	/* justify-content: center;
 	justify-content: space-evenly; */
-	padding-top: .5%;
+	margin-top:3%;
+	/* background-color:#FFE7C7;
+	padding: 2.5%; */
+	border-radius: 3%;
 
 }
 .four-cards{
+	padding: 2.5%;
 	display:flex;
 	padding-bottom: .5%;
+	background-color:#FFE7C7;
+	border-radius: 3%;
+	/* border: 2px solid red; */
+	height:80%;
+	flex-direction: column;
+	border-radius: 3%;	
 
 }
-.guide-text-homepage{
+.guide-text-homepage-top{
 	display:flex;
 	justify-content: center;
+	background-color:#FFE7C7;
+	padding-bottom:3%;
+	
+}
+.guide-text-homepage-bottom{
+	display:flex;
+	justify-content: center;
+	/* border:1px solid red; */
+	padding-top: 1%;
+
 }
 
-.card-transparent{
-	/* border: 2px solid green; */
-	width:100%
-}
-.nav-links{
-	text-decoration: none;
-	border:none;
-	padding:22%;
-	padding-left: 4%;
-    color:#ADEFD1FF;
-    text-decoration:none;
-	transition:0.22s ease;
-	align-items: flex-end;
-	  
-}
 
+
+.image-left{
+	/* border: 2px solid blue; */
+	width:100%;
+	height:75%;
+	display:flex;
+	flex-direction: row;
+
+}
+.left-text{
+	/* border:1px solid red; */
+	background-color: #FEF8DD;
+	height:40vh;
+	width: 70%;
+	margin-left:3%;
+	padding:2%;
+	border-radius: 5%;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+.image-right{
+
+	width:100%;
+	height:75%;
+	display: flex;
+	/* justify-content: flex-end; */
+	flex-direction: row-reverse;
+}
+.right-text{
+	/* border:1px solid red; */
+	background-color: #FEF8DD;
+	height:40vh;
+	width: 70%;
+	padding:2%;
+	margin-right: 3%;
+	border-radius: 5%;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+
+}
 
 
 .leading-pic{
-	height:30vh;
-	width:45.8vh;
+	/* border: 2px solid green; */
+	height:40vh;
+	width:60.5vh;
+	/* border-radius: 5%; */
+	/* box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); */
+	
 	/* position: absolute; */
 	/* opacity: .8; */
 	
 }
 .lurk-pic{
 	/* position: absolute; */
-	height:30vh;
-	width:45.5vh;
+	/* border: 2px solid green; */
+	height:40vh;
+	width:60.5vh;
+	/* border-radius: 5%;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); */
 	/* opacity: .8; */
 	/* margin-left:.5%; */
 }
 .entry-pic{
 	/* position: absolute; */
-	height:30vh;
-	width:45.5vh;
+	height:40vh;
+	width:60.5vh;
+	/* border-radius: 5%;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); */
 	/* opacity: .8; */
 	/* margin-left:.5% */
 }
 .sniper-pic{
-	height:30vh;
-	width:45.8vh;
+	height:40vh;
+	width:60.5vh;
+	/* border-radius: 5%;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); */
 	/* position: absolute; */
+	/* border: 2px solid green; */
 	/* opacity: .8; */
 	/* margin-left:1% */
 }
+.third-section{
+	/* border: 2px solid purple; */
+	margin-top:2%;
+	height: 20%;
+	background-color: #FCDAB4 ;
+	background-image: repeating-linear-gradient(45deg, transparent, transparent 35px,  #658F9B 25px, #658F9B 400px);
 
+}
 .bottom-cards{
 	/* border: 2px solid purple; */
 	display:flex;
 	justify-content: space-around;
-	padding-top: .5%
+	height: 80%;
+	/* background-color: #DDE0A9; */
+	align-items: center; 
 }
 
 .flip-card{
@@ -142,21 +205,25 @@ a{
 }
 .youtube-card{
 	/* border:5px solid red; */
+	border-radius: 5%;
 	height:30vh;
 	width:45.5vh;
+	box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.2);
 	
 }
 .header-appointment-card{
 	/* border: 1px solid red; */
 	height:30vh;
 	width:45.5vh;
+	box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 5%;
 }
 .youtube-image{
 	/* border:1px solid black; */
 	border-radius: 5%;
 	height:30vh;
 	width:45.5vh;
-	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.2);
 
 }
 .youtube-button{
@@ -169,7 +236,7 @@ a{
 	height:30vh;
 	width:45.5vh;
 	border-radius: 5%;
-	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -213,7 +280,7 @@ a{
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
 	border-radius: 5%;
-	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.2);
 	color: black;
 }
 
@@ -222,7 +289,7 @@ a{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
-	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.2);
 	border-radius: 5%;
 	background: dodgerblue;
 	color: white;
@@ -233,6 +300,8 @@ a{
 	height:30vh;
 	width:45.5vh;
 	border-radius: 5%;
+	box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.2)
+	
 
   }
 .names{

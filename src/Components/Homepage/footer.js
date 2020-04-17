@@ -36,8 +36,7 @@ justify-content: flex-end;
 const StyledP = styled.p`
 width:20%;
 color: green;
-padding-top:5em;
-
+padding-top:2em;
 padding-left:3%
     `
 ;
