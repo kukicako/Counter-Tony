@@ -4,7 +4,7 @@ import vertigo from '../images/vertigo.png'
 import igl2 from '../images/igl2.png'
 import vertigo2 from '../images/vertigo2.png'
 import burger3 from '../images/burger3.jpg'
-import burger4 from '../images/burger4.jpg'
+// import burger4 from '../images/burger4.jpg'
 import burger5 from '../images/burger5.jpg'
 import './slider.scss'
 // <HomeCarosel src={burger1}/>,<HomeCarosel src={burger2}/>,<HomeCarosel src={burger3}/>,<HomeCarosel src={burger4}/>,<HomeCarosel src={burger5}/>

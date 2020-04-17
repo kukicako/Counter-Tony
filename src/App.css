@@ -292,8 +292,8 @@ a{
 	justify-content: flex-start;
 	box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
 	border-radius: 5%;
-	background: #FFE7C7;
-	color: black;
+	background: #5d79ae;
+	color: #FEF8DD;
 	transform: rotateY(180deg);
 }
 
