@@ -24,23 +24,11 @@ const appointmentform = props => {
                     <div className="label-text">
                         <p>We will email you shortly to discuss best available time slots</p>
                     </div> 
-                    <label className='label'>MM-Rank:
-                        <input className='input-mm' type='text' name='mm-rank' placeholder='Global Elite' required />
+                    <label className='label'>Rank:
+                        <input className='input-mm' type='text' name='rank' placeholder='Global Elite' required />
                     </label>
                     <div className="label-text">
-                        <p></p>
-                    </div> 
-                    <label className='label'>Faceit-Rank:
-                        <input className='input-rank' type='text' name='=faceit-rank' placeholder='10' required />
-                    </label>
-                    <div className="label-text">
-                        <p></p>
-                    </div> 
-                    <label className='label'>ESEA-Rank:
-                        <input className='input-rank' type='text' name='esea-rank' placeholder='Rank G' required />
-                    </label>
-                    <div className="label-text">
-                        <p></p>
+                        <p>Please list all your ranks silver/rank S/Faceit lvl 10</p>
                     </div> 
                     <label className='label'>Steam ID: *
                         <input className='input-last' type='text' name='steam' placeholder='https:/steamcommunity.com/profiles/76561198149671515' required />
