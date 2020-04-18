@@ -352,8 +352,13 @@ a{
 
 /* Guide Text  */
 
-.GuideText {
-	background: #F5FFFA;
+.GuideContainer{
+	background: blue;
+	border: 1px solid green;
+}
+
+.GuideText{
+	background: #FFE7C7;
 	border-radius: 1%;
 	padding: 3%;
 	font-weight: bold;
