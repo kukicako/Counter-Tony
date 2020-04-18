@@ -1,13 +1,13 @@
 import React from 'react'; 
 import './teachers.scss'
 import Example from '../images/youtubePic.png'
-import Leader from '../images/leader.png'
+import Leader from '../images/leader.jpg'
 
  const Teachers = props => {
     return (
             <div className="teachers">
                 <div className="teachers-title">
-                    <h1>Our Teachers</h1> 
+                    <h1>Teachers</h1> 
                 </div>        
                 <div className="team">
                     <div class="teacher-pics">
@@ -19,30 +19,30 @@ import Leader from '../images/leader.png'
                     </div>
                     <div className="descriptions-teacher">
                         <div className="teacher-description"> 
-                            <h2><b>David "Gatr" Downes</b></h2>
+                            <h3 style={{borderTop:"3px solid dodgerblue", paddingTop:"3%"}}><b>David "Gatr" Downes</b></h3>
                             <h5>ESL PRO LEAGUE MAIN IGL</h5>
-                            <h5>Mon-Wed 9pm-5pm</h5>
-                            <h5>200$ an hour</h5>
+                            <h6>Mon-Wed 9pm-5pm</h6>
+                            <h6>200$ an hour</h6>
                         </div>
                        
                         <div className="teacher-description">
-                            <h2><b>Anthony "dawn" Hagopian</b></h2>
+                            <h3><b>Anthony "dawn" Hagopian</b></h3>
                             <h5>ESL PRO LEAGUE MAIN IGL</h5>
-                            <h5>Mon-Wed 9pm-5pm</h5>
-                            <h5>200$ an hour</h5>
+                            <h6>Mon-Wed 9pm-5pm</h6>
+                            <h6>200$ an hour</h6>
                         </div>
                         
                         <div className="teacher-description">
-                            <h2><b>Xeppa</b></h2>
+                            <h3><b>Xeppa</b></h3>
                             <h5>ESL PRO LEAGUE MAIN IGL</h5>
-                            <h5>Mon-Wed 9pm-5pm</h5>
-                            <h5>200$ an hour</h5>
+                            <h6>Mon-Wed 9pm-5pm</h6>
+                            <h6>200$ an hour</h6>
                         </div>
                         <div className="teacher-description">
-                            <h2><b>Gengstah</b></h2>
+                            <h3><b>Gengstah</b></h3>
                             <h5>ESL PRO LEAGUE MAIN IGL</h5>
-                            <h5>Mon-Wed 9pm-5pm</h5>
-                            <h5>200$ an hour</h5>
+                            <h6>Mon-Wed 9pm-5pm</h6>
+                            <h6>200$ an hour</h6>
                         </div>
 
                     </div>

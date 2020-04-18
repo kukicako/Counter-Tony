@@ -9,26 +9,53 @@ const appointmentform = props => {
             <h1>Schedule A Meeting</h1>
         </div>
         <div className="appointment-text">
-            <p>We offer demo reviews and shit</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
             <form className='form'>
-                    <label className='label'>Name: 
+                    <label className='label'>Name: *
                         <input className='input' type='text' name='name' placeholder='John Doe' required />
                     </label>
-                
-                    <label className='label'>Email:
-                        <input className='input' type='text' name='primaryemail' placeholder='Email' required />
+                    <div className="label-text">
+                        <p>Real Name</p>
+                    </div> 
+                    <label className='label'>Email: *
+                        <input className='input' type='text' name='email' placeholder='john@mail.com' required />
                     </label>
-                        
-                    <label className='label-description'>Description:
-                        <textarea className='input-description' rows="10" cols="30" type='text' name='description' placeholder='...' required />
+                    <div className="label-text">
+                        <p>We will email you shortly to discuss best available time slots</p>
+                    </div> 
+                    <label className='label'>MM-Rank:
+                        <input className='input-mm' type='text' name='mm-rank' placeholder='Global Elite' required />
                     </label>
+                    <div className="label-text">
+                        <p></p>
+                    </div> 
+                    <label className='label'>Faceit-Rank:
+                        <input className='input-rank' type='text' name='=faceit-rank' placeholder='10' required />
+                    </label>
+                    <div className="label-text">
+                        <p></p>
+                    </div> 
+                    <label className='label'>ESEA-Rank:
+                        <input className='input-rank' type='text' name='esea-rank' placeholder='Rank G' required />
+                    </label>
+                    <div className="label-text">
+                        <p></p>
+                    </div> 
+                    <label className='label'>Steam ID: *
+                        <input className='input-last' type='text' name='steam' placeholder='https:/steamcommunity.com/profiles/76561198149671515' required />
+                    </label>
+                    <div className="label-text">
+                        <p>Click <a href="https://steamidfinder.com">here</a> to find your steam id</p>
+                    </div>     
+                    <label className='label'>Questions:
+                        <input className='input-last' type='text' name='steam' placeholder='' required />
+                    </label> 
                     
                     <div className="submit-appointment">
                         <button className='appointment-button' type='submit'>Submit!</button>
                     </div>
-                    <div className="bottom-text">
-                        <p>We will email you shortly to discuss the best time to schedule an appointment.</p></div>
+                   
             </form>
     </div>
 

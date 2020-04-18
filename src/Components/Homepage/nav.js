@@ -15,7 +15,7 @@ const Nav = () => {
            <div className="NavRight">
                <a className="StyledP" ><Link className="StyledP" to="/Guides">Guides</Link> </a>
                <a className="StyledP" href="https://www.w3schools.com">Streams</a>
-               <a className="StyledP" href="https://www.w3schools.com">Teachers</a>
+               <a className="StyledP" href="/teachers">Teachers</a>
 
            </div>
        </nav>
