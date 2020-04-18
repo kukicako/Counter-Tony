@@ -37,7 +37,7 @@ const appointmentform = props => {
                         <p>Click <a href="https://steamidfinder.com">here</a> to find your steam id</p>
                     </div>     
                     <label className='label'>Questions:
-                        <input className='input-last' type='text' name='steam' placeholder='' required />
+                        <input className='input-last' type='text' name='question' placeholder='...' required />
                     </label> 
                     
                     <div className="submit-appointment">
