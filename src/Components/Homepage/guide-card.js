@@ -36,19 +36,19 @@ const Guide = props => {
           </div>
           <div class="image-left">
             <img className="leading-pic" src={drawing} alt="leading pic" />
-            <p className="left-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sit amet venenatis urna cursus eget nunc scelerisque. Massa id neque aliquam vestibulum morbi. Enim nulla aliquet porttitor lacus luctus. Urna molestie at elementum eu facilisis sed. Volutpat sed cras ornare arcu dui. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium. Ipsum dolor sit amet consectetur adipiscing elit. Et ultrices neque ornare aenean euismod elementum nisi quis eleifend. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.</p>
+            <p className="top-left-text">We have taken the tips and tricks from current FPL players and put them into guides you can learn and use to help you improve!</p>
           </div>
           <div class="image-right">
           <img className="lurk-pic" src={igl1} alt="lurk pic" />
-          <p className="right-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sit amet venenatis urna cursus eget nunc scelerisque. Massa id neque aliquam vestibulum morbi. Enim nulla aliquet porttitor lacus luctus. Urna molestie at elementum eu facilisis sed. Volutpat sed cras ornare arcu dui. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium. Ipsum dolor sit amet consectetur adipiscing elit. Et ultrices neque ornare aenean euismod elementum nisi quis eleifend. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.</p>
+          <p className="middle-right-text">The orignal inspiration for this site. Read 7 guides specifically created to help other IGLs written by Gatr who's spent the last 15 League Seasons thriving as an IGL!</p>
           </div>
           <div class="image-left">
             <img className="entry-pic" src={entry} alt="entry pic" />
-            <p className="left-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sit amet venenatis urna cursus eget nunc scelerisque. Massa id neque aliquam vestibulum morbi. Enim nulla aliquet porttitor lacus luctus. Urna molestie at elementum eu facilisis sed. Volutpat sed cras ornare arcu dui. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium. Ipsum dolor sit amet consectetur adipiscing elit. Et ultrices neque ornare aenean euismod elementum nisi quis eleifend. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.</p>
+            <p className="middle-left-text">Each role needs to understand it's job. Read specialized guides specifically created for each role to fully understand what is being asked from you on a round to round basis!</p>
           </div>
           <div class="image-right">
             <img className="sniper-pic" src={sniper} alt="sniper pic" />
-            <p className="right-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sit amet venenatis urna cursus eget nunc scelerisque. Massa id neque aliquam vestibulum morbi. Enim nulla aliquet porttitor lacus luctus. Urna molestie at elementum eu facilisis sed. Volutpat sed cras ornare arcu dui. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium. Ipsum dolor sit amet consectetur adipiscing elit. Et ultrices neque ornare aenean euismod elementum nisi quis eleifend. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida.</p>
+            <p className="bottom-right-text">Make sure to check out our other dozens of guides for anything and everything competitive counter strike related written By Gatr with help from current FPL and MDL+ players!</p>
           </div>
       </div>
       <div className="third-section">
