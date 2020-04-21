@@ -3,7 +3,7 @@ import React from 'react';
 function AwpIntroText() {
     return(
         <div>
-            <p className="GuideText">Knowing what angles to hold and positioning yourself correctly to be effective round by round is what makes the difference between an average awper and extrodinaire awper. </p>
+            <p className="GuideText">Great awpers can take over games, dominate them and single handily win games. How many times have you seen the likes of Simple and Zywoo by themself win game after game? Never under estimate how much a great awper can impact a team or a game. Besides pure DM abilities, I think there is 4 parts that make a great awper. Knowing your angles, great positioning,   </p>
         </div>
     )
 }
