@@ -1,6 +1,6 @@
 import React from 'react';
 
-function AnglesAwpText() {
+function AwpIntroText() {
     return(
         <div>
             <p className="GuideText">Knowing what angles to hold and positioning yourself correctly to be effective round by round is what makes the difference between an average awper and extrodinaire awper. </p>
@@ -8,4 +8,4 @@ function AnglesAwpText() {
     )
 }
 
-export default AnglesAwpText;
+export default AwpIntroText;

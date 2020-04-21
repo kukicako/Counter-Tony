@@ -1,6 +1,6 @@
 import React from 'react';
 
-function AwarenessAwpTitle () {
+function AwpIntroTitle () {
     return(
         <div>
             <h1 className="GuideTitle">Angles and Positioning</h1>
@@ -9,4 +9,4 @@ function AwarenessAwpTitle () {
     )
 }
 
-export default AwarenessAwpTitle;
+export default AwpIntroTitle;

@@ -37,10 +37,16 @@ const useStyles = makeStyles((theme) => ({
 export default function Guidesidebar() {
   const classes = useStyles();
 
+  const [expanded, setExpanded] = React.useState('panel1');
+
+  const handleChange = (panel) => (event, newExpanded) => {
+    setExpanded(newExpanded ? panel : true);
+  };
+
   return (
     <div className={classes.root}>
 
-      <ExpansionPanel>
+      <ExpansionPanel onChange={handleChange('panel1')}>
         <ExpansionPanelSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
@@ -57,7 +63,7 @@ export default function Guidesidebar() {
         </ExpansionPanelDetails>
       </ExpansionPanel>
 
-      <ExpansionPanel>
+      <ExpansionPanel onChange={handleChange('panel2')}>
         <ExpansionPanelSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
