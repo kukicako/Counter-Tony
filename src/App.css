@@ -343,7 +343,7 @@ a{
 	align-items: center;
 	height: 8vh;
 	font-size: 1.75rem;
-	background: linear-gradient(to bottom, #5d79ae 0%, #0c0f12 100%);
+	background: linear-gradient(to right, #5d79ae -50%, #0c0f12 128%);
 	color: white;
 	border-radius: 10px;
 	padding-left: 1.5%;

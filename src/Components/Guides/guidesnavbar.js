@@ -5,10 +5,8 @@ import './guidenav.scss'
 
 const GuideNav = () => {
     return (
-        <nav className="NavBar">
-           <div className="Nav">
-               <p>Work in Progress</p>
-           </div>
+        <nav className="GuideNavBar">
+            <p>Work in Progress</p>
         </nav>
     );
 }
