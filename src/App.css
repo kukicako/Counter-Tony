@@ -326,20 +326,27 @@ a{
 
 .GuidePage{
 	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .GuidePageStyling {
-	width: 70%;
-	margin-left: 5%;
+	width: 100%; 
 }
 
 /* Guide Titles */
 
 .GuideTitle {
-	padding-left: 3%;
 	display: flex;
-	align-items: flex-end;
-	font-size: 2.5rem;
+	align-items: center;
+	height: 8vh;
+	font-size: 1.75rem;
+	background: linear-gradient(to bottom, #5d79ae 0%, #0c0f12 100%);
+	color: white;
+	border-radius: 10px;
+	padding-left: 1.5%;
 }
 
 .GuideTitleH2 {
@@ -352,17 +359,12 @@ a{
 
 /* Guide Text  */
 
-.GuideContainer{
-	background: blue;
-	border: 1px solid green;
-}
-
 .GuideText{
-	background: #FFE7C7;
-	border-radius: 1%;
-	padding: 3%;
 	font-weight: bold;
 	text-indent: 5em;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+	padding: 1.5%;
 }
 
 
