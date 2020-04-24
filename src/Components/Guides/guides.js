@@ -1,13 +1,13 @@
 import React from 'react'
 import GuideTitle from './guidetitle.js'
 import GuideText from './guidetext.js'
-import GuideNav from './guidesnavbar.js'
+import GuideSidebar from './guidesidebar.js'
 
 function Guides() {
     return(
         <div>
             <div>
-                <GuideNav />
+                <GuideSidebar />
             </div>
             <div className='GuidePage'>
                 <div className='GuidePageStyling'>

@@ -361,7 +361,6 @@ a{
 
 .GuideText{
 	font-weight: bold;
-	text-indent: 5em;
 	border: 1px solid lightgray;
 	border-radius: 10px;
 	padding: 1.5%;
@@ -397,4 +396,8 @@ a{
 i{
 	font-size: 1.75vw;
 	margin-right: 13%;
+}
+
+.GuideBarButton{
+	background: linear-gradient(to right, #5d79ae 0%, #0c0f12 100%);
 }
