@@ -3,8 +3,8 @@ import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
-import ListItemText from '@material-ui/core/ListItemText';
 import '../guidenav.scss'
+import { Link } from 'react-router-dom'
 
 const StyledMenu = withStyles({
   paper: {
@@ -54,15 +54,23 @@ export default function CustomizedMenu2() {
             <StyledMenu id="customized-menu2" anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleClose}>
 
                 <StyledMenuItem>
-                  <ListItemText>Test7</ListItemText>
+                <Link to='/AWP'>AWP</Link>
                 </StyledMenuItem>
 
                 <StyledMenuItem>
-                  <ListItemText>Test8</ListItemText>
+                <Link to='/Support'>Support</Link>
                 </StyledMenuItem>
 
                 <StyledMenuItem>
-                  <ListItemText>Test9</ListItemText>
+                <Link to='/Lurker'>Lurk</Link>
+                </StyledMenuItem>
+
+                <StyledMenuItem>
+                <Link to='/Entry'>Entry</Link>
+                </StyledMenuItem>
+
+                <StyledMenuItem>
+                <Link to='/IGL'>IGL</Link>
                 </StyledMenuItem>
 
             </StyledMenu>
