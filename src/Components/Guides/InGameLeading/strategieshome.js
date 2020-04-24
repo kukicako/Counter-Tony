@@ -1,14 +1,14 @@
 import React from 'react'
-import RoundAwarenessTitle from './roundawarenesstitle.js'
-import RoundAwarenessText from './roundawarenesstext.js'
+import StrategiesText from './strategiestext.js'
+import StrategiesTitle from './strategiestitle.js'
 
 
 function RoundAwarenessHome() {
     return(
         <div className='GuidePage'>
             <div className='GuidePageStyling'>
-                <RoundAwarenessTitle />
-                <RoundAwarenessText />
+                <StrategiesTitle />
+                <StrategiesText />
             </div>
         </div>
     )

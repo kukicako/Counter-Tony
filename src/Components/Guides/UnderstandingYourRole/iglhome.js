@@ -1,9 +1,9 @@
 import React from 'react'
-import LeagueTitle from './LeagueTitle.js'
-import LeagueText from './LeagueText.js'
+import IGLTitle from './igltitle.js'
+import IGLText from './igltext.js'
 import GuideSidebar from '../guidesidebar.js'
 
-function LeagueHome() {
+function IGLingHome() {
     return(
         <div>
             <div>
@@ -11,13 +11,12 @@ function LeagueHome() {
             </div>
             <div className='GuidePage'>
                 <div className='GuidePageStyling'>
-                    <LeagueTitle />
-                    <LeagueText />
-                    
+                    <IGLTitle />
+                    <IGLText />
                 </div>
             </div>
         </div>
     )
 }
 
-export default LeagueHome;
+export default IGLingHome;

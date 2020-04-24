@@ -1,9 +1,9 @@
 import React from 'react'
-import LeagueTitle from './LeagueTitle.js'
-import LeagueText from './LeagueText.js'
+import EntryTitle from './entrytitle.js'
+import EntryText from './entrytext.js'
 import GuideSidebar from '../guidesidebar.js'
 
-function LeagueHome() {
+function EntryingHome() {
     return(
         <div>
             <div>
@@ -11,13 +11,12 @@ function LeagueHome() {
             </div>
             <div className='GuidePage'>
                 <div className='GuidePageStyling'>
-                    <LeagueTitle />
-                    <LeagueText />
-                    
+                    <EntryTitle />
+                    <EntryText />
                 </div>
             </div>
         </div>
     )
 }
 
-export default LeagueHome;
+export default EntryingHome;

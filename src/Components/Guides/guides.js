@@ -1,16 +1,19 @@
 import React from 'react'
-import Guidesidebar from './guidesidebar.js'
 import GuideTitle from './guidetitle.js'
 import GuideText from './guidetext.js'
-// import IGLHome from './InGameLeading/introiglhome.js'
+import GuideSidebar from './guidesidebar.js'
 
 function Guides() {
     return(
-        <div className='GuidePage'>
-            <Guidesidebar />
-            <div className='GuidePageStyling'>
-                <GuideTitle />
-                <GuideText />
+        <div>
+            <div>
+                <GuideSidebar />
+            </div>
+            <div className='GuidePage'>
+                <div className='GuidePageStyling'>
+                    <GuideTitle />
+                    <GuideText />
+                </div>
             </div>
         </div>
     );

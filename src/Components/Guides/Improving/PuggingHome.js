@@ -1,15 +1,19 @@
 import React from 'react'
 import PuggingText from './PuggingText.js'
 import PuggingTitle from './PuggingTitle.js'
-import Guidesidebar from '../guidesidebar.js'
+import GuideSidebar from '../guidesidebar.js'
 
 function AimingHome() {
     return(
-        <div className='GuidePage'>
-            <Guidesidebar />
-            <div className='GuidePageStyling'>
-                <PuggingTitle />
-                <PuggingText />
+        <div>
+            <div>
+                <GuideSidebar />
+            </div>
+            <div className='GuidePage'>
+                <div className='GuidePageStyling'>
+                    <PuggingTitle />
+                    <PuggingText />
+                </div>
             </div>
         </div>
     )

@@ -1,9 +1,9 @@
 import React from 'react'
-import LeagueTitle from './LeagueTitle.js'
-import LeagueText from './LeagueText.js'
+import LurkTitle from './lurkingtitle.js'
+import LurkText from './lurkingtext.js'
 import GuideSidebar from '../guidesidebar.js'
 
-function LeagueHome() {
+function LurkerHome() {
     return(
         <div>
             <div>
@@ -11,13 +11,12 @@ function LeagueHome() {
             </div>
             <div className='GuidePage'>
                 <div className='GuidePageStyling'>
-                    <LeagueTitle />
-                    <LeagueText />
-                    
+                    <LurkTitle />
+                    <LurkText />
                 </div>
             </div>
         </div>
     )
 }
 
-export default LeagueHome;
+export default LurkerHome;

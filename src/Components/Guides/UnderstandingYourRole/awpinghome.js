@@ -1,9 +1,9 @@
 import React from 'react'
-import LeagueTitle from './LeagueTitle.js'
-import LeagueText from './LeagueText.js'
+import AwpTitle from './awpingtitle.js'
+import AwpText from './awpingtext.js'
 import GuideSidebar from '../guidesidebar.js'
 
-function LeagueHome() {
+function AwpHome() {
     return(
         <div>
             <div>
@@ -11,13 +11,12 @@ function LeagueHome() {
             </div>
             <div className='GuidePage'>
                 <div className='GuidePageStyling'>
-                    <LeagueTitle />
-                    <LeagueText />
-                    
+                    <AwpTitle />
+                    <AwpText />
                 </div>
             </div>
         </div>
     )
 }
 
-export default LeagueHome;
+export default AwpHome;

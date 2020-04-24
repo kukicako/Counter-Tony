@@ -1,15 +1,19 @@
 import React from 'react'
 import WhoAreWeText from './WhoAreWe.js'
 import WhoAreWeTitle from './WhoAreWeTitle.js'
-import Guidesidebar from '../guidesidebar.js'
+import GuideSidebar from '../guidesidebar.js'
 
 function WelcomeHome() {
     return(
-        <div className='GuidePage'>
-            <Guidesidebar />
+        <div>
+            <div>
+                <GuideSidebar />
+            </div>
+            <div className='GuidePage'>
             <div className='GuidePageStyling'>
                 <WhoAreWeTitle />
                 <WhoAreWeText />
+                </div>
             </div>
         </div>
     )
