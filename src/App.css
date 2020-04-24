@@ -30,8 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	height: 100%;
-	width: 100%;
+	margin: 0
 }
 ol, ul {
 	list-style: none;
@@ -52,6 +51,7 @@ a{
 	text-decoration: none !important;
 }
 .App{
+	width: 100vw;
 	padding-left: 5%;
 	padding-right: 5%;
 }
@@ -328,8 +328,8 @@ a{
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .GuidePageStyling {

@@ -6,7 +6,7 @@ import Slider from './slider.js'
 
 function Homepage(){
     return(
-        <div>
+        <div className="HomePageContainer">
             <Slider />
             <Guide />
         </div>
