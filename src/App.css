@@ -366,6 +366,13 @@ a{
 	padding: 1.5%;
 }
 
+.GuideTextPara{
+	border: 1px solid lightgray;
+	border-radius: 10px;
+	padding: 1.5%;
+	margin-bottom: 1%;
+}
+
 
 
 

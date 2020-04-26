@@ -2,7 +2,12 @@ import React from 'react';
 
 function UtilityImprovingText () {
     return(
-        <p className="GuideText"> Yes. Yes. </p>
+        <div>
+            <div className="GuideTextPara">
+                <h5>Utility Usage:</h5>
+                <p>Test</p>
+            </div>
+        </div>
     )
 }
 
