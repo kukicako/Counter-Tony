@@ -36,19 +36,19 @@ const Guide = props => {
           </div>
           <div class="image-left">
             <img className="leading-pic" src={drawing} alt="leading pic" />
-            <p className="top-left-text">We have taken the tips and tricks from current FPL players and put them into guides you can learn and use to help you improve!</p>
+            <p className="top-left-text">We have taken the tips and tricks from current FPL players and put them into guides you can learn and use to help you improve! There are over 30+ detailed guides, personalized one on one training with high level players, and a wide array of videos stemming from simple aim mechanics to strategies top teams have employed at the highest levels of Counter Strike.</p>
           </div>
           <div class="image-right">
           <img className="lurk-pic" src={igl1} alt="lurk pic" />
-          <p className="middle-right-text">The orignal inspiration for this site. Read 7 guides specifically created to help other IGLs written by Gatr who's spent the last 15 League Seasons thriving as an IGL!</p>
+          <p className="middle-right-text">The orignal inspiration for this site. In-Game Leading is arguably one of the toughest roles in Counter Strike Global Offensive and can be the difference between your team advancing further or falling just short of the finish line. Its a dying role as it is so difficult to learn and manage, so we offer 7 guides written by Gatr who's spent the last 15 League Seasons thriving as an IGL, specifically created to help other IGLs!</p>
           </div>
           <div class="image-left">
             <img className="entry-pic" src={entry} alt="entry pic" />
-            <p className="middle-left-text">Each role needs to understand it's job. Read specialized guides specifically created for each role to fully understand what is being asked from you on a round to round basis!</p>
+            <p className="middle-left-text">There is a wide array of roles in competitive Counter Strike and each role plays a crucial part to the success of your team and your career. Each role needs to understand it's job and needs to learn how to communicate effectively what they are doing in their role. Read specialized guides specifically created for each role to fully understand what is being asked from you on a round to round basis!</p>
           </div>
           <div class="image-right">
             <img className="sniper-pic" src={sniper} alt="sniper pic" />
-            <p className="bottom-right-text">Make sure to check out our other dozens of guides for anything and everything competitive counter strike related written By Gatr with help from current FPL and MDL+ players!</p>
+            <p className="bottom-right-text">Make sure to check out our other dozens of guides for anything and everything competitive counter strike related written by Gatr with help from current FPL and MDL+ players!</p>
           </div>
       </div>
       <div className="third-section">
