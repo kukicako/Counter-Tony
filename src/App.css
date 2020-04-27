@@ -51,8 +51,8 @@ a{
 	text-decoration: none !important;
 }
 .App{
-	/* width: 100vw; */
-	padding-left: 5%;
+	width: 99vw;
+	padding-left: 6%;
 	padding-right: 5%;
 }
 
