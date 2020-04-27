@@ -58,15 +58,15 @@ export default function CustomizedMenu2() {
                 </StyledMenuItem>
 
                 <StyledMenuItem>
+                  <Link to='/ImprovingUtility'>Utility</Link>
+                </StyledMenuItem>
+
+                <StyledMenuItem>
                   <Link to='/Pugging'>Pugging</Link>
                 </StyledMenuItem>
 
                 <StyledMenuItem>
                   <Link to='/Matchmaking'>Matchmaking</Link>
-                </StyledMenuItem>
-
-                <StyledMenuItem>
-                  <Link to='/ImprovingUtility'>Basic Utility Knowledge</Link>
                 </StyledMenuItem>
 
                 <StyledMenuItem>

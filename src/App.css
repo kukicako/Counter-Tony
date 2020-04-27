@@ -51,8 +51,8 @@ a{
 	text-decoration: none !important;
 }
 .App{
-	/* width: 100vw; */
-	padding-left: 5%;
+	width: 99vw;
+	padding-left: 6%;
 	padding-right: 5%;
 	width:99vw;
 }
@@ -367,6 +367,13 @@ a{
 	border: 1px solid lightgray;
 	border-radius: 10px;
 	padding: 1.5%;
+}
+
+.GuideTextPara{
+	border: 1px solid lightgray;
+	border-radius: 10px;
+	padding: 1.5%;
+	margin-bottom: 1%;
 }
 
 
