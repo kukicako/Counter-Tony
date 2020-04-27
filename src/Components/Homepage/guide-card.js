@@ -9,7 +9,7 @@ import useModal from '../Appointment/useModal'
 import AppointmentModal from '../Appointment/appointmentform'
 import ReactGA from "react-ga";
 import drawing from '../images/Drawing.png'
-import igl1 from '../images/igl1.png'
+import igl1 from '../images/lurk.jpg'
 import tonycreation2 from '../images/tonycreation2.png'
 
 
