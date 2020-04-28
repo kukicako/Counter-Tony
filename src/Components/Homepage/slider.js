@@ -11,7 +11,7 @@ import './slider.scss'
 function Slider () {
     return(
         <Carousel
-        autoPlay={2000}
+        autoPlay={4500}
         animationSpeed={1000}
         infinite
         centered

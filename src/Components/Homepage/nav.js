@@ -12,9 +12,9 @@ const Nav = () => {
            </div>
 
            <div className="NavRight">
-               <a className="StyledP" ><Link className="StyledP" to="/Guides">Guides</Link> </a>
-               <a className="StyledP" href="https://www.w3schools.com">Streams</a>
-               <a className="StyledP" href="/teachers">Teachers</a>
+               <Link className="StyledP" to="/Guides">Guides</Link>
+               <Link className="StyledP" to="/Blogs">Blogs</Link>
+               <Link className="StyledP" to="/teachers">Teachers</Link>
 
            </div>
        </nav>
