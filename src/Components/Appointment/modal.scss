@@ -72,10 +72,14 @@
     height:60%;
 }
 .header{
-  border-bottom:1px solid #35373B;
+  // border-bottom:1px solid #35373B;
   display:flex;
   justify-content: center;
+  font-size: xx-large;
   // color: dodgerblue
+}
+.header-title-module{
+  font-size: 1.5em;
 }
 .appointment-text{
   // border:1px solid red;
@@ -141,11 +145,11 @@
 
 }
 .label-text{
-  padding-top:.5%;
-  padding-bottom:.5%;
+  margin-top:1%;
+  margin-bottom:1%;
   display: flex;
   padding-left:22%;
-  font-size: smaller;
+  font-size: medium;
   // background-color: dodgerblue;
 }
 
