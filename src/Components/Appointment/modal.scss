@@ -23,7 +23,7 @@
 
 .modal {   
   z-index: 100;
-  background: white;
+  background-color: ghostwhite;
   position: relative;
   border-radius: 3%;
   margin: 1.5vh auto;
@@ -38,7 +38,7 @@
 .modal-header {
   display: flex;
   justify-content: flex-end;
-  border-bottom: 1px solid white !important;
+  border-bottom: 1px solid #fff !important;
   padding: 0 !important;
 }
 
@@ -49,7 +49,7 @@
   color: #000;
   cursor: pointer;
   border: none;
-  background: white;
+  // background: #92baac;
   justify-content:flex-end;
   margin-left: 95%
 }
@@ -80,6 +80,7 @@
 }
 .header-title-module{
   font-size: 1.5em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 .appointment-text{
   // border:1px solid red;
