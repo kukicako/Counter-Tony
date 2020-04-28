@@ -12,8 +12,12 @@ import drawing from '../images/Drawing.png'
 import igl1 from '../images/lurk.jpg'
 import tonycreation2 from '../images/tonycreation2.png'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Guide = props => {
+  AOS.init()
   const {isShowing, toggle} = useModal();
   const [modalState, setModalState] = useState();
 
@@ -31,25 +35,71 @@ const Guide = props => {
             component={modalState}
         />
         <div className="four-cards">
+
           <div className="guide-text-homepage-top">
-            <h1 className="guide-text-homepage">Check Out Our Guides:</h1>
+            <h1 className="guide-text-homepage">What Guides do we offer?</h1>
           </div>
-          <div class="image-left">
+
+          <div class="image-left" 
+            data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true">
             <img className="leading-pic" src={drawing} alt="leading pic" />
-            <p className="top-left-text">We have taken the tips and tricks from current FPL players and put them into guides you can learn and use to help you improve! There are over 30+ detailed guides, personalized one on one training with high level players, and a wide array of videos stemming from simple aim mechanics to strategies top teams have employed at the highest levels of Counter Strike.</p>
+            <div className="top-left-text">
+              <h2>Help you Improve individually! </h2>
+              <p>We have taken the tips and tricks from current FPL players and put them into guides you can learn and use to help you improve! There are over 30+ detailed guides, personalized one on one training with high level players, and a wide array of videos stemming from simple aim mechanics to strategies top teams have employed at the highest levels of Counter Strike.</p>
+            </div>
           </div>
-          <div class="image-right">
-          <img className="lurk-pic" src={igl1} alt="lurk pic" />
-          <p className="middle-right-text">The orignal inspiration for this site. In-Game Leading is arguably one of the toughest roles in Counter Strike Global Offensive and can be the difference between your team advancing further or falling just short of the finish line. Its a dying role as it is so difficult to learn and manage, so we offer 7 guides written by Gatr who's spent the last 15 League Seasons thriving as an IGL, specifically created to help other IGLs!</p>
+
+          <div class="image-right"
+          data-aos="fade-right"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true">
+            <img className="lurk-pic" src={igl1} alt="lurk pic" />
+            <div className="middle-right-text">
+              <h2>Learn </h2>
+              <p>The orignal inspiration for this site. In-Game Leading is arguably one of the toughest roles in Counter Strike Global Offensive and can be the difference between your team advancing further or falling just short of the finish line. Its a dying role as it is so difficult to learn and manage, so we offer 7 guides written by Gatr who's spent the last 15 League Seasons thriving as an IGL, specifically created to help other IGLs!</p>
+            </div>
           </div>
-          <div class="image-left">
+
+          <div class="image-left"
+          data-aos="fade-left"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true">
             <img className="entry-pic" src={entry} alt="entry pic" />
-            <p className="middle-left-text">There is a wide array of roles in competitive Counter Strike and each role plays a crucial part to the success of your team and your career. Each role needs to understand it's job and needs to learn how to communicate effectively what they are doing in their role. Read specialized guides specifically created for each role to fully understand what is being asked from you on a round to round basis!</p>
+            <div className="middle-left-text">
+              <h2>Learn </h2>
+              <p >There is a wide array of roles in competitive Counter Strike and each role plays a crucial part to the success of your team and your career. Each role needs to understand it's job and needs to learn how to communicate effectively what they are doing in their role. Read specialized guides specifically created for each role to fully understand what is being asked from you on a round to round basis!</p>
+            </div>
           </div>
-          <div class="image-right">
+
+          <div class="image-right"
+          data-aos="fade-right"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true">
             <img className="sniper-pic" src={sniper} alt="sniper pic" />
-            <p className="bottom-right-text">Make sure to check out our other dozens of guides for anything and everything competitive counter strike related written by Gatr with help from current FPL and MDL+ players!</p>
+            <div className="bottom-right-text">
+              <h2>Learn </h2>
+              <p >Make sure to check out our other dozens of guides for anything and everything competitive counter strike related written by Gatr with help from current FPL and MDL+ players!</p>
+            </div>
           </div>
+
       </div>
       <div className="third-section">
         <div className="guide-text-homepage-bottom">
