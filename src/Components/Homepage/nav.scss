@@ -29,10 +29,28 @@
     color: dodgerblue;
 }
 
-.StyledP{
+// .StyledP{
+//     color: dodgerblue !important;
+//     font-size: large;
+// }
+// .StyledP:hover{
+//     color: lightblue !important
+// }
+.StyledP {
     color: dodgerblue !important;
     font-size: large;
-}
-.StyledP:hover{
-    color: lightblue !important
-}
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .StyledP:hover, .StyledP:focus, .StyledP:active {
+    color: skyblue !important;
+    -webkit-transform: skew(-15deg);
+    transform: skew(-15deg);
+  }
