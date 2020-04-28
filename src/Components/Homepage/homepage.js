@@ -1,7 +1,5 @@
 import React from 'react'
-// import Guide from './footer.js'
 import Guide from './guide-card.js'
-// import Nav from './nav.js'
 import Slider from './slider.js'
 
 function Homepage(){
