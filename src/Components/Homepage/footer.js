@@ -1,62 +1,22 @@
 import React from 'react';
-import styled from 'styled-components';
-// import logo from '../images/logo.png'
 import {Link} from 'react-router-dom';
-
-const NavBar = styled.nav`
-    display:flex;
-    width:100%;
-    height:4.5em;
-    background: white;
-    color: blue;
-    `
-;
-
-
-const NavLeft = styled.div`
-width:33%
-    `
-;
-
-const NavMiddle = styled.p`
-width:33%
-    `
-;
-
-const NavRight = styled.div`
-display:flex;
-flex-wrap:wrap;
-width:33%;
-justify-content: flex-end;
-    `
-;
-
-
-
-const StyledP = styled.p`
-width:20%;
-color: green;
-padding-top:2em;
-padding-left:3%
-    `
-;
+// import logo from '../images/logo.png'
 
 const Nav = () => {
     return (
-        <NavBar>
-           <NavLeft>
-           </NavLeft>
-           <NavMiddle>
-           </NavMiddle>
-           <NavRight>
-               <StyledP><Link to="">Guides</Link> </StyledP>
-               <StyledP><Link to="">Twitter</Link></StyledP>
-               <StyledP><Link to="">Stream</Link></StyledP>
-               <StyledP><Link to="">Gram</Link></StyledP>
-               <StyledP><Link to="">Find Us!</Link></StyledP>
-
-           </NavRight>
-       </NavBar>
+        <div className="footer">
+            <div className="copyright">
+                <p style={{ padding: '0%', margin: '0%' }}>© 2020 CSGO-TEACHER. All Rights Reserved.</p>
+            </div> 
+            <div className="contact-privacy">
+                <div className="priv">
+                    <Link className="cont" to="/teachers">Privacy</Link>
+                </div>
+                <div className="priv">
+                    <Link className="cont" to="/teachers">Contact</Link>
+                </div>
+            </div> 
+        </div>
     );
 }
 

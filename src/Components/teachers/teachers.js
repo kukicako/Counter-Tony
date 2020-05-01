@@ -181,7 +181,7 @@ import Leader from '../images/leader.jpg'
 
                                     <div className="box-desc">
                                         <div className="timezone">
-                                            <p>Bat</p>
+                                            <p>Corner</p>
                                         </div>
                                     </div>
                                 </div>
@@ -229,17 +229,7 @@ import Leader from '../images/leader.jpg'
                         </div>
 
                         <div class="col-75">
-                            <input type="text" name="name" placeholder="Anthony Hagopian" />
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-25">
-                            <label >Gamer-Tag</label>
-                        </div>
-
-                        <div class="col-75">
-                            <input type="text" name="gamertag" placeholder="dawn" />
+                            <input type="text" name="name" placeholder='Anthony "dawn" Hagopian' />
                         </div>
                     </div>
                     
@@ -270,7 +260,7 @@ import Leader from '../images/leader.jpg'
                         </div>
 
                         <div class="col-75">
-                            <input type="text" name="steamID" placeholder="https:/steamcommunity.com/profiles/76561198149671515" />
+                            <input type="text" name="steam" placeholder="https:/steamcommunity.com/profiles/76561198149671515" />
                         </div>
                     </div>
 

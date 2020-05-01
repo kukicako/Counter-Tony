@@ -339,6 +339,45 @@ a{
 	
 
   }
+  .footer{
+	color:black;
+	height: 10vh;
+	/* border: 1px solid red; */
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	/* align-items: flex-end; */
+	font-size: .8em;
+  }
+  .copyright{
+	  /* border:1px solid blue; */
+	  height:75%;
+	  width:100%;
+	  display:flex;
+	  justify-content: center;
+	  align-items: flex-end;
+  }
+  .contact-privacy{
+	  
+	  display:flex;
+	  /* flex-direction: row; */
+  }
+  .priv{
+	/* border:1px solid blue; */
+	  display:flex;
+	  justify-content: center;
+	  align-items: center;
+	  font-size: .8em;
+	  margin-left:8%;
+	  color:#5d79ae;
+	  
+  }
+  .cont{
+	  color:#5d79ae;
+  }
+  .cont:hover{
+	color:#FEBD52;
+  }
 .names{
 	/* border: 2px solid green; */
 	width:29vh;
