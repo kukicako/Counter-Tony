@@ -4,9 +4,6 @@ import sniper from '../images/sniper.jpg'
 import entry from '../images/entry.jpg'
 import youtube from '../images/dust2youtube.jpg'
 import inferno from '../images/inferno.jpg'
-import Modal from '../Appointment/modal'
-import useModal from '../Appointment/useModal'
-import AppointmentModal from '../Appointment/appointmentform'
 import ReactGA from "react-ga";
 import drawing from '../images/Drawing.png'
 import igl1 from '../images/lurk.jpg'
@@ -18,22 +15,8 @@ import 'aos/dist/aos.css';
 
 const Guide = props => {
   AOS.init()
-  const {isShowing, toggle} = useModal();
-  const [modalState, setModalState] = useState();
-
-
-  const SmocClicked = link => {
-    ReactGA.event({ category: 'Data', 
-    action: `clicked ${link} link` });
-}
-  
     return(
       <div className = "Guide-cards">
-        <Modal
-            isShowing={isShowing}
-            hide={toggle}
-            component={modalState}
-        />
         <div className="four-cards">
 
           <div className="guide-text-homepage-top">
@@ -116,9 +99,7 @@ const Guide = props => {
           {/*  THE APPOINTMENT BUTTON CARD */}
 
           <div class="header-appointment-card">
-              
-                  <Link onClick={() => SmocClicked (setModalState(<AppointmentModal/>), toggle())}  style={{cursor: "pointer"}}>
-                  <img className="appointment-image" src={inferno} alt="appointment"/></Link>   
+              <a href="/teachers" className="youtube-button"><img className="appointment-image" src={inferno} alt="appointment"/></a>  
             
           </div>
 
