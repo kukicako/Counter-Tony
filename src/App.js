@@ -35,8 +35,10 @@ import IGLingHome from './Components/Guides/UnderstandingYourRole/iglhome'
 
 // Teachers
 import Teachers from './Components/teachers/teachers'
+import Redir from './Components/teachers/teacher-redir'
 
 function App() {
+  
   return (
     <Router>
       <div className="App">
@@ -73,6 +75,7 @@ function App() {
 
         {/* Teachers */}
         <Route exact path="/teachers" component={Teachers} />
+        <Route exact path="/teachers-red" component={Redir} />
 
         <Footer />
       </div>

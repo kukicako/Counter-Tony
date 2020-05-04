@@ -24,9 +24,6 @@ import axios from 'axios'
         )
       }
 
-      const thanks = () => {
-        alert('Thanks for submitting!');
-   }
 
     const onSubmit = e =>{
         e.preventDefault()
@@ -35,7 +32,7 @@ import axios from 'axios'
         .post('http://localhost:5000/api/applications/', apply)
         .then(res => {
             console.log(res, "GOT EM")
-            props.history.push('/teachers')
+            props.history.push('/teachers-red')
         })
         .catch(err => console.log(err, "error"))
     }
@@ -265,7 +262,7 @@ import axios from 'axios'
                         </div>
 
                         <div class="col-75">
-                            <input type="text" value={apply.name} name="name" placeholder='Anthony "dawn" Hagopian' onChange={handleChange}/>
+                            <input type="text" value={apply.name} name="name" placeholder='Anthony "dawn" Hagopian' onChange={handleChange} required/>
                         </div>
                     </div>
                     
@@ -275,7 +272,7 @@ import axios from 'axios'
                         </div>
 
                         <div class="col-75">
-                            <input type="text" name="email" value={apply.email} placeholder="johndoe@123.com" onChange={handleChange} />
+                            <input type="text" name="email" value={apply.email} placeholder="johndoe@123.com" onChange={handleChange} required/>
                         </div>
                     </div>
 
@@ -285,7 +282,7 @@ import axios from 'axios'
                         </div>
 
                         <div class="col-75">
-                            <input type="text" name="rank" value={apply.rank} placeholder="MM/FACEIT/ESEA" onChange={handleChange}/>
+                            <input type="text" name="rank" value={apply.rank} placeholder="MM/FACEIT/ESEA" onChange={handleChange} required/>
                         </div>
                     </div>
 
@@ -296,7 +293,7 @@ import axios from 'axios'
                         </div>
 
                         <div class="col-75">
-                            <input type="text" name="steam" value={apply.steam} placeholder="https:/steamcommunity.com/profiles/76561198149671515" onChange={handleChange}/>
+                            <input type="text" name="steam" value={apply.steam} placeholder="https:/steamcommunity.com/profiles/76561198149671515" onChange={handleChange} required/>
                         </div>
                     </div>
 
@@ -310,7 +307,7 @@ import axios from 'axios'
                     </div>
 
                     <div class="row">
-                        <button onClick={thanks} className="but"> Submit </button>
+                        <button className="but"> Submit </button>
                     </div>
                 </form>
             </div>
