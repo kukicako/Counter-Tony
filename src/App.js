@@ -39,6 +39,7 @@ import Teachers from './Components/teachers/teachers'
 
 // Blog
 import Blog from './Components/Blog/BlogHome'
+import BlogHomePage2 from './Components/Blog/BlogHomePage2'
 
 // Blogs
 import Eleague from './Components/Blog/Blogs/eleaguemajor'
@@ -81,6 +82,7 @@ function App() {
 
         {/* Blog */}
         <Route exact path="/Blog" component={Blog} />
+        <Route exact path="/Blog/Page2" component={BlogHomePage2} />
 
         {/* Blogs */}
         <Route exact path="/Blogs/EleagueMajor2018" component={Eleague} />

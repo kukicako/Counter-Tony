@@ -4,7 +4,7 @@ import './blog.scss'
 import testimage123321 from '../images/testimage123321.jpg'
 import { Link } from 'react-router-dom'
 
-function Blog() {
+function BlogHomePage2() {
     return(
         <div>
 
@@ -103,4 +103,4 @@ function Blog() {
     )
 }
 
-export default Blog
+export default BlogHomePage2

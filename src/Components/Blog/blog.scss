@@ -66,3 +66,27 @@
     color: grey;
     font-size: 1.25rem;
 }
+
+.BlogButton{
+    display: flex;
+    justify-content: center;
+    i {
+        font-size: .5vw; 
+        margin-right: 0.1%;
+        margin-top: .5%
+    }
+}
+
+.BlogPageButton{
+    width: 2vw;
+    border: none;
+    &:hover{
+        background-color: lightgray;
+    }
+    &:active{
+        background-color: lightgray;
+    }
+    &:focus{
+        background-color: lightgray;
+    }
+}
