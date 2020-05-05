@@ -23,13 +23,14 @@
 
 .modal {   
   z-index: 100;
-  background-color: ghostwhite;
+  background-color: white;
   position: relative;
-  border-radius: 3%;
+  border-radius:3%;
   margin: 1.5vh auto;
   max-width: 55vw !important;
   padding: 1rem !important;
-  max-height: 47vw !important;
+  max-height: 20vw !important;
+  margin-top:10%;
   margin-left: 23%;
   display: block !important; 
 
@@ -49,21 +50,82 @@
   color: #000;
   cursor: pointer;
   border: none;
-  // background: #92baac;
+  background: white;
   justify-content:flex-end;
   margin-left: 95%
 }
 
-// button {
-//   font-size: .9rem;
-//   font-weight: 700;
-//   border: none;
-//   border-radius: 3px;
-//   padding: .3rem 1rem;
-//   margin-left: .5rem;
-// }
 
-.button-default {
-  background: #247BA0;
-  color: #fff;
+.contact-container{
+  // border:1px solid red;
+  height:85%;
+  display:flex;
+  justify-content: space-between;
+}
+.muamer{
+  border-right:5px solid #5d79ae;
+  height:100%;
+  width:49%;
+}
+.img-container{
+  // border:1px solid green;
+  height:40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont-img{
+  height:100px;
+  width: 100px;
+  border-radius: 100%;
+  box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+}
+.cont-title{
+  // border:1px solid red;
+  height:15%;
+  display:flex;
+  justify-content: center;
+  // font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.name{
+  font-size: 2.5rem;
+  font-weight: 1000;
+}
+.role{
+  // border:1px solid black;
+  height:30%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.role-text{
+  font-size: 1.3em;
+}
+.mail{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.mail-text{
+  font-size: smaller;
+}
+.david{
+  border-left:5px solid #5d79ae;
+  height:100%;
+  width:49%
+}
+.number{
+  margin-top:1%;
+  display:flex;
+  justify-content: center;
+}
+.my-number{
+  font-size: small;
+}
+.sexy-bar{
+  border:1px solid #FEBD52;
+  height:100%;
+  width:.5%;
+  background: #FEBD52;
 }
