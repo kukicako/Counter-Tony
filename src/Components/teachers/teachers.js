@@ -25,7 +25,8 @@ import axios from 'axios'
       }
 
 
-    const onSubmit = e =>{
+    
+      const onSubmit = e =>{
         e.preventDefault()
         console.log(apply)
         axios
@@ -34,8 +35,9 @@ import axios from 'axios'
             console.log(res, "GOT EM")
             props.history.push('/teachers-red')
         })
-        .catch(err => console.log(err, "error"))
+        .catch(err => alert("Submission did not go through."))
     }
+
 
     return (
         <div className="teachers">

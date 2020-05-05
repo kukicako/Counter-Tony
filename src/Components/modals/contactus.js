@@ -34,7 +34,7 @@ const ContactUs = () => {
                     <h1 className="name">David Downes</h1>
                 </div>
                 <div className="role">
-                    <h3 class="role-text">Full Stack Developer/Author</h3>
+                    <h3 class="role-text">Full Stack Developer/Writer</h3>
                 </div>
                 <div className="mail">
                     <a href="mailto:kukicako1@gmail.com?subject = Feedbackbody = Message" className="mail-text">david@mail.com</a>
