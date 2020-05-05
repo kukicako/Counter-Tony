@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Guides from './Components/Guides/guides.js'
 import Nav from './Components/Homepage/nav.js'
 import Footer from './Components/Homepage/footer.js'
+import ScrollToTop from 'react-router-scroll-top'
 
 // Guide Introduction
 import WelcomeHome from './Components/Guides/Introduction/WelcomeHome'
@@ -37,10 +38,18 @@ import IGLingHome from './Components/Guides/UnderstandingYourRole/iglhome'
 import Teachers from './Components/teachers/teachers'
 import Redir from './Components/teachers/teacher-redir'
 
+// Blog
+import Blog from './Components/Blog/BlogHome'
+import BlogHomePage2 from './Components/Blog/BlogHomePage2'
+
+// Blogs
+import Eleague from './Components/Blog/Blogs/eleaguemajor'
+
 function App() {
   
   return (
     <Router>
+      <ScrollToTop>
       <div className="App">
         <Nav />
         <Route exact path="/" component={Homepage} />
@@ -65,9 +74,6 @@ function App() {
         <Route exact path="/Entry" component={EntryingHome} />
         <Route exact path="/IGL" component={IGLingHome} />
 
-
-
-
         {/* IGL Guides */}
         <Route exact path="/IGLIntroduction" component={IGLHome} />
         <Route exact path="/RoundAwareness" component={RoundAwarenessHome} />
@@ -77,8 +83,16 @@ function App() {
         <Route exact path="/teachers" component={Teachers} />
         <Route exact path="/teachers-red" component={Redir} />
 
+        {/* Blog */}
+        <Route exact path="/Blog" component={Blog} />
+        <Route exact path="/Blog/Page2" component={BlogHomePage2} />
+
+        {/* Blogs */}
+        <Route exact path="/Blogs/EleagueMajor2018" component={Eleague} />
+
         <Footer />
       </div>
+      </ScrollToTop>
     </Router>
     
     

@@ -13,7 +13,7 @@ const Nav = () => {
 
            <div className="NavRight">
                <Link className="StyledP" to="/Guides">Guides</Link>
-               <Link className="StyledP" to="/Blogs">Blogs</Link>
+               <Link className="StyledP" to="/Blog">Blogs</Link>
                <Link className="StyledP" to="/teachers">Teachers</Link>
 
            </div>
