@@ -1,9 +1,44 @@
-import React from 'react'; 
+import React, {useState} from 'react'; 
 import './teachers.scss'
 import Example from '../images/youtubePic.png'
 import Leader from '../images/leader.jpg'
+import axios from 'axios'
 
  const Teachers = props => {
+
+    const [apply, setApply] = useState({
+        name: '',
+        email: '', 
+        rank: '',
+        steam: '',
+        questions: '',
+        
+      });
+
+    const handleChange = e => {
+        setApply(
+          {
+            ...apply,
+            [e.target.name]: e.target.value
+          }
+        )
+      }
+
+
+    
+      const onSubmit = e =>{
+        e.preventDefault()
+        console.log(apply)
+        axios
+        .post('http://localhost:5000/api/applications/', apply)
+        .then(res => {
+            console.log(res, "GOT EM")
+            props.history.push('/teachers-red')
+        })
+        .catch(err => alert("Submission did not go through."))
+    }
+
+
     return (
         <div className="teachers">
             <div class="top-container">
@@ -222,14 +257,14 @@ import Leader from '../images/leader.jpg'
         
     
             <div class="container">
-                <form action="action_page.php">
+                <form onSubmit={onSubmit}>
                     <div class="row">
                         <div class="col-25">
                             <label>Name</label>
                         </div>
 
                         <div class="col-75">
-                            <input type="text" name="name" placeholder='Anthony "dawn" Hagopian' />
+                            <input type="text" value={apply.name} name="name" placeholder='Anthony "dawn" Hagopian' onChange={handleChange} required/>
                         </div>
                     </div>
                     
@@ -239,7 +274,7 @@ import Leader from '../images/leader.jpg'
                         </div>
 
                         <div class="col-75">
-                            <input type="text" name="email" placeholder="johndoe@123.com" />
+                            <input type="text" name="email" value={apply.email} placeholder="johndoe@123.com" onChange={handleChange} required/>
                         </div>
                     </div>
 
@@ -249,7 +284,7 @@ import Leader from '../images/leader.jpg'
                         </div>
 
                         <div class="col-75">
-                            <input type="text" name="rank" placeholder="MM/FACEIT/ESEA" />
+                            <input type="text" name="rank" value={apply.rank} placeholder="MM/FACEIT/ESEA" onChange={handleChange} required/>
                         </div>
                     </div>
 
@@ -260,7 +295,7 @@ import Leader from '../images/leader.jpg'
                         </div>
 
                         <div class="col-75">
-                            <input type="text" name="steam" placeholder="https:/steamcommunity.com/profiles/76561198149671515" />
+                            <input type="text" name="steam" value={apply.steam} placeholder="https:/steamcommunity.com/profiles/76561198149671515" onChange={handleChange} required/>
                         </div>
                     </div>
 
@@ -269,12 +304,12 @@ import Leader from '../images/leader.jpg'
                         <label>Questions/Concerns</label>
                         </div>
                         <div class="col-75">
-                        <textarea id="subject" name="questions" placeholder="..."></textarea>
+                        <textarea id="subject" name="questions" value={apply.questions} placeholder="..." onChange={handleChange} ></textarea>
                         </div>
                     </div>
 
                     <div class="row">
-                        <input type="button" value="Submit" />
+                        <button className="but"> Submit </button>
                     </div>
                 </form>
             </div>

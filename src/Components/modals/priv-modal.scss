@@ -1,0 +1,63 @@
+.priv-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    opacity: .5;
+  }
+  
+  .priv-modal-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+    // max-height: 80vw !important;
+  }
+  
+  .priv-modal {   
+    z-index: 100;
+    background-color: white !important;
+    position: relative;
+    border-radius:3%;
+    margin: 1vh auto;
+    max-width: 55vw !important;
+    padding: 1rem !important;
+    // max-height: 80vw !important;
+    display: block !important; 
+    height: 98%;
+  
+  }
+  
+  .priv-modal-header {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #fff !important;
+    padding: 0 !important;
+  }
+  
+  .priv-modal-close-button {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    cursor: pointer;
+    border: none;
+    background: white;
+    justify-content:flex-end;
+    margin-left: 95%
+  }
+  div.gfg { 
+    padding:5%;
+    width: 97%; 
+    height: 97%; 
+    overflow: auto; 
+    text-align:justify; 
+} 
