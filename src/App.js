@@ -15,19 +15,15 @@ import MatchmakingHome from './Components/Guides/Improving/MatchmakingHome'
 import UtilityImprovingHome from './Components/Guides/Improving/UtilityImprovingHome'
 import LeagueHome from './Components/Guides/Improving/LeagueHome'
 
+// AWP Guides
+import AwpIntroHome from './Components/Guides/Awping/AwpIntroHome'
+import AwarenessAwpHome from './Components/Guides/Awping/AwarenessAwpHome'
+import AnglesAwpHome from './Components/Guides/Awping/AnglesAwpHome'
 
 // IGL Guides
 import IGLHome from './Components/Guides/InGameLeading/introiglhome'
 import RoundAwarenessHome from './Components/Guides/InGameLeading/roundawarenesshome'
 import InGameLeadingHome from './Components/Guides/InGameLeading/ingameleadinghome'
-
-// Understanding Your Role
-
-import AwpHome from './Components/Guides/UnderstandingYourRole/awpinghome'
-import SupportHome from './Components/Guides/UnderstandingYourRole/supporthome'
-import LurkerHome from './Components/Guides/UnderstandingYourRole/lurkinghome'
-import EntryingHome from './Components/Guides/UnderstandingYourRole/entryhome'
-import IGLingHome from './Components/Guides/UnderstandingYourRole/iglhome'
 
 // Teachers
 import Teachers from './Components/teachers/teachers'
@@ -57,17 +53,15 @@ function App() {
         <Route exact path="/ImprovingUtility" component={UtilityImprovingHome} />
         <Route exact path="/League" component={LeagueHome} />
 
-        {/* Understanding Your Role */}
-        <Route exact path="/AWP" component={AwpHome} />
-        <Route exact path="/Support" component={SupportHome} />
-        <Route exact path="/Lurker" component={LurkerHome} />
-        <Route exact path="/Entry" component={EntryingHome} />
-        <Route exact path="/IGL" component={IGLingHome} />
-
         {/* IGL Guides */}
         <Route exact path="/IGLIntroduction" component={IGLHome} />
         <Route exact path="/RoundAwareness" component={RoundAwarenessHome} />
         <Route exact path="/Leader" component={InGameLeadingHome} />
+
+        {/* AWP Guides */}
+        <Route exact path="/AWPIntroduction" component={AwpIntroHome} />
+        <Route exact path="/AWPAwareness" component={AwarenessAwpHome} />
+        <Route exact path="/AWPAngles" component={AnglesAwpHome} />
 
         {/* Teachers */}
         <Route exact path="/teachers" component={Teachers} />
