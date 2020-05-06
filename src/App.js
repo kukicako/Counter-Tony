@@ -8,11 +8,6 @@ import Nav from './Components/Homepage/nav.js'
 import Footer from './Components/Homepage/footer.js'
 import ScrollToTop from 'react-router-scroll-top'
 
-// Guide Introduction
-import WelcomeHome from './Components/Guides/Introduction/WelcomeHome'
-import LearnHome from './Components/Guides/Introduction/LearnHome'
-import WhoAreWeHome from './Components/Guides/Introduction/WhoAreWeHome'
-
 // Improvement Guides
 import AimingHome from './Components/Guides/Improving/AimingHome'
 import PuggingHome from './Components/Guides/Improving/PuggingHome'
@@ -54,11 +49,6 @@ function App() {
         <Nav />
         <Route exact path="/" component={Homepage} />
         <Route exact path="/Guides" component={Guides} />
-
-        {/* Site Introduction Guides */}
-        <Route exact path="/Welcome" component={WelcomeHome} />
-        <Route exact path="/Learn" component={LearnHome} />
-        <Route exact path="/WhoAreWe" component={WhoAreWeHome} />
 
         {/* Improvement Guides */}
         <Route exact path="/Aiming" component={AimingHome} />
