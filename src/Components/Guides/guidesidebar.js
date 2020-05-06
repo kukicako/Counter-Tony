@@ -13,13 +13,6 @@ function GuideSidebar() {
     return(
         <div className="GuideNavBar">
             <CustomizedMenu1 />
-            <CustomizedMenu2 />
-            <CustomizedMenu3 />
-            <CustomizedMenu4 />
-            <CustomizedMenu5 />
-            <CustomizedMenu6 />
-            <CustomizedMenu7 />
-            <CustomizedMenu8 />
         </div>
     )
 }

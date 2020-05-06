@@ -1,71 +1,79 @@
 import React from 'react';
-import { withStyles } from '@material-ui/core/styles';
-import Button from '@material-ui/core/Button';
-import Menu from '@material-ui/core/Menu';
-import MenuItem from '@material-ui/core/MenuItem';
-import '../guidenav.scss'
+import './guidesnavbar.scss'
 import { Link } from 'react-router-dom'
 
-const StyledMenu = withStyles({
-  paper: {
-    border: '1px solid #d3d4d5',
-  },
-})((props) => (
-  <Menu
-    elevation={0}
-    getContentAnchorEl={null}
-    anchorOrigin={{
-      vertical: 'bottom',
-      horizontal: 'center',
-    }}
-    transformOrigin={{
-      vertical: 'top',
-      horizontal: 'center',
-    }}
-    {...props}
-  />
-));
+function CustomizedGuideSideBar() {
+  return(
+    <div className="GuideNavBar">
 
-const StyledMenuItem = withStyles((theme) => ({
-  root: {
-    // '&:focus': {
-    //   backgroundColor: theme.palette.primary.main,
-    //   '& .MuiListItemIcon-root, & .MuiListItemText-primary': {
-    //     color: theme.palette.common.white,
-    //   },
-    // },
-  },
-}))(MenuItem);
+    <div className='dropdown'>
+      <button className="dropbtn">INDIVIDUAL IMPROVEMENT</button>
+      <div className="dropdown-content">
+        <Link to='/Aiming'><a href="#">Aiming</a></Link>
+        <Link to='/ImprovingUtility'><a href="#">Utility</a></Link>
+        <Link to='/Pugging'><a href="#">Pugging</a></Link>
+        <Link to='/Matchmaking'><a href="#">Matchmaking</a></Link>
+        <Link to='/League'><a href="#">ESEA League Play</a></Link>
+      </div>
+    </div>
 
-export default function CustomizedMenu1() {
-  const [anchorEl, setAnchorEl] = React.useState(null);
+    <div className='dropdown'>
+      <button className="dropbtn">Entry Fragging</button>
+      <div className="dropdown-content">
+        <Link to='/Aiming'><a href="#">Aiming</a></Link>
+        <Link to='/ImprovingUtility'><a href="#">Utility</a></Link>
+        <Link to='/Pugging'><a href="#">Pugging</a></Link>
+        <Link to='/Matchmaking'><a href="#">Matchmaking</a></Link>
+        <Link to='/League'><a href="#">ESEA League Play</a></Link>
+      </div>
+    </div>
 
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
+    <div className='dropdown'>
+      <button className="dropbtn">Support Player</button>
+      <div className="dropdown-content">
+        <Link to='/Aiming'><a href="#">Aiming</a></Link>
+        <Link to='/ImprovingUtility'><a href="#">Utility</a></Link>
+        <Link to='/Pugging'><a href="#">Pugging</a></Link>
+        <Link to='/Matchmaking'><a href="#">Matchmaking</a></Link>
+        <Link to='/League'><a href="#">ESEA League Play</a></Link>
+      </div>
+    </div>
 
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
+    <div className='dropdown'>
+      <button className="dropbtn">Lurking</button>
+      <div className="dropdown-content">
+        <Link to='/Aiming'><a href="#">Aiming</a></Link>
+        <Link to='/ImprovingUtility'><a href="#">Utility</a></Link>
+        <Link to='/Pugging'><a href="#">Pugging</a></Link>
+        <Link to='/Matchmaking'><a href="#">Matchmaking</a></Link>
+        <Link to='/League'><a href="#">ESEA League Play</a></Link>
+      </div>
+    </div>
 
-  return (
-        <div>
-            <Button className="GuideBarButton" aria-controls="customized-menu" aria-haspopup="true" variant="contained" color="primary" onClick={handleClick}>Introduction</Button>
-            <StyledMenu id="customized-menu" anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleClose}>
+    <div className='dropdown'>
+      <button className="dropbtn">In Game Leading</button>
+      <div className="dropdown-content">
+        <Link to='/Aiming'><a href="#">Aiming</a></Link>
+        <Link to='/ImprovingUtility'><a href="#">Utility</a></Link>
+        <Link to='/Pugging'><a href="#">Pugging</a></Link>
+        <Link to='/Matchmaking'><a href="#">Matchmaking</a></Link>
+        <Link to='/League'><a href="#">ESEA League Play</a></Link>
+      </div>
+    </div>
 
-                <StyledMenuItem>
-                  <Link to='/Welcome'>Welcome To CSGOTeacher</Link>
-                </StyledMenuItem>
+    <div className='dropdown'>
+      <button className="dropbtn">Main AWPer</button>
+      <div className="dropdown-content">
+        <Link to='/Aiming'><a href="#">Aiming</a></Link>
+        <Link to='/ImprovingUtility'><a href="#">Utility</a></Link>
+        <Link to='/Pugging'><a href="#">Pugging</a></Link>
+        <Link to='/Matchmaking'><a href="#">Matchmaking</a></Link>
+        <Link to='/League'><a href="#">ESEA League Play</a></Link>
+      </div>
+    </div>
 
-                <StyledMenuItem>
-                  <Link to='/WhoAreWe'>Who Are We?</Link>
-                </StyledMenuItem>
-
-                <StyledMenuItem>
-                <Link to='/Learn'>What you will learn.</Link>
-                </StyledMenuItem>
-
-            </StyledMenu>
-        </div>
-  );
+    </div>
+  )
 }
+
+export default CustomizedGuideSideBar;
