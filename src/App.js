@@ -15,6 +15,14 @@ import MatchmakingHome from './Components/Guides/Improving/MatchmakingHome'
 import UtilityImprovingHome from './Components/Guides/Improving/UtilityImprovingHome'
 import LeagueHome from './Components/Guides/Improving/LeagueHome'
 
+// Entry Guides
+import IntroductionEntryHome from './Components/Guides/Entry/IntroductionEntryHome'
+import UnderstandingEntryHome from './Components/Guides/Entry/UnderstandingEntryHome'
+import AnglesEntryHome from './Components/Guides/Entry/AnglesEntryHome'
+import CommunicationEntryHome from './Components/Guides/Entry/CommunicationEntryHome'
+import SpacingEntryHome from './Components/Guides/Entry/SpacingEntryHome'
+import TimingEntryHome from './Components/Guides/Entry/TimingEntryHome'
+
 // AWP Guides
 import AwpIntroHome from './Components/Guides/Awping/AwpIntroHome'
 import AwarenessAwpHome from './Components/Guides/Awping/AwarenessAwpHome'
@@ -52,6 +60,14 @@ function App() {
         <Route exact path="/Matchmaking" component={MatchmakingHome} />
         <Route exact path="/ImprovingUtility" component={UtilityImprovingHome} />
         <Route exact path="/League" component={LeagueHome} />
+
+        {/* Entry Guides */}
+        <Route exact path="/IntroductionEntry" component={IntroductionEntryHome} />
+        <Route exact path="/UnderstandingEntry" component={UnderstandingEntryHome} />
+        <Route exact path="/AnglesEntry" component={AnglesEntryHome} />
+        <Route exact path="/CommunicationEntry" component={CommunicationEntryHome} />
+        <Route exact path="/SpacingEntry" component={SpacingEntryHome} />
+        <Route exact path="/TimingEntry" component={TimingEntryHome} />
 
         {/* IGL Guides */}
         <Route exact path="/IGLIntroduction" component={IGLHome} />
