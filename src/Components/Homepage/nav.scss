@@ -24,7 +24,8 @@
     display:flex;
     flex-wrap:wrap;
     width:20%;
-    justify-content:space-evenly;
+    justify-content:flex-end;
+    // margin-left: 5%;
     align-items: center;
     color: #5d79ae;
 }
@@ -39,6 +40,7 @@
 .StyledP {
     color: #5d79ae !important;
     font-size: x-large;
+    margin-left:10%;
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);

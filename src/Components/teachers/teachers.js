@@ -30,7 +30,7 @@ import axios from 'axios'
         e.preventDefault()
         console.log(apply)
         axios
-        .post('http://localhost:5000/api/applications/', apply)
+        .post('https://counter-tony.herokuapp.com/api/applications', apply)
         .then(res => {
             console.log(res, "GOT EM")
             props.history.push('/teachers-red')
