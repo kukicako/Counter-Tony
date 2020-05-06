@@ -91,9 +91,9 @@ const Guide = props => {
         <div className="bottom-cards">
           
             <div class="youtube-card">
-              <a href="https://www.youtube.com/channel/UCUdRyJpHQSjolXMi94PLa_Q/featured" className="youtube-button">
+              <Link to="https://www.youtube.com/channel/UCUdRyJpHQSjolXMi94PLa_Q/featured" className="youtube-button">
                 <img className="youtube-image"src={youtube} alt="youtube" />
-              </a>
+              </Link>
             </div>
 
           {/*  THE APPOINTMENT BUTTON CARD */}
