@@ -9,18 +9,21 @@
 .NavLeft{
     display:flex;
     flex-wrap:wrap;
-    width:80%
+    align-items: center;
+    width:80%;
+    // border:1px solid red;
 }
 
 .NavTitle{
     font-size: xx-large;
-    padding-top:8.5%;
     text-decoration: none;
-    color:#5d79ae
+    color:#5d79ae;
+    // border:1px solid blue;
  }
 
 
 .NavRight{
+    // border:1px solid red;
     display:flex;
     flex-wrap:wrap;
     width:20%;
