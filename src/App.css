@@ -464,7 +464,7 @@ a{
 		height: 15%;
 		background-image: none;
 		/* border: 2px solid purple; */
-		margin-top:55%;
+		margin-top:90%;
 	}
 	.bottom-cards{
 		/* border: 2px solid purple; */
@@ -514,7 +514,7 @@ a{
   @media only screen and (max-width: 500px) {
 	  .footer{
 		  height: 3%;
-		  padding-bottom: 8%;
+		  padding-bottom: 3%;
 	  }
   }
 
