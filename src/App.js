@@ -8,11 +8,6 @@ import Nav from './Components/Homepage/nav.js'
 import Footer from './Components/Homepage/footer.js'
 import ScrollToTop from 'react-router-scroll-top'
 
-// Guide Introduction
-import WelcomeHome from './Components/Guides/Introduction/WelcomeHome'
-import LearnHome from './Components/Guides/Introduction/LearnHome'
-import WhoAreWeHome from './Components/Guides/Introduction/WhoAreWeHome'
-
 // Improvement Guides
 import AimingHome from './Components/Guides/Improving/AimingHome'
 import PuggingHome from './Components/Guides/Improving/PuggingHome'
@@ -20,19 +15,23 @@ import MatchmakingHome from './Components/Guides/Improving/MatchmakingHome'
 import UtilityImprovingHome from './Components/Guides/Improving/UtilityImprovingHome'
 import LeagueHome from './Components/Guides/Improving/LeagueHome'
 
+// Entry Guides
+import IntroductionEntryHome from './Components/Guides/Entry/IntroductionEntryHome'
+import UnderstandingEntryHome from './Components/Guides/Entry/UnderstandingEntryHome'
+import AnglesEntryHome from './Components/Guides/Entry/AnglesEntryHome'
+import CommunicationEntryHome from './Components/Guides/Entry/CommunicationEntryHome'
+import SpacingEntryHome from './Components/Guides/Entry/SpacingEntryHome'
+import TimingEntryHome from './Components/Guides/Entry/TimingEntryHome'
+
+// AWP Guides
+import AwpIntroHome from './Components/Guides/Awping/AwpIntroHome'
+import AwarenessAwpHome from './Components/Guides/Awping/AwarenessAwpHome'
+import AnglesAwpHome from './Components/Guides/Awping/AnglesAwpHome'
 
 // IGL Guides
 import IGLHome from './Components/Guides/InGameLeading/introiglhome'
 import RoundAwarenessHome from './Components/Guides/InGameLeading/roundawarenesshome'
 import InGameLeadingHome from './Components/Guides/InGameLeading/ingameleadinghome'
-
-// Understanding Your Role
-
-import AwpHome from './Components/Guides/UnderstandingYourRole/awpinghome'
-import SupportHome from './Components/Guides/UnderstandingYourRole/supporthome'
-import LurkerHome from './Components/Guides/UnderstandingYourRole/lurkinghome'
-import EntryingHome from './Components/Guides/UnderstandingYourRole/entryhome'
-import IGLingHome from './Components/Guides/UnderstandingYourRole/iglhome'
 
 // Teachers
 import Teachers from './Components/teachers/teachers'
@@ -55,11 +54,6 @@ function App() {
         <Route exact path="/" component={Homepage} />
         <Route exact path="/Guides" component={Guides} />
 
-        {/* Site Introduction Guides */}
-        <Route exact path="/Welcome" component={WelcomeHome} />
-        <Route exact path="/Learn" component={LearnHome} />
-        <Route exact path="/WhoAreWe" component={WhoAreWeHome} />
-
         {/* Improvement Guides */}
         <Route exact path="/Aiming" component={AimingHome} />
         <Route exact path="/Pugging" component={PuggingHome} />
@@ -67,17 +61,23 @@ function App() {
         <Route exact path="/ImprovingUtility" component={UtilityImprovingHome} />
         <Route exact path="/League" component={LeagueHome} />
 
-        {/* Understanding Your Role */}
-        <Route exact path="/AWP" component={AwpHome} />
-        <Route exact path="/Support" component={SupportHome} />
-        <Route exact path="/Lurker" component={LurkerHome} />
-        <Route exact path="/Entry" component={EntryingHome} />
-        <Route exact path="/IGL" component={IGLingHome} />
+        {/* Entry Guides */}
+        <Route exact path="/IntroductionEntry" component={IntroductionEntryHome} />
+        <Route exact path="/UnderstandingEntry" component={UnderstandingEntryHome} />
+        <Route exact path="/AnglesEntry" component={AnglesEntryHome} />
+        <Route exact path="/CommunicationEntry" component={CommunicationEntryHome} />
+        <Route exact path="/SpacingEntry" component={SpacingEntryHome} />
+        <Route exact path="/TimingEntry" component={TimingEntryHome} />
 
         {/* IGL Guides */}
         <Route exact path="/IGLIntroduction" component={IGLHome} />
         <Route exact path="/RoundAwareness" component={RoundAwarenessHome} />
         <Route exact path="/Leader" component={InGameLeadingHome} />
+
+        {/* AWP Guides */}
+        <Route exact path="/AWPIntroduction" component={AwpIntroHome} />
+        <Route exact path="/AWPAwareness" component={AwarenessAwpHome} />
+        <Route exact path="/AWPAngles" component={AnglesAwpHome} />
 
         {/* Teachers */}
         <Route exact path="/teachers" component={Teachers} />

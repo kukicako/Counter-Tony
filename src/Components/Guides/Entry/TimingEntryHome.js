@@ -1,10 +1,10 @@
 import React from 'react'
-import AnglesAwpText from './AnglesAwpText.js'
-import AnglesAwpTitle from './AnglesAwpTitle.js'
+import TimingEntryTitle from './TimingEntryTitle.js'
+import TimingEntryText from './TimingEntryText.js'
 import CustomizedGuideSideBar from '../GuideNavbar/guidesnavbar.js'
 
 
-function AnglesAwpHome() {
+function TimingEntryHome() {
     return(
         <div>
             <div>
@@ -12,12 +12,12 @@ function AnglesAwpHome() {
             </div>
             <div className='GuidePage'>
                 <div className='GuidePageStyling'>
-                    <AnglesAwpTitle />
-                    <AnglesAwpText />
+                    <TimingEntryTitle />
+                    <TimingEntryText />
                 </div>
             </div>
         </div>
     )
 }
 
-export default AnglesAwpHome
+export default TimingEntryHome
