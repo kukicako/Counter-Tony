@@ -54,7 +54,6 @@ a{
 	width: 99vw;
 	padding-left: 5%;
 	padding-right: 4%;
-	width:99vw;
 }
 
 .carousel-home{
@@ -215,6 +214,77 @@ a{
 	border-radius: 1%;
 	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
 }
+
+
+@media only screen and (max-width: 800px) {
+
+	.four-cards{
+		padding:0%;
+		height:50%
+	}
+	.image-left{
+		height: 25vh;
+		margin-bottom: 8%;
+		/* border:1px solid red; */
+	}
+	.image-right{
+		margin-bottom: 8%;
+		height: 25vh;
+	}
+	.text-titles-homepage{
+		font-size: x-large;
+		margin-bottom: 3%;
+	}
+	.top-left-text{
+		margin-top:3%;
+		display: flex;
+		/* align-items: center; */
+		font-size: medium;
+		height: 20vh;
+		/* padding: 2%; */
+	}
+	.middle-right-text{
+		margin-top:5%;
+		display: flex;
+		/* align-items: center; */
+		font-size: medium;
+		height: 20vh;
+		/* padding: 2%; */
+	}
+	.middle-left-text{
+		margin-top:5%;
+		display: flex;
+		/* align-items: center; */
+		font-size: medium;
+		height: 20vh;
+		/* padding: 2%; */
+	}
+	.bottom-right-text{
+		margin-top:5%;
+		display: flex;
+		/* align-items: center; */
+		font-size: medium;
+		height: 20vh;
+		/* padding: 2%; */
+	}
+	.lurk-pic{
+		height: 25vh;
+	}
+	.leading-pic{
+		height: 25vh;
+	}
+	.entry-pic{
+		height: 25vh;
+	}
+	.sniper-pic{
+		height: 25vh;
+	}
+}
+
+
+
+
+
 .third-section{
 	/* border: 2px solid purple; */
 	margin-top:2%;
@@ -340,6 +410,82 @@ a{
 	
 
   }
+  @media only screen and (max-width: 800px) {
+		.third-section{
+			height: 15%;
+			background-image: none;
+			/* border: 2px solid purple; */
+			margin-top:80%;
+		}
+	
+	.bottom-cards{
+		/* border: 2px solid purple; */
+		display:flex !important;
+		justify-content: space-evenly;
+		height: 100%;
+		margin-top:2%;
+		align-items: flex-start !important;
+
+	}
+	.youtube-card{
+		/* border:1px solid red; */
+		height:22vh;
+		width:20.5vh;
+		box-shadow: none;
+		
+	}
+	.youtube-image{
+		height:22vh;
+		width:20.5vh;
+		box-shadow: none;
+	}
+	.header-appointment-card{
+		height:22vh;
+		width:20.5vh;
+		box-shadow: none;
+
+	}
+	.appointment-image{
+		height:22vh;
+		width:20.5vh;
+		box-shadow: none;
+	}
+	.flip-card-front{
+		height:22vh;
+		width:20.5vh;
+		box-shadow: none;
+	}
+	.flip-image{
+		height:22vh;
+		width:20.5vh;
+		box-shadow: none;
+			
+	}
+	.flip-card{
+		display:none;
+		height:22vh;
+		width:20.5vh;;
+	}
+	.flip-card-inner{
+		/* border:1px solid red; */
+		height:22vh;
+		width:20.5vh;
+		box-shadow: none;
+	}
+	.flip-card-back{
+		box-shadow: none;
+		height:22vh;
+		width:20.5vh;
+		border:1px solid blue;
+	}
+	.Guide-cards{
+		height: 150vh;
+	}
+  }
+  
+
+
+
   .footer{
 	color:black;
 	height: 10vh;

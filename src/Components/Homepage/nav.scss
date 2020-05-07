@@ -56,3 +56,15 @@
     -webkit-transform: skew(-15deg);
     transform: skew(-15deg);
   }
+
+  @media only screen and (max-width: 800px) {
+    .NavRight{
+        width:50%;
+    }
+    .NavLeft{
+        width:50%
+    }
+    .StyledP{
+        margin-left: 5%;
+    }
+}
