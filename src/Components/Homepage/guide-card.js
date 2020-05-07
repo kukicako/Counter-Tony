@@ -89,6 +89,7 @@ const Guide = props => {
           <h1 className="guide-text-homepage">Additional Resources:</h1>
         </div>
         <div className="bottom-cards">
+
           <Link
           data-aos="fade-right"
           data-aos-offset="200"
@@ -101,6 +102,7 @@ const Guide = props => {
            to="/Guides" className="sources1">
             <h2 className="source-text">Guides</h2>
           </Link>
+
 
           <Link to="/teachers" 
           data-aos="fade-left"
