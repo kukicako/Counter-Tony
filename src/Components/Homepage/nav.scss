@@ -68,3 +68,24 @@
         margin-left: 5%;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .NavRight{
+        width:50%;
+    }
+    .NavLeft{
+        width:50%
+    }
+    .NavTitle{
+        margin-top:5.5%;
+        font-size: x-large;
+        padding-top:8.5%;
+        text-decoration: none;
+        color:#5d79ae
+     }
+    
+    .StyledP{
+        margin-left: 5%;
+        font-size: small;
+    }
+}
