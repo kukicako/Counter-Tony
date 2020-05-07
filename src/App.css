@@ -464,7 +464,7 @@ a{
 		height: 15%;
 		background-image: none;
 		/* border: 2px solid purple; */
-		margin-top:90%;
+		margin-top:85%;
 	}
 	.bottom-cards{
 		/* border: 2px solid purple; */
@@ -475,7 +475,7 @@ a{
 		align-items: flex-start !important;
 	}
 	.Guide-cards{
-		height: 185vh;
+		height: 205vh;
 	}
 	.sources1{
 		margin-left:28%;
@@ -494,6 +494,7 @@ a{
 	}
 	.sources4{
 		margin-left:28%;
+		
 
 	}
 }
@@ -514,7 +515,7 @@ a{
   @media only screen and (max-width: 500px) {
 	  .footer{
 		  height: 3%;
-		  padding-bottom: 3%;
+		  padding-bottom: 7%;
 	  }
   }
 
