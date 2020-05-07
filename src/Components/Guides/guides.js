@@ -11,7 +11,7 @@ function Guides() {
             </div>
             <div className='GuidePage'>
                 <div className='GuidePageStyling'>
-                    <img className='GuideTitleImage' src={guidemainpage} />
+                    <img className='GuideTitleImage' src={guidemainpage} alt='Image saying Guides' />
                     <GuideText />
                 </div>
             </div>
