@@ -219,131 +219,158 @@ a{
 	border-radius: 1%;
 	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
 }
+
+
+@media only screen and (max-width: 800px) {
+
+	.four-cards{
+		padding:0%;
+		height:50%
+	}
+	.image-left{
+		height: 25vh;
+		margin-bottom: 8%;
+		/* border:1px solid red; */
+	}
+	.image-right{
+		margin-bottom: 8%;
+		height: 25vh;
+	}
+	.text-titles-homepage{
+		font-size: x-large;
+		margin-bottom: 3%;
+	}
+	.top-left-text{
+		margin-top:3%;
+		display: flex;
+		/* align-items: center; */
+		font-size: medium;
+		height: 20vh;
+		/* padding: 2%; */
+	}
+	.middle-right-text{
+		margin-top:5%;
+		display: flex;
+		/* align-items: center; */
+		font-size: medium;
+		height: 20vh;
+		/* padding: 2%; */
+	}
+	.middle-left-text{
+		margin-top:5%;
+		display: flex;
+		/* align-items: center; */
+		font-size: medium;
+		height: 20vh;
+		/* padding: 2%; */
+	}
+	.bottom-right-text{
+		margin-top:5%;
+		display: flex;
+		/* align-items: center; */
+		font-size: medium;
+		height: 20vh;
+		/* padding: 2%; */
+	}
+	.lurk-pic{
+		height: 25vh;
+	}
+	.leading-pic{
+		height: 25vh;
+	}
+	.entry-pic{
+		height: 25vh;
+	}
+	.sniper-pic{
+		height: 25vh;
+	}
+}
+
+
+
+
+
 .third-section{
 	/* border: 2px solid purple; */
-	margin-top:2%;
-	height: 20%;
+	height: 22%;
 	background-color: white;
-	background-image: repeating-linear-gradient(45deg, transparent, transparent 35px,  #FEBD52 25px, #FEBD52 1250px);
+	/* background-image: repeating-linear-gradient(45deg, transparent, transparent 35px,  #FEBD52 25px, #FEBD52 1250px); */
 	
 
 }
 .bottom-cards{
-	/* border: 2px solid purple; */
+	/* border: 2px solid red; */
 	display:flex;
-	justify-content: space-around;
-	height: 80%;
+	justify-content: space-evenly;
+	height: 88%;
 	/* background-color: #DDE0A9; */
-	align-items: center; 
+	flex-wrap: wrap; 
+	align-items: center;
+}
+.sources1{
+	background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgb(224, 160, 56) 25px, rgb(224, 160, 56) 530px);
+	height:35%;
+	width:40%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.sources2{
+	background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, #5d79ae 25px, #5d79ae 530px);
+	height:35%;
+	width:40%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.sources3{
+	background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, black 25px, black 530px);
+	height:35%;
+	width:40%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.sources4{
+	background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, #c4302b 25px, #c4302b 530px);
+	height:35%;
+	width:40%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.source-text{
+	font-size: 4em;
+	color:white;
 }
 
-.flip-card{
-	/* border:1px solid red; */
-	height:30vh;
-	width:45.5vh;
+
+
+  @media only screen and (max-width: 800px) {
+		.third-section{
+			height: 15%;
+			background-image: none;
+			/* border: 2px solid purple; */
+			margin-top:80%;
+		}
 	
-}
-.youtube-card{
-	/* border:5px solid red; */
-	border-radius: 5%;
-	height:30vh;
-	width:45.5vh;
-	box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
-	
-}
-.header-appointment-card{
-	/* border: 1px solid red; */
-	height:30vh;
-	width:45.5vh;
-	box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
-	border-radius: 5%;
-}
-.youtube-image{
-	/* border:1px solid black; */
-	border-radius: 5%;
-	height:30vh;
-	width:45.5vh;
-	box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+	.bottom-cards{
+		border: 2px solid purple;
+		display:flex !important;
+		justify-content: space-evenly;
+		height: 100%;
+		margin-top:2%;
+		align-items: flex-start !important;
+	}
 
-}
-.youtube-button{
-	padding: 0;
-	border: none;
-	background: none;
-	
-}
-.appointment-image{
-	height:30vh;
-	width:45.5vh;
-	border-radius: 5%;
-	box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
-
-}
-
-
-.flip-card {
-	border-radius: 5%;
-	background-color: transparent;
-	height:30vh;
-	width:45.5vh;
-	/* border: 1px solid #f1f1f1; */
-	perspective: 1000px; /* Remove this if you don't want the 3D effect */
+	.Guide-cards{
+		height: 150vh;
+	}
   }
   
-  /* This container is needed to position the front and back side */
-.flip-card-inner {
-	border-radius: 5%;
-	position: relative;
-	height:30vh;
-	width:45.5vh;
-	text-align: center;
-	transition: transform 0.8s;
-	transform-style: preserve-3d;
-}
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-	border-radius: 5%;
-	transform: rotateY(180deg);
-}
 
-/* Position the front and back side */
-.flip-card-front, .flip-card-back {
-	border-radius: 5%;
-	position: absolute;
-	height:30vh;
-	width:45.5vh;
-	-webkit-backface-visibility: hidden; /* Safari */
-	backface-visibility: hidden;
-}
 
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-	border-radius: 5%;
-	box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
-	color: black;
-}
-
-/* Style the back side */
-.flip-card-back {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
-	border-radius: 5%;
-	background: #5d79ae;
-	color: #FEF8DD;
-	transform: rotateY(180deg);
-}
-
-.flip-image{
-	height:30vh;
-	width:45.5vh;
-	border-radius: 5%;
-	box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
-	
-
-  }
   .footer{
 	color:black;
 	height: 10vh;

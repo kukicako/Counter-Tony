@@ -89,43 +89,57 @@ const Guide = props => {
           <h1 className="guide-text-homepage">Additional Resources:</h1>
         </div>
         <div className="bottom-cards">
-          
-            <div class="youtube-card">
-              <Link to="https://www.youtube.com/channel/UCUdRyJpHQSjolXMi94PLa_Q/featured" className="youtube-button">
-                <img className="youtube-image"src={youtube} alt="youtube" />
-              </Link>
-            </div>
 
-          {/*  THE APPOINTMENT BUTTON CARD */}
+          <Link
+          data-aos="fade-right"
+          data-aos-offset="200"
+          //  data-aos-delay="50"
+          // data-aos-delay="200"
+          data-aos-duration="1300"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true"
+           to="/Guides" className="sources1">
+            <h2 className="source-text">Guides</h2>
+          </Link>
 
-          <div class="header-appointment-card">
-              <a href="/teachers" className="youtube-button"><img className="appointment-image" src={inferno} alt="appointment"/></a>  
-            
-          </div>
 
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-              <img className="flip-image" src={tonycreation2} alt="flip"/>
-              </div>
-              <div class="flip-card-back">
-                <div className="names">
-                  <h6 className="the-names">David "Gatr" Downes</h6>
-                  <h6 className="the-names">Muamer "Dia" Kukic</h6>
-                  <h6 className="the-names">Anthony "dawn" Hagopian</h6>
-                  <h6 className="the-names">Josh "Spoice" Betters</h6>
+          <Link to="/teachers" 
+          data-aos="fade-left"
+          data-aos-offset="200"
+          //  data-aos-delay="50"
+          // data-aos-delay="200"
+          data-aos-duration="1300"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true" className="sources2">
+          <h2 className="source-text">Teachers</h2>
+          </Link >
 
-                </div>
-                <div className="media">
-                  <div className="the-links"><i class="fab fa-twitter"></i><i class="fab fa-youtube"></i><i class="fab fa-twitch"></i></div>
-                  <div className="the-links"><i class="fab fa-twitter"></i><i class="fab fa-youtube"></i><i class="fab fa-twitch"></i></div>
-                  <div className="the-links"><i class="fab fa-twitter"></i><i class="fab fa-youtube"></i><i class="fab fa-twitch"></i></div>
-                  <div className="the-links"><i class="fab fa-twitter"></i><i class="fab fa-youtube"></i><i class="fab fa-twitch"></i></div>
+          <Link
+          data-aos="fade-right"
+          data-aos-offset="200"
+          //  data-aos-delay="50"
+          // data-aos-delay="200"
+          data-aos-duration="1300"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true"
+           to="/Blog"  className="sources3">
+          <h2 className="source-text">Blog</h2>
+          </Link >
 
-                </div>
-              </div>
-            </div>
-          </div>
+          <a href="https://www.youtube.com/"
+          data-aos="fade-left"
+          data-aos-offset="200"
+          //  data-aos-delay="50"
+          // data-aos-delay="200"
+          data-aos-duration="1300"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true" className="sources4">
+          <h2 className="source-text">Youtube</h2>
+          </a >
         </div>
       </div>
 
