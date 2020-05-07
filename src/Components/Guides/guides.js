@@ -1,6 +1,6 @@
 import React from 'react'
-import GuideTitle from './guidetitle.js'
 import GuideText from './guidetext.js'
+import guidemainpage from '../images/guidemainpage.jpg'
 import CustomizedGuideSideBar from './GuideNavbar/guidesnavbar.js'
 
 function Guides() {
@@ -11,7 +11,7 @@ function Guides() {
             </div>
             <div className='GuidePage'>
                 <div className='GuidePageStyling'>
-                    <GuideTitle />
+                    <img className='GuideTitleImage' src={guidemainpage} />
                     <GuideText />
                 </div>
             </div>
