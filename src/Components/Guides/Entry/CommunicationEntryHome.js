@@ -1,10 +1,10 @@
 import React from 'react'
-import AnglesAwpText from './AnglesAwpText.js'
-import AnglesAwpTitle from './AnglesAwpTitle.js'
+import CommunicationEntryTitle from './CommunicationEntryTitle.js'
+import CommunicationEntryText from './CommunicationEntryText.js'
 import CustomizedGuideSideBar from '../GuideNavbar/guidesnavbar.js'
 
 
-function AnglesAwpHome() {
+function CommunicationEntryHome() {
     return(
         <div>
             <div>
@@ -12,12 +12,12 @@ function AnglesAwpHome() {
             </div>
             <div className='GuidePage'>
                 <div className='GuidePageStyling'>
-                    <AnglesAwpTitle />
-                    <AnglesAwpText />
+                    <CommunicationEntryTitle />
+                    <CommunicationEntryText />
                 </div>
             </div>
         </div>
     )
 }
 
-export default AnglesAwpHome
+export default CommunicationEntryHome

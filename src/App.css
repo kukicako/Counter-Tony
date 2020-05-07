@@ -394,8 +394,8 @@ a{
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 7.5%;
+	padding-right: 7.5%;
 }
 
 .GuidePageStyling {
@@ -420,7 +420,7 @@ a{
 	align-items: flex-start;
 	justify-content: flex-end;
 	padding-right: 3%;
-	font-size: 1.5rem;
+	font-size: .75rem;
 }
 
 /* Guide Text  */
