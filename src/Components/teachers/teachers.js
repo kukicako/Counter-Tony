@@ -3,6 +3,7 @@ import './teachers.scss'
 import Example from '../images/youtubePic.png'
 import Leader from '../images/leader.jpg'
 import axios from 'axios'
+import ddawn from '../images/ddawn.jpeg'
 
  const Teachers = props => {
 
@@ -113,7 +114,7 @@ import axios from 'axios'
                         
                         <div className="playa1"> 
                             <div className="playa-img">
-                                <img className="playa-pic" src={Example}></img>
+                                <img className="playa-pic" src={ddawn}></img>
                             </div>
                             <div className="playa-title">
                                 <p>Anthony "dawn" Hagopian</p>
