@@ -47,7 +47,6 @@
     margin-right: 8%;
     font-size:medium;
     font-family: sans-serif;
-    text-indent: 2rem;
 }
 .left-list{
     margin-top:2%;
@@ -205,7 +204,9 @@
     display:flex;
     justify-content: center;
     // align-items: center;
-    padding-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
     font-family: 'Courier New', Courier, monospace;
 }
 .box-long{
@@ -336,7 +337,7 @@ input[type=text], select, textarea{
 
 
   .but{
-    margin-top:4.5%;
+    margin-top:1%;
     font-family: sans-serif;
     background-color: dodgerblue;
     color: white;
@@ -345,6 +346,8 @@ input[type=text], select, textarea{
     border-radius: 4px;
     cursor: pointer;
     float: right;
+    border: 1px solid black;
+    // align-items: center;
   }
 
   
@@ -406,6 +409,16 @@ input[type=text], select, textarea{
     float: left;
     width: 75%;
     margin-top: 6px;
+  }
+
+  // .row {
+  //   border: 1px solid black;
+  // }
+
+  .rowbutton{
+    // border: 1px solid black;
+    display: flex;
+    justify-content: center;
   }
   
   /* Clear floats after the columns */

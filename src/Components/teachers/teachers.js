@@ -47,14 +47,14 @@ import axios from 'axios'
                             <h2 className="offer">What We Offer</h2>
                         </div>
                         <div className="left-container-text">
-                            <p>Imagine Kim yo-jong the NEW NORTH KOREAN PRESIDENT Imagine her just grabbing you by the skull with her vice strength hands and just throwing your naked body onto the bed"You are my toy now" She sits on you and plays with your trembling penis "If this comes before I do, you die" and she laughs And she plays with it more and more and you desperately hold the coom in and she finds it funny Then she just sits right on top of you and grinds while looking you right in the eyes mockingly, and your balls are screaming "LET THEM OUT! LET THEM OUT" And she just laughs as she grinds harder, and harder till she's battering your cock as if it was a piston in a deep underground boring machine and she groans "MORE MORE, MORE" and every fibre of your being wants to erupt in coom but you can't, she isn't satisfied yet and she's hipthrusting away with enough force to break Hephaestus's anvilFinally she orgasms, and she smiles contentedly"You may now come" and you just erupt, all that built up energy bursts inside of her and she gently caresses the side of your face with a loving touch, but then"That was reasonable, but next time, I expect to be overwhelmed" and you're afraid, you're scared, that was all you had and it was barely enough for her, you know, next time, you must be stronger, you must be more manly, perhaps you will become her favourite And she walks off, vagely amused, and returns to ruling, with her iron hands</p>
+                            <p>CSGOTeacher is offering 1 on 1 private lessons with our experienced teachers. We aim to be the best possible option for people out there interested in specialized training. We've spent quite a bit of time equiping and preparing ourselves to be the best possible tutors of the game. We want to be able to help others take their game to the next level and we believe that our coaching alongside our guides and videos our capable of doing just that. We want to leave our mark on this game, we feel like this is one of the many ways we can do so. In our privatized lessons, we currently offer 30 or 60 minute sessions which we will create an effective plan beforehand so that once the lesson begins, we can tackle the plan to make sure you get the most bang out of your buck. We understand that currently during these difficult times that money is tight for the vast majority of people, that's why we will not have set prices. We will work with you in an attempt to figure out a price that works for your budget. If you have any possible questions regarding any factor of these lessons, may it be the lessons or pricing, do not hesitate to contact Gatr on twitter or reddit which you can do by clicking on the icon on his card. Below are some specifics you can choose to receive if you purchase a private lesson. </p>
                             
                             <ul className="list-container">
-                            <li className="left-list">• Stade Rennais qualifies for the UEFA Champion's League for the first time ever.</li>
-                            <li className="left-list">• 73 year old youtuber who beat dark souls 1,2,3 Sekiro and Nioh died 3 days ago.</li>
-                            <li className="left-list">• The Mediadel | Game of Zones Season 7 Premiere</li>
-                            <li className="left-list">• This happened and I wanted to shareHIGHLIGHT</li>
-                            <li className="left-list">• During his rehab, John Wall has been keeping track of players taunting the Wizards</li>
+                            <li className="left-list">• Personalized 1 on 1 server work.</li>
+                            <li className="left-list">• Thorough demo reviews with our experienced players.</li>
+                            <li className="left-list">• Specialized plans catered to your success.</li>
+                            <li className="left-list">• Someone to push you to be your best.</li>
+                            <li className="left-list">• Follow up training to make sure you're on the road for success.</li>
                             </ul>
                 
                         </div>
@@ -80,7 +80,7 @@ import axios from 'axios'
 
                                     <div className="box-desc">
                                         <div className="timezone">
-                                            <p>PDT</p>
+                                            <p>Pacific</p>
                                         </div>
                                     </div>
                                 </div>
@@ -103,7 +103,7 @@ import axios from 'axios'
                                     </div>
                                     <div className="box-desc">
                                         <div className="experience">
-                                            <p>Top 3 ESEA League 2018</p>
+                                            <p>15 seasons spent as an IGL from Open to Advanced. Currently Coaching.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -126,7 +126,7 @@ import axios from 'axios'
 
                                     <div className="box-desc">
                                         <div className="timezone">
-                                            <p>GMT</p>
+                                            <p>Pacific</p>
                                         </div>
                                     </div>
                                 </div>
@@ -138,7 +138,7 @@ import axios from 'axios'
                                     </div>
                                     <div className="box-desc">
                                         <div className="rank">
-                                            <p >Entry-Frag</p>
+                                            <p>Lurking, AWPing</p>
                                         </div>
                                     </div>
                                     
@@ -149,14 +149,14 @@ import axios from 'axios'
                                     </div>
                                     <div className="box-desc">
                                         <div className="experience">
-                                            <p>FPL Gold Winner 2018-2019</p>
+                                            <p>FPL, ESEA-Advanced+</p>
                                         </div>
                                     </div>
                                 </div>
 
                             </div>
                         </div>
-                        <div className="playa1"> 
+                        {/* <div className="playa1"> 
                             <div className="playa-img">
                                 <img className="playa-pic" src={Example}></img>
                             </div>
@@ -200,13 +200,13 @@ import axios from 'axios'
                                 </div>
 
                             </div>
-                        </div>
+                        </div> */}
                         <div className="playa"> 
                             <div className="playa-img">
                                 <img className="playa-pic" src={Example}></img>
                             </div>
                             <div className="playa-title1">
-                                <p>Asian "Mello" Dude</p>
+                                <p>Anthony "Mello" Charletta</p>
                             </div>
                             <div className="skills-container">
                                 <div className="box"> 
@@ -216,7 +216,7 @@ import axios from 'axios'
 
                                     <div className="box-desc">
                                         <div className="timezone">
-                                            <p>Corner</p>
+                                            <p>Central</p>
                                         </div>
                                     </div>
                                 </div>
@@ -228,7 +228,7 @@ import axios from 'axios'
                                     </div>
                                     <div className="box-desc">
                                         <div className="rank">
-                                            <p >baiting</p>
+                                            <p >Lurking, Support</p>
                                         </div>
                                     </div>
                                     
@@ -239,7 +239,7 @@ import axios from 'axios'
                                     </div>
                                     <div className="box-desc">
                                         <div className="experience">
-                                            <p>Dying</p>
+                                            <p>11 seasons of experience ranging from Open all the way to Advanced.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -264,7 +264,7 @@ import axios from 'axios'
                         </div>
 
                         <div class="col-75">
-                            <input type="text" value={apply.name} name="name" placeholder='Anthony "dawn" Hagopian' onChange={handleChange} required/>
+                            <input type="text" value={apply.name} name="name" placeholder='Enter Your Username or Real Name Here' onChange={handleChange} required/>
                         </div>
                     </div>
                     
@@ -274,7 +274,7 @@ import axios from 'axios'
                         </div>
 
                         <div class="col-75">
-                            <input type="text" name="email" value={apply.email} placeholder="johndoe@123.com" onChange={handleChange} required/>
+                            <input type="text" name="email" value={apply.email} placeholder="Enter Your Email" onChange={handleChange} required/>
                         </div>
                     </div>
 
@@ -284,7 +284,7 @@ import axios from 'axios'
                         </div>
 
                         <div class="col-75">
-                            <input type="text" name="rank" value={apply.rank} placeholder="MM/FACEIT/ESEA" onChange={handleChange} required/>
+                            <input type="text" name="rank" value={apply.rank} placeholder="Highest Rank (ESEA/MM/FACEIT)" onChange={handleChange} required/>
                         </div>
                     </div>
 
@@ -304,11 +304,11 @@ import axios from 'axios'
                         <label>Questions/Concerns</label>
                         </div>
                         <div class="col-75">
-                        <textarea id="subject" name="questions" value={apply.questions} placeholder="..." onChange={handleChange} ></textarea>
+                        <textarea id="subject" name="questions" value={apply.questions} placeholder="Any comments or questions you may have, please put them here before submitting." onChange={handleChange} ></textarea>
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div class="rowbutton">
                         <button className="but"> Submit </button>
                     </div>
                 </form>
