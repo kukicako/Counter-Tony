@@ -1,6 +1,6 @@
 import React from 'react'
 import AwarenessAwpText from './AwarenessAwpText.js'
-import AwarenessAwpTitle from './AwarenessAwpTitle.js'
+import AwarenessUnderstanding from '../../images/AwarenessUnderstanding.jpg'
 import CustomizedGuideSideBar from '../GuideNavbar/guidesnavbar.js'
 
 
@@ -12,7 +12,7 @@ function AwarenessAwpHome() {
             </div>
             <div className='GuidePage'>
                 <div className='GuidePageStyling'>
-                    <AwarenessAwpTitle />
+                <img className='GuideTitleImage' src={AwarenessUnderstanding} alt='Image saying Introduction to AWPing' />
                     <AwarenessAwpText />
                 </div>
             </div>

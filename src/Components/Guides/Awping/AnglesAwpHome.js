@@ -1,6 +1,6 @@
 import React from 'react'
 import AnglesAwpText from './AnglesAwpText.js'
-import AnglesAwpTitle from './AnglesAwpTitle.js'
+import AnglesPositioning from '../../images/AnglesPositioning.jpg'
 import CustomizedGuideSideBar from '../GuideNavbar/guidesnavbar.js'
 
 
@@ -12,7 +12,7 @@ function AnglesAwpHome() {
             </div>
             <div className='GuidePage'>
                 <div className='GuidePageStyling'>
-                    <AnglesAwpTitle />
+                <img className='GuideTitleImage' src={AnglesPositioning} alt='Image saying Introduction to AWPing' />
                     <AnglesAwpText />
                 </div>
             </div>
