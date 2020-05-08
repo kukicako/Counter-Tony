@@ -285,6 +285,74 @@ a{
 		height: 25vh;
 	}
 }
+@media only screen and (max-width: 500px) {
+
+	.four-cards{
+		padding:0%;
+		height:50%
+	}
+	.image-left{
+		height: 25vh;
+		margin-bottom: 30%;
+		/* border:1px solid red; */
+	}
+	.image-right{
+		margin-bottom: 30%;
+		height: 25vh;
+	}
+	.guide-text-homepage{
+		font-size: larger;
+		margin-bottom: 5%;
+	}
+	.text-titles-homepage{
+		font-size: 1.4em;
+		margin-bottom: 3%;
+	}
+	.top-left-text{
+		margin-top:18.5%;
+		display: flex;
+		/* align-items: center; */
+		font-size: xx-small;
+		height: 2vh;
+		/* padding: 2%; */
+	}
+	.middle-right-text{
+		margin-top:20%;
+		display: flex;
+		/* align-items: center; */
+		font-size: xx-small;
+		height: 2vh;
+		/* padding: 2%; */
+	}
+	.middle-left-text{
+		margin-top:20%;
+		display: flex;
+		/* align-items: center; */
+		font-size: xx-small;
+		height: 2vh;
+		/* padding: 2%; */
+	}
+	.bottom-right-text{
+		margin-top:20%;
+		display: flex;
+		/* align-items: center; */
+		font-size: xx-small;
+		height: 2vh;
+		/* padding: 2%; */
+	}
+	.lurk-pic{
+		height: 20vh;
+	}
+	.leading-pic{
+		height: 20vh;
+	}
+	.entry-pic{
+		height: 20vh;
+	}
+	.sniper-pic{
+		height: 20vh;
+	}
+}
 
 
 
@@ -355,18 +423,81 @@ a{
 		}
 	
 	.bottom-cards{
-		border: 2px solid purple;
+		/* border: 2px solid purple; */
 		display:flex !important;
 		justify-content: space-evenly;
 		height: 100%;
 		margin-top:2%;
 		align-items: flex-start !important;
 	}
+	.sources1{
+		background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgb(224, 160, 56) 10px, rgb(224, 160, 56) 215px);
+
+	}
+	.sources2{
+		background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #5d79ae 10px, #5d79ae 215px);
+
+	}
+	.sources3{
+		background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, black 10px, black 215px);
+
+	}
+	.sources4{
+		background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #c4302b 10px, #c4302b 215px);
+		/* border:1px solid red; */
+
+	}
+	.source-text{
+		font-size: 2em;
+		color:white;
+	}
 
 	.Guide-cards{
+		height: 155vh;
+	}
+	.App{
 		height: 150vh;
 	}
   }
+  @media only screen and (max-width: 500px) {
+	.third-section{
+		height: 15%;
+		background-image: none;
+		/* border: 2px solid purple; */
+		margin-top:75%;
+	}
+	.bottom-cards{
+		/* border: 2px solid purple; */
+		display:block !important;
+		justify-content: space-evenly;
+		height: 100%;
+		margin-top:2%;
+		align-items: flex-start !important;
+	}
+	.Guide-cards{
+		height: 220vh;
+	}
+	.sources1{
+		margin-left:28%;
+		margin-bottom: 4%;
+
+	}
+	.sources2{
+		margin-left:28%;
+		margin-bottom: 4%;
+
+	}
+	.sources3{
+		margin-left:28%;
+		margin-bottom: 4%;
+
+	}
+	.sources4{
+		margin-left:28%;
+		
+
+	}
+}
   
 
 
@@ -381,6 +512,13 @@ a{
 	/* align-items: flex-end; */
 	font-size: .8em;
   }
+  @media only screen and (max-width: 500px) {
+	  .footer{
+		  height: 3%;
+		  padding-bottom: 2%;
+	  }
+  }
+
   .copyright{
 	  /* border:1px solid blue; */
 	  height:75%;

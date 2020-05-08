@@ -97,13 +97,24 @@ import axios from 'axios'
                                     </div>
                                     
                                 </div>
-                                <div className="box-long"> 
+                                <div className="box"> 
                                     <div className="box-title"> 
                                         <p>Experience:</p>
                                     </div>
                                     <div className="box-desc">
                                         <div className="experience">
                                             <p>15 seasons spent as an IGL from Open to Advanced. Currently Coaching.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="box"> 
+                                    <div className="box-title"> 
+                                        <p>Social Media:</p>
+                                    </div>
+                                    <div className="box-desc">
+                                        <div className="media">
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -143,13 +154,26 @@ import axios from 'axios'
                                     </div>
                                     
                                 </div>
-                                <div className="box-long"> 
+                                <div className="box"> 
                                     <div className="box-title"> 
                                         <p>Experience:</p>
                                     </div>
                                     <div className="box-desc">
                                         <div className="experience">
                                             <p>FPL, ESEA-Advanced+</p>
+
+                           
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="box"> 
+                                    <div className="box-title"> 
+                                        <p>Social Media:</p>
+                                    </div>
+                                    <div className="box-desc">
+                                        <div className="media">
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -188,13 +212,23 @@ import axios from 'axios'
                                     </div>
                                     
                                 </div>
-                                <div className="box-long"> 
+                                <div className="box"> 
                                     <div className="box-title"> 
                                         <p>Experience:</p>
                                     </div>
                                     <div className="box-desc">
                                         <div className="experience">
                                             <p>Boston Major Winner</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="box"> 
+                                    <div className="box-title"> 
+                                        <p>Social Media:</p>
+                                    </div>
+                                    <div className="box-desc">
+                                        <div className="media">
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -233,13 +267,23 @@ import axios from 'axios'
                                     </div>
                                     
                                 </div>
-                                <div className="box-long"> 
+                                <div className="box"> 
                                     <div className="box-title"> 
                                         <p>Experience:</p>
                                     </div>
                                     <div className="box-desc">
                                         <div className="experience">
                                             <p>11 seasons of experience ranging from Open all the way to Advanced.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="box"> 
+                                    <div className="box-title"> 
+                                        <p>Social Media:</p>
+                                    </div>
+                                    <div className="box-desc">
+                                        <div className="media">
+                                            
                                         </div>
                                     </div>
                                 </div>
