@@ -74,26 +74,26 @@ import ddawn from '../images/ddawn.jpeg'
                                 <p>David "Gatr" Downes</p>
                             </div>
                             <div className="skills-container">
-                                <div className="box"> 
+                                <div className="box-small"> 
                                     <div className="box-title"> 
                                         <p> Location/Time Zone:</p>
                                     </div>
 
                                     <div className="box-desc">
                                         <div className="timezone">
-                                            <p>Pacific</p>
+                                            <p className="desc-text">Pacific</p>
                                         </div>
                                     </div>
                                 </div>
 
 
-                                <div className="box"> 
+                                <div className="box-small"> 
                                     <div className="box-title"> 
                                         <p>Main Role:</p>
                                     </div>
                                     <div className="box-desc">
                                         <div className="rank">
-                                            <p >In Game Leader</p>
+                                            <p className="desc-text">In Game Leader</p>
                                         </div>
                                     </div>
                                     
@@ -115,6 +115,18 @@ import ddawn from '../images/ddawn.jpeg'
                                     </div>
                                     <div className="box-desc">
                                         <div className="media">
+                                            <div className="media-link">
+                                            
+                                            </div>
+                                            <div className="media-link">
+
+                                            </div>
+                                            <div className="media-link">
+
+                                            </div>
+                                            <div className="media-link">
+
+                                            </div>
                                             
                                         </div>
                                     </div>
@@ -131,26 +143,26 @@ import ddawn from '../images/ddawn.jpeg'
                                 <p>Anthony "dawn" Hagopian</p>
                             </div>
                             <div className="skills-container">
-                                <div className="box"> 
+                                <div className="box-small"> 
                                     <div className="box-title"> 
                                         <p> Location/Time Zone:</p>
                                     </div>
 
                                     <div className="box-desc">
                                         <div className="timezone">
-                                            <p>Pacific</p>
+                                            <p className="desc-text">Pacific</p>
                                         </div>
                                     </div>
                                 </div>
 
 
-                                <div className="box"> 
+                                <div className="box-small"> 
                                     <div className="box-title"> 
                                         <p>Main Role:</p>
                                     </div>
                                     <div className="box-desc">
                                         <div className="rank">
-                                            <p>Lurking, AWPing</p>
+                                            <p className="desc-text">Lurking, AWPing</p>
                                         </div>
                                     </div>
                                     
@@ -174,6 +186,18 @@ import ddawn from '../images/ddawn.jpeg'
                                     </div>
                                     <div className="box-desc">
                                         <div className="media">
+                                            <div className="media-link">
+                                            
+                                            </div>
+                                            <div className="media-link">
+
+                                            </div>
+                                            <div className="media-link">
+
+                                            </div>
+                                            <div className="media-link">
+
+                                            </div>
                                             
                                         </div>
                                     </div>
@@ -244,26 +268,26 @@ import ddawn from '../images/ddawn.jpeg'
                                 <p>Anthony "Mello" Charletta</p>
                             </div>
                             <div className="skills-container">
-                                <div className="box"> 
+                                <div className="box-small"> 
                                     <div className="box-title"> 
                                         <p> Location/Time Zone:</p>
                                     </div>
 
                                     <div className="box-desc">
                                         <div className="timezone">
-                                            <p>Central</p>
+                                            <p className="desc-text">Central</p>
                                         </div>
                                     </div>
                                 </div>
 
 
-                                <div className="box"> 
+                                <div className="box-small"> 
                                     <div className="box-title"> 
                                         <p>Main Role:</p>
                                     </div>
                                     <div className="box-desc">
                                         <div className="rank">
-                                            <p >Lurking, Support</p>
+                                            <p className="desc-text">Lurking, Support</p>
                                         </div>
                                     </div>
                                     
@@ -284,6 +308,18 @@ import ddawn from '../images/ddawn.jpeg'
                                     </div>
                                     <div className="box-desc">
                                         <div className="media">
+                                            <div className="media-link">
+
+                                            </div>
+                                            <div className="media-link">
+
+                                            </div>
+                                            <div className="media-link">
+
+                                            </div>
+                                            <div className="media-link">
+
+                                            </div>
                                             
                                         </div>
                                     </div>
