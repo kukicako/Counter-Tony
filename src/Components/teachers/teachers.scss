@@ -366,10 +366,19 @@
   // border: 1px solid black;
   i{
     // border:1px solid blue;
-    width: 100%;
-    height: 100%;
+    font-size: 4vw;
   }
 }
+}
+
+@media only screen and (max-width: 500px) {
+  .media-link{
+    // border: 1px solid black;
+    i{
+      // border:1px solid blue;
+      font-size: 8vw;
+    }
+  }
 }
 
 
