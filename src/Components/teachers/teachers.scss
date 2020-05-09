@@ -64,6 +64,79 @@
     width:50%;
     
 }
+
+@media only screen and (max-width: 800px) {
+  .teachers{
+    height: 300vh;
+    align-items: flex-start;
+  }
+    .top-container{
+    // border:1px solid blueviolet;
+    height:75%;
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .left-container{
+    height: 40%;
+    width: 100%;
+  }
+  .right-container{
+    // border:1px solid blueviolet;
+    height: 60%;
+    width: 100%;
+  }
+  .rank{
+    padding-left: 25%;
+    // border:1px solid blueviolet;
+  }
+
+}
+
+@media only screen and (max-width: 500px){
+  .teachers{
+    height: 650vh;
+  }
+  .top-container{
+    // border:1px solid blueviolet;
+    height:75%;
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .left-container{
+    // border:1px solid blue;
+    height: 40%;
+    width: 100%;
+  }
+  .right-container{
+    // border:1px solid blueviolet;
+    height: 60%;
+    width: 100%;
+  }
+  .team-container{
+    // border:1px solid blue;
+    height:100%;
+    display:flex;
+    flex-wrap: wrap;
+    
+  }
+  .rank{
+    padding-left: 25%;
+    // border:1px solid blueviolet;
+  }
+  label{
+    // border: 1px solid red;
+    margin-top:10%
+  }
+  .col-25-1{
+    // border:1px solid red;
+    display:flex;
+    padding-top:5%;
+    // height: 56px;
+  }
+}
+
 .right-container-title{
     // border:1px solid dodgerblue;
     display: flex;
@@ -112,6 +185,27 @@
     box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
 
 }
+@media only screen and (max-width: 500px){
+  .playa{
+    // border:5px solid red;
+    width:100%;
+    height:32%;
+  }
+  .playa1{
+    // border:1px solid red;
+    width:100%;
+    height:32%;
+  }
+  .right-title{
+    width: 100%;
+    height: 30%;
+  }
+  .offer{
+    width: 100%;
+    height: 45%;
+  }
+}
+
 .playa-img{
     // border:1px solid red;
     margin-top:4%;
@@ -138,6 +232,8 @@
 .playa-title1{
     color:black;
     height:8%;
+    margin-bottom: 2%;
+    margin-top: -1%;
     display: flex;
     justify-content: center;
     font-family: sans-serif;
@@ -168,6 +264,7 @@
 .box-title{
     // margin-top:5%;
     width:100%;
+    margin-bottom: 2%;
     height:15%;
     display:flex;
     justify-content: center;
@@ -190,21 +287,41 @@
   margin-top:10%
 }
 .media{
-  border:1px solid red;
+  // border:1px solid red;
   width: 50%;
   height:85%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   // margin-left:10%;
 }
 .media-link{
   height:35%;
   width:35%;
-  border:1px solid blue;
+  // border:1px solid blue;
 }
+.MediaLinkTwitch{
+  height:35%;
+  width:35%;
+  // border:1px solid blue;
+  margin-left:100%;
+  color: black
+
+}
+.MediaLinkTwitch:hover{
+  color:#262626;
+}
+
+.MediaLink{
+  color: black;
+}
+.MediaLink:hover{
+  color: #262626;
+}
+
+
 .timezone{
     width:100%;
     height: 100%;
@@ -238,7 +355,31 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+@media only screen and (max-width: 800px) {
+  .right-title{
+    height: 35%;
+  }
+.experience{
+  padding-left: 10%;
+}
+.media-link{
+  // border: 1px solid black;
+  i{
+    // border:1px solid blue;
+    font-size: 4vw;
+  }
+}
+}
 
+@media only screen and (max-width: 500px) {
+  .media-link{
+    // border: 1px solid black;
+    i{
+      // border:1px solid blue;
+      font-size: 8vw;
+    }
+  }
+}
 
 
 .form{
@@ -345,6 +486,12 @@ input[type=text], select, textarea{
     resize: vertical;
     // box-shadow: 0 5px 5px -5px #333;
   }
+
+  @media only screen and (max-width: 500px) {
+    input[type=text], select, textarea{
+      font-size: .8em;
+    }
+  }
   
   /* Style the label to display next to the inputs */
   label {
@@ -376,10 +523,20 @@ input[type=text], select, textarea{
   
   /* Style the container */
   .container {
+    // border: 1px solid red;;
     height: 35%;
     width:100%;
     background-color: #ffff;
     padding: 2%;
+  }
+  @media screen and (max-width: 800px) {
+    .container{
+      height:25%;
+      padding-top:20%;
+    }
+    .rowbutton{
+      padding-top:8%;
+    }
   }
   
   /* Floating column for labels: 25% width */
