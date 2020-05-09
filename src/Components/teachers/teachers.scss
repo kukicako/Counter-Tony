@@ -356,6 +356,9 @@
 }
 
 @media only screen and (max-width: 800px) {
+  .right-title{
+    height: 55%;
+  }
 .experience{
   padding-left: 10%;
 }
@@ -473,6 +476,12 @@ input[type=text], select, textarea{
     box-sizing: border-box;
     resize: vertical;
     // box-shadow: 0 5px 5px -5px #333;
+  }
+
+  @media only screen and (max-width: 500px) {
+    input[type=text], select, textarea{
+      font-size: .8em;
+    }
   }
   
   /* Style the label to display next to the inputs */
