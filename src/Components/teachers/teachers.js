@@ -4,6 +4,8 @@ import Example from '../images/youtubePic.png'
 import Leader from '../images/leader.jpg'
 import axios from 'axios'
 import ddawn from '../images/ddawn.jpeg'
+import GatrPic4Site from '../images/GatrPic4Site.jpeg'
+import {Link} from 'react-router-dom'
 
  const Teachers = props => {
 
@@ -69,7 +71,7 @@ import ddawn from '../images/ddawn.jpeg'
                     <div className="team-container">
                         <div className="playa"> 
                             <div className="playa-img">
-                                <img className="playa-pic" src={Example}></img>
+                                <img className="playa-pic" src={GatrPic4Site}></img>
                             </div>
                             <div className="playa-title1">
                                 <p>David "Gatr" Downes</p>
@@ -117,16 +119,16 @@ import ddawn from '../images/ddawn.jpeg'
                                     <div className="box-desc">
                                         <div className="media">
                                             <div className="media-link">
-                                            
+                                            <a href='https://old.reddit.com/user/gatrcs/' className="MediaLink"><i class="fab fa-reddit"></i></a>
                                             </div>
                                             <div className="media-link">
-
+                                            <a href="https://twitter.com/gatrcs" className="MediaLink"><i class="fab fa-twitter"></i></a>
                                             </div>
                                             <div className="media-link">
-
+                                            <a href="https://www.youtube.com/channel/UC7ph6z1bfY0dejp5NwJKy5Q?view_as=subscriber" className='MediaLink'><i class="fab fa-youtube"></i></a>
                                             </div>
                                             <div className="media-link">
-
+                                            <a href="https://www.twitch.tv/thegatrrr" className="MediaLink"><i class="fab fa-twitch"></i></a>
                                             </div>
                                             
                                         </div>
@@ -187,17 +189,17 @@ import ddawn from '../images/ddawn.jpeg'
                                     </div>
                                     <div className="box-desc">
                                         <div className="media">
+                                            {/* <div className="media-link">
+                                            <a href='https://old.reddit.com/user/gatrcs/' className="MediaLink"><i class="fab fa-reddit"></i></a>
+                                            </div> */}
                                             <div className="media-link">
-                                            
+                                            <a href="https://twitter.com/dawnFYB" className="MediaLink"><i class="fab fa-twitter"></i></a>
                                             </div>
                                             <div className="media-link">
-
+                                            <a href="https://www.youtube.com/channel/UCBZZIo73xe1fOxWzlJ4zwXg/featured" className='MediaLink'><i class="fab fa-youtube"></i></a>
                                             </div>
                                             <div className="media-link">
-
-                                            </div>
-                                            <div className="media-link">
-
+                                            <a href="https://www.twitch.tv/ddawn" className="MediaLink"><i class="fab fa-twitch"></i></a>
                                             </div>
                                             
                                         </div>
@@ -309,17 +311,17 @@ import ddawn from '../images/ddawn.jpeg'
                                     </div>
                                     <div className="box-desc">
                                         <div className="media">
+                                            {/* <div className="media-link">
+                                            <a href='https://old.reddit.com/user/gatrcs/' className="MediaLink"><i class="fab fa-reddit"></i></a>
+                                            </div> */}
                                             <div className="media-link">
-
+                                            <a href="https://twitter.com/MeLLo_Was_Taken" className="MediaLink"><i class="fab fa-twitter"></i></a>
                                             </div>
                                             <div className="media-link">
-
+                                            <a href="https://www.youtube.com/channel/UCtmwjeTBYfsFoHtg5rBYiJg?view_as=subscriber" className='MediaLink'><i class="fab fa-youtube"></i></a>
                                             </div>
                                             <div className="media-link">
-
-                                            </div>
-                                            <div className="media-link">
-
+                                            <a href="https://www.twitch.tv/mellottv" className="MediaLink"><i class="fab fa-twitch"></i></a>
                                             </div>
                                             
                                         </div>

@@ -10,10 +10,11 @@ import ScrollToTop from 'react-router-scroll-top'
 
 // Improvement Guides
 import AimingHome from './Components/Guides/Improving/AimingHome'
-import PuggingHome from './Components/Guides/Improving/PuggingHome'
-import MatchmakingHome from './Components/Guides/Improving/MatchmakingHome'
 import UtilityImprovingHome from './Components/Guides/Improving/UtilityImprovingHome'
-import LeagueHome from './Components/Guides/Improving/LeagueHome'
+import BeginnerGuide from './Components/Guides/Improving/BeginnerHome'
+import IntermediateGuide from './Components/Guides/Improving/IntermediateHome'
+import ExperiencedGuide from './Components/Guides/Improving/ExperiencedHome'
+import AdvancedGuide from './Components/Guides/Improving/AdvancedHome'
 
 // Entry Guides
 import IntroductionEntryHome from './Components/Guides/Entry/IntroductionEntryHome'
@@ -56,11 +57,12 @@ function App() {
 
         {/* Improvement Guides */}
         <Route exact path="/Aiming" component={AimingHome} />
-        <Route exact path="/Pugging" component={PuggingHome} />
-        <Route exact path="/Matchmaking" component={MatchmakingHome} />
         <Route exact path="/ImprovingUtility" component={UtilityImprovingHome} />
-        <Route exact path="/League" component={LeagueHome} />
-
+        <Route exact path="/BeginnerGuide" component={BeginnerGuide} />
+        <Route exact path="/IntermediateGuide" component={IntermediateGuide} />
+        <Route exact path="/ExperiencedGuide" component={ExperiencedGuide} />
+        <Route exact path="/AdvancedGuide" component={AdvancedGuide} />
+        
         {/* Entry Guides */}
         <Route exact path="/IntroductionEntry" component={IntroductionEntryHome} />
         <Route exact path="/UnderstandingEntry" component={UnderstandingEntryHome} />

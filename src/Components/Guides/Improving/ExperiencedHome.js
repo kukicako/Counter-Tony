@@ -1,9 +1,9 @@
 import React from 'react'
-import UtilityImprovingText from './UtilityImprovingText.js'
-import UtilityPic from '../../images/UtilityPic.png'
+import ExperiencedText from './ExperiencedText.js'
+import ExperiencedGuidePic from '../../images/ExperiencedGuidePic.png'
 import CustomizedGuideSideBar from '../GuideNavbar/guidesnavbar.js'
 
-function UtilityImprovingHome() {
+function ExperiencedGuide() {
     return(
         <div>
             <div>
@@ -11,12 +11,12 @@ function UtilityImprovingHome() {
             </div>
             <div className='GuidePage'>
                 <div className='GuidePageStyling'>
-                <img className='GuideTitleImage' src={UtilityPic} alt='Image saying Utility' />
-                    <UtilityImprovingText /> 
+                <img className='GuideTitleImage' src={ExperiencedGuidePic} alt='Image saying Experienced Guide' />
+                    <ExperiencedText />
                 </div>
             </div>
         </div>
     )
 }
 
-export default UtilityImprovingHome;
+export default ExperiencedGuide;
