@@ -199,7 +199,7 @@ import {Link} from 'react-router-dom'
                                             <a href="https://www.youtube.com/channel/UCBZZIo73xe1fOxWzlJ4zwXg/featured" className='MediaLink'><i class="fab fa-youtube"></i></a>
                                             </div>
                                             <div className="media-link">
-                                            <a href="https://www.twitch.tv/ddawn" className="MediaLink"><i class="fab fa-twitch"></i></a>
+                                            <a href="https://www.twitch.tv/ddawn" className="MediaLinkTwitch"><i class="fab fa-twitch"></i></a>
                                             </div>
                                             
                                         </div>
@@ -321,7 +321,7 @@ import {Link} from 'react-router-dom'
                                             <a href="https://www.youtube.com/channel/UCtmwjeTBYfsFoHtg5rBYiJg?view_as=subscriber" className='MediaLink'><i class="fab fa-youtube"></i></a>
                                             </div>
                                             <div className="media-link">
-                                            <a href="https://www.twitch.tv/mellottv" className="MediaLink"><i class="fab fa-twitch"></i></a>
+                                            <a href="https://www.twitch.tv/mellottv" className="MediaLinkTwitch"><i class="fab fa-twitch"></i></a>
                                             </div>
                                             
                                         </div>
@@ -348,7 +348,7 @@ import {Link} from 'react-router-dom'
                         </div>
 
                         <div class="col-75">
-                            <input type="text" value={apply.name} name="name" placeholder='Enter Your Username or Real Name Here' onChange={handleChange} required/>
+                            <input type="text" value={apply.name} name="name" placeholder='Username or Real Name' onChange={handleChange} required/>
                         </div>
                     </div>
                     
@@ -358,7 +358,7 @@ import {Link} from 'react-router-dom'
                         </div>
 
                         <div class="col-75">
-                            <input type="text" name="email" value={apply.email} placeholder="Enter Your Email" onChange={handleChange} required/>
+                            <input type="text" name="email" value={apply.email} placeholder="JohnDoe1@gmail.com" onChange={handleChange} required/>
                         </div>
                     </div>
 
