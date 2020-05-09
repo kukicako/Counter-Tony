@@ -11,6 +11,7 @@ import ddawn from '../images/ddawn.jpeg'
         name: '',
         email: '', 
         rank: '',
+        aoi: '',
         steam: '',
         questions: '',
         
@@ -366,6 +367,15 @@ import ddawn from '../images/ddawn.jpeg'
 
                         <div class="col-75">
                             <input type="text" name="rank" value={apply.rank} placeholder="Highest Rank (ESEA/MM/FACEIT)" onChange={handleChange} required/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label >Area Of Improvement</label>
+                        </div>
+
+                        <div class="col-75">
+                            <input type="text" name="rank" value={apply.aoi} placeholder="What are you trying to specifically improve?" onChange={handleChange} required/>
                         </div>
                     </div>
 
