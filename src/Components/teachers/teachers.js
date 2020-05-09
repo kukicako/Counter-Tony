@@ -4,6 +4,7 @@ import Example from '../images/youtubePic.png'
 import Leader from '../images/leader.jpg'
 import axios from 'axios'
 import ddawn from '../images/ddawn.jpeg'
+import GatrPic4Site from '../images/GatrPic4Site.jpeg'
 import {Link} from 'react-router-dom'
 
  const Teachers = props => {
@@ -69,7 +70,7 @@ import {Link} from 'react-router-dom'
                     <div className="team-container">
                         <div className="playa"> 
                             <div className="playa-img">
-                                <img className="playa-pic" src={Example}></img>
+                                <img className="playa-pic" src={GatrPic4Site}></img>
                             </div>
                             <div className="playa-title1">
                                 <p>David "Gatr" Downes</p>
