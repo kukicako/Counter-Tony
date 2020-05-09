@@ -13,6 +13,7 @@ import {Link} from 'react-router-dom'
         name: '',
         email: '', 
         rank: '',
+        aoi: '',
         steam: '',
         questions: '',
         
@@ -50,7 +51,7 @@ import {Link} from 'react-router-dom'
                             <h2 className="offer">What We Offer</h2>
                         </div>
                         <div className="left-container-text">
-                            <p>CSGOTeacher is offering 1 on 1 private lessons with our experienced teachers. We aim to be the best possible option for people out there interested in specialized training. We've spent quite a bit of time equiping and preparing ourselves to be the best possible tutors of the game. We want to be able to help others take their game to the next level and we believe that our coaching alongside our guides and videos our capable of doing just that. We want to leave our mark on this game, we feel like this is one of the many ways we can do so. In our privatized lessons, we currently offer 30 or 60 minute sessions which we will create an effective plan beforehand so that once the lesson begins, we can tackle the plan to make sure you get the most bang out of your buck. We understand that currently during these difficult times that money is tight for the vast majority of people, that's why we will not have set prices. We will work with you in an attempt to figure out a price that works for your budget. If you have any possible questions regarding any factor of these lessons, may it be the lessons or pricing, do not hesitate to contact Gatr on twitter or reddit which you can do by clicking on the icon on his card. Below are some specifics you can choose to receive if you purchase a private lesson. </p>
+                            <p style={{textIndent: "2em"}}>CSGOTeacher is offering 1 on 1 private lessons with our experienced teachers. We aim to be the best possible option for people out there interested in specialized training. We've spent quite a bit of time equiping and preparing ourselves to be the best possible tutors of the game. We want to be able to help others take their game to the next level and we believe that our coaching alongside our guides and videos our capable of doing just that. We want to leave our mark on this game, we feel like this is one of the many ways we can do so. In our privatized lessons, we currently offer 30 or 60 minute sessions which we will create an effective plan beforehand so that once the lesson begins, we can tackle the plan to make sure you get the most bang out of your buck. We understand that currently during these difficult times that money is tight for the vast majority of people, that's why we will not have set prices. We will work with you in an attempt to figure out a price that works for your budget. If you have any possible questions regarding any factor of these lessons, may it be the lessons or pricing, do not hesitate to contact Gatr on twitter or reddit which you can do by clicking on the icon on his card. Below are some specifics you can choose to receive if you purchase a private lesson. </p>
                             
                             <ul className="list-container">
                             <li className="left-list">• Personalized 1 on 1 server work.</li>
@@ -198,7 +199,7 @@ import {Link} from 'react-router-dom'
                                             <a href="https://www.youtube.com/channel/UCBZZIo73xe1fOxWzlJ4zwXg/featured" className='MediaLink'><i class="fab fa-youtube"></i></a>
                                             </div>
                                             <div className="media-link">
-                                            <a href="https://www.twitch.tv/ddawn" className="MediaLink"><i class="fab fa-twitch"></i></a>
+                                            <a href="https://www.twitch.tv/ddawn" className="MediaLinkTwitch"><i class="fab fa-twitch"></i></a>
                                             </div>
                                             
                                         </div>
@@ -320,7 +321,7 @@ import {Link} from 'react-router-dom'
                                             <a href="https://www.youtube.com/channel/UCtmwjeTBYfsFoHtg5rBYiJg?view_as=subscriber" className='MediaLink'><i class="fab fa-youtube"></i></a>
                                             </div>
                                             <div className="media-link">
-                                            <a href="https://www.twitch.tv/mellottv" className="MediaLink"><i class="fab fa-twitch"></i></a>
+                                            <a href="https://www.twitch.tv/mellottv" className="MediaLinkTwitch"><i class="fab fa-twitch"></i></a>
                                             </div>
                                             
                                         </div>
@@ -347,7 +348,7 @@ import {Link} from 'react-router-dom'
                         </div>
 
                         <div class="col-75">
-                            <input type="text" value={apply.name} name="name" placeholder='Enter Your Username or Real Name Here' onChange={handleChange} required/>
+                            <input type="text" value={apply.name} name="name" placeholder='Username or Real Name' onChange={handleChange} required/>
                         </div>
                     </div>
                     
@@ -357,7 +358,7 @@ import {Link} from 'react-router-dom'
                         </div>
 
                         <div class="col-75">
-                            <input type="text" name="email" value={apply.email} placeholder="Enter Your Email" onChange={handleChange} required/>
+                            <input type="text" name="email" value={apply.email} placeholder="JohnDoe1@gmail.com" onChange={handleChange} required/>
                         </div>
                     </div>
 
@@ -368,6 +369,15 @@ import {Link} from 'react-router-dom'
 
                         <div class="col-75">
                             <input type="text" name="rank" value={apply.rank} placeholder="Highest Rank (ESEA/MM/FACEIT)" onChange={handleChange} required/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label >Area Of Improvement</label>
+                        </div>
+
+                        <div class="col-75">
+                            <input type="text" name="rank" value={apply.aoi} placeholder="What are you trying to specifically improve?" onChange={handleChange} required/>
                         </div>
                     </div>
 
