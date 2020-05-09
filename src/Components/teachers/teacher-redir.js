@@ -42,7 +42,7 @@ const Redir = () => {
                 </div>
                 <div className="dir-box"  
                 data-aos="fade-up"
-                data-aos-offset="100"
+                data-aos-offset="200"
                 //  data-aos-delay="50"
                 // data-aos-delay="200"
                 data-aos-duration="1300"
@@ -55,7 +55,7 @@ const Redir = () => {
                     </div></Link>                   
                 </div>
                 <div className="dir-box"
-                data-aos="fade-left"
+                data-aos="fade-down"
                 data-aos-offset="200"
                 //  data-aos-delay="50"
                 // data-aos-delay="200"
@@ -67,6 +67,21 @@ const Redir = () => {
                    <div className="boxes3">
                         <h2 className="werd3">Blog</h2>
                     </div></Link>
+                    
+                </div>
+                <div className="dir-box"
+                data-aos="fade-left"
+                data-aos-offset="200"
+                //  data-aos-delay="50"
+                // data-aos-delay="200"
+                data-aos-duration="1300"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="true">
+                   <a className="linx" href="/Blog"> 
+                   <div className="boxes4">
+                        <h2 className="werd3">Youtube</h2>
+                    </div></a>
                     
                 </div>
 
