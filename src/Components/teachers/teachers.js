@@ -290,7 +290,7 @@ import {Link} from 'react-router-dom'
                                     </div>
                                     <div className="box-desc">
                                         <div className="rank">
-                                            <p className="desc-text">Lurking, Support</p>
+                                            <p className="desc-text1">Lurking, Support</p>
                                         </div>
                                     </div>
                                     
