@@ -377,7 +377,7 @@ import {Link} from 'react-router-dom'
                         </div>
 
                         <div class="col-75">
-                            <input type="text" name="rank" value={apply.aoi} placeholder="What are you trying to specifically improve?" onChange={handleChange} required/>
+                            <input type="text" name="aoi" value={apply.aoi} placeholder="What are you trying to specifically improve?" onChange={handleChange} required/>
                         </div>
                     </div>
 
