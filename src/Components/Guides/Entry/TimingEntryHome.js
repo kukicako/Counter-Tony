@@ -1,5 +1,4 @@
 import React from 'react'
-import TimingEntryTitle from './TimingEntryTitle.js'
 import TimingEntryText from './TimingEntryText.js'
 import CustomizedGuideSideBar from '../GuideNavbar/guidesnavbar.js'
 
@@ -12,7 +11,6 @@ function TimingEntryHome() {
             </div>
             <div className='GuidePage'>
                 <div className='GuidePageStyling'>
-                    <TimingEntryTitle />
                     <TimingEntryText />
                 </div>
             </div>

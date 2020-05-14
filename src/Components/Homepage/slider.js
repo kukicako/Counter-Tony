@@ -10,19 +10,21 @@ import './slider.scss'
 
 function Slider () {
     return(
-        <Carousel
-        autoPlay={4500}
-        animationSpeed={1000}
-        infinite
-        centered
-        dots
-        >
-            <img className='slide' src={vertigo} />
-            <img className='slide' src={igl2} />
-            <img className='slide' src={vertigo2} />
-            <img className='slide' src={burger3} />
-            <img className='slide' src={burger5} />
-        </Carousel>
+        <div className="CarouselImages">
+            <Carousel
+            autoPlay={4500}
+            animationSpeed={1000}
+            infinite
+            centered
+            dots
+            >
+                <img className='slide' src={vertigo} />
+                <img className='slide' src={igl2} />
+                <img className='slide' src={vertigo2} />
+                <img className='slide' src={burger3} />
+                <img className='slide' src={burger5} />
+            </Carousel>
+        </div>
     )
 }
 
