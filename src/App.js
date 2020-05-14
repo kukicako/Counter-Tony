@@ -50,8 +50,8 @@ function App() {
   return (
     <Router>
       <ScrollToTop>
+      <Nav />
       <div className="App">
-        <Nav />
         <Route exact path="/" component={Homepage} />
         <Route exact path="/Guides" component={Guides} />
 

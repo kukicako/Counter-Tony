@@ -4,24 +4,28 @@
     background: white;
     color: dodgerblue;
     align-items: center;
+    margin-top: 1.5%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .dropbtn {
-	background: #5d79ae;
-	color: white;
-    height: 55px;
+	background: white;
+	color: black;
+    height: 40px;
     width: 100%;
 	font-size: 18px;
     border: none;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+    border: 1px solid black;
 }
   
 .dropdown {
 	position: relative;
     display: inline-block;
     text-align:center;
-    width: 16.666%;
+    width: 16.6%;
+    margin-left: .1%;
+    margin-right: .1%;
 }
   
 .dropdown-content {
@@ -56,6 +60,6 @@
   
 .dropdown:hover 
 .dropbtn {
-    background-color: #5d79ae;
+    background-color: #f1f1f1;
     align-items: center;
 }
