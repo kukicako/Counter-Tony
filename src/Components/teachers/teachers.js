@@ -176,7 +176,7 @@ import {Link} from 'react-router-dom'
                                     </div>
                                     <div className="box-desc">
                                         <div className="experience">
-                                            <p className="desc-text2">FPL, ESEA-Advanced+</p>
+                                            <p className="desc-text2"> Qualified for FPL, Previously competed in ESEA-Advanced.</p>
 
                            
                                         </div>
