@@ -59,9 +59,11 @@ a{
 	width: 100vw; 
 	height: 100vh;
 	/* max-width:100%; */
-	max-width: 1920px; 
+	/* max-width: 1920px;  */
 	margin: 0 auto; 
 }
+
+
 
 .CarouselImages {
 	margin-left: 5%;
