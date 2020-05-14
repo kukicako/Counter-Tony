@@ -7,7 +7,7 @@ function CustomizedGuideSideBar() {
     <div className="GuideNavBar">
 
     <div className='dropdown'>
-      <button className="dropbtn">Individual Improvement</button>
+      <button className="dropbtn">Player Improvement</button>
       <div className="dropdown-content">
         <Link to='/Aiming'><a className="dropdownlink" href="#">Aiming</a></Link>
         <Link to='/ImprovingUtility'><a className="dropdownlink" href="#">Utility</a></Link>

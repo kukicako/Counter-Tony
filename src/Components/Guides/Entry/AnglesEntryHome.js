@@ -1,5 +1,4 @@
 import React from 'react'
-import AnglesEntryTitle from './AnglesEntryTitle.js'
 import AnglesEntryText from './AnglesEntryText.js'
 import CustomizedGuideSideBar from '../GuideNavbar/guidesnavbar.js'
 
@@ -12,7 +11,6 @@ function AnglesEntryHome() {
             </div>
             <div className='GuidePage'>
                 <div className='GuidePageStyling'>
-                    <AnglesEntryTitle />
                     <AnglesEntryText />
                 </div>
             </div>

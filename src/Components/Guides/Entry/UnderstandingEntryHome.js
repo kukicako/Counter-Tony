@@ -1,5 +1,4 @@
 import React from 'react'
-import UnderstandingEntryTitle from './UnderstandingEntryTitle.js'
 import UnderstandingEntryText from './UnderstandingEntryText.js'
 import CustomizedGuideSideBar from '../GuideNavbar/guidesnavbar.js'
 
@@ -12,7 +11,6 @@ function UnderstandingEntryHome() {
             </div>
             <div className='GuidePage'>
                 <div className='GuidePageStyling'>
-                    <UnderstandingEntryTitle />
                     <UnderstandingEntryText />
                 </div>
             </div>

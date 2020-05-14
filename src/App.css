@@ -569,6 +569,32 @@ a{
 
 .GuidePageStyling {
 	width: 100%; 
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.GuideTitles {
+	/* border: 1px solid black; */
+	text-align: center;
+}
+
+.GuideTitlesH4{
+	font-size: 1rem;
+	color: #616161;
+	margin-bottom: 2%;
+	margin-top: .5%;
+}
+
+.GuideTitlesH1{
+	font-size: 2.75rem;
+	color: black ;
+	margin-bottom: 2%;
+	margin-top: 2.5%;
+}
+
+.GuideTitlesH3 {
+	font-size: 1rem;
+	color: #616161;
 }
 
 /* Guide Titles */
@@ -604,18 +630,31 @@ a{
 }
 
 .GuideTextPara{
-	border: 1px solid lightgray;
+	/* border: 1px solid lightgray; */
 	border-radius: 10px;
-	padding: 1.5%;
+	/* padding: 2.5%; */
 	margin-bottom: 1%;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 2.5%;
+}
+
+.GuideTextH5 {
+	font-size: 1.75rem;
+	margin-bottom: 2.5%;
+	color: #5d79ae;
+}
+
+.GuideTextP {
+	font-size: 1.1rem;
 }
 
 .GuideTitleImage{
 	width: 100%;
 	height: 40vh;
-	margin-bottom: 1%;
+	margin-bottom: 7.5%;
+	margin-top: 5%;
+
 }
 
 
