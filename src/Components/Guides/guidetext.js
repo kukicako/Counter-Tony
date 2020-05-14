@@ -14,7 +14,7 @@ function GuideText () {
                 </div>
                 <div className="GuideTextPara">
                     <h5 className="GuideTextH5">What will I get from CSGOTeacher?</h5>
-                    <p className="GuideTextP">Over 25 guides written covering all individual aspects of the game. Guides covering every position, IGLing, AWPing, It's all here and all for you to improve. Plus much much more in the future Map Tutorial guides which will cover all roles on both sides plus an entire strategy book for your team to use! We have videos and tutorials to help you improve if guides aren't your thing. Plus we have blogs to keep track of what is happening within the Competitive Counter Strike scene while also keeping on top of what's happening here on this site. You can also follow along our streams on twitch where we will cast and cover games, watch demos and much more! </p>
+                    <p className="GuideTextP">Over 25 guides written covering all individual aspects of the game. Guides covering every position, IGLing, AWPing, It's all here and all for you to improve. Plus much much more in the future such as Map Tutorial guides which will cover all roles on both sides plus an entire strategy book for your team to use! We have videos and tutorials to help you improve if guides aren't your thing. Plus we have blogs to keep track of what is happening within the Competitive Counter Strike scene while also keeping on top of what's happening here on this site. You can also follow along our streams on twitch where we will cast and cover games, watch demos and much more! </p>
                 </div>
             </div>
         </div>
