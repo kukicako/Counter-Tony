@@ -92,12 +92,12 @@ function Blog() {
 
             </div>
 
-            <div className="BlogButton">
+            {/* <div className="BlogButton">
                 <i class="fas fa-less-than"></i>
                 <Link to='/Blog'><button className="BlogPageButton">1</button></Link>
                 <Link to='/Blog/Page2'><button className="BlogPageButton">2</button></Link>
                 <i class="fas fa-greater-than"></i>
-            </div>
+            </div> */}
 
         </div>
     )
