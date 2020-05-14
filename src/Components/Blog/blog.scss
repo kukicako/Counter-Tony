@@ -1,6 +1,8 @@
 .BlogPicture {
     width: 100%;
     height: 40vh;
+    padding-left: 5%;
+	padding-right: 5%;
 }
 
 .BlogSection {
@@ -8,7 +10,9 @@
     margin-top: 1%;
     display: flex;
     justify-content: space-between;
-    padding: .5%
+    padding: 1%;
+    padding-left: 5%;
+	padding-right: 5%;
 
 }
 
@@ -17,6 +21,7 @@
     width: 32%;
     height: 45vh;
     // border-radius: 20px;
+    // padding: 1%;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
 }
 

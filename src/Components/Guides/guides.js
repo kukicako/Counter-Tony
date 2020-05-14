@@ -20,6 +20,7 @@ function Guides() {
                     <GuideText />
                 </div>
             </div>
+
         </div>
     );
 }
